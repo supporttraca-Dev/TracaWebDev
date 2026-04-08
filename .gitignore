@@ -1,5 +1,17 @@
-# Local Netlify folder
-.netlify
-
-.vercel
-.env*.local
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.gemini/
+__SNAPSHOTS_BACKUP_TO_DELETE__/
+__TEMP_RESTORE_TO_DELETE__/
+docs/
+.netlify/
+.vercel/
+.DS_Store
+*.log
+node_output.txt
+py_output.txt
+results.txt
+.github_token.txt
