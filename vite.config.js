@@ -15,7 +15,6 @@ export default defineConfig({
         privacy: resolve(__dirname, 'privacy.html'),
         archeologique: resolve(__dirname, 'lieux/archeologique.html'),
         funeraire: resolve(__dirname, 'lieux/funeraire.html'),
-        funeraireV2: resolve(__dirname, 'lieux/funeraire-v2.html'),
         medina: resolve(__dirname, 'lieux/medina.html'),
         forteresse: resolve(__dirname, 'lieux/forteresse.html'),
         saharien: resolve(__dirname, 'lieux/saharien.html'),
