@@ -309,7 +309,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
     // Sélection dynamique de la source vidéo (Mobile vs Desktop)
     const isMobile = window.innerWidth <= 768;
-    video.src = isMobile ? './intro-mobile.mp4' : './intro.mp4';
+    video.src = isMobile ? '/videos/intro-mobile.mp4' : '/videos/intro.mp4';
 
     // On s'assure que la vidéo se lance sans encombre avec l'audio
     video.muted = false;

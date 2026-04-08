@@ -891,31 +891,31 @@ h4 {
 
 /* bg images for 5 preview cards & heroes */
 .bg-archeo {
-  background-image: url('/assets/images/archeo.webp');
+  background-image: url('/images/archeo.webp');
   background-size: cover;
   background-position: center;
 }
 
 .bg-funeraire {
-  background-image: url('/assets/images/funeraire.webp');
+  background-image: url('/images/funeraire.webp');
   background-size: cover;
   background-position: center;
 }
 
 .bg-medina {
-  background-image: url('/assets/images/medina.webp');
+  background-image: url('/images/medina.webp');
   background-size: cover;
   background-position: center;
 }
 
 .bg-forteresse {
-  background-image: url('/assets/images/forteresse.webp');
+  background-image: url('/images/forteresse.webp');
   background-size: cover;
   background-position: center;
 }
 
 .bg-sahara {
-  background-image: url('/assets/images/saharien.webp');
+  background-image: url('/images/saharien.webp');
   background-size: cover;
   background-position: center;
 }
@@ -2901,19 +2901,19 @@ body {
 }
 
 .bg-sahara-2 {
-  background-image: url('/assets/images/saharien2.webp');
+  background-image: url('/images/saharien2.webp');
   background-size: cover;
   background-position: center;
 }
 
 .bg-sahara-3 {
-  background-image: url('/assets/images/saharien.webp');
+  background-image: url('/images/saharien.webp');
   background-size: cover;
   background-position: bottom;
 }
 
 .bg-sahara-4 {
-  background-image: url('/assets/images/saharien2.webp');
+  background-image: url('/images/saharien2.webp');
   background-size: cover;
   background-position: top;
 }
