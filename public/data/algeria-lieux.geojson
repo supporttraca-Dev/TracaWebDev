@@ -1,0 +1,110 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "funeraire",
+                "name": "Tombeau de la Chrétienne",
+                "name_ar": "الضريح الملكي الموريتاني",
+                "wilaya": "Tipaza",
+                "type": "funeraire",
+                "era": "antique",
+                "description": "Mausolée royal de l'époque numide, classé patrimoine mondial.",
+                "url": "/lieux/funeraire.html",
+                "image": "/assets/images/funeraire.webp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.5539,
+                    36.5746
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "medina",
+                "name": "Ancienne Médina (Casbah)",
+                "name_ar": "قصبة الجزائر",
+                "wilaya": "Alger",
+                "type": "urbain",
+                "era": "medievale",
+                "description": "Labyrinthe urbain historique et chef-d'œuvre de l'architecture vernaculaire.",
+                "url": "/lieux/medina.html",
+                "image": "/assets/images/medina.webp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.0603,
+                    36.7847
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "archeologique",
+                "name": "Site Archéologique Antique",
+                "name_ar": "الموقع الأثري القديم",
+                "wilaya": "Batna",
+                "type": "antique",
+                "era": "antique",
+                "description": "Vestiges romains exceptionnels témoignant de la grandeur de l'Afrique du Nord.",
+                "url": "/lieux/archeologique.html",
+                "image": "/assets/images/archeo.webp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.4683,
+                    35.4850
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "forteresse",
+                "name": "Forteresse Historique",
+                "name_ar": "القلعة التاريخية",
+                "wilaya": "Sétif",
+                "type": "militaire",
+                "era": "moderne",
+                "description": "Bastion défensif ottoman dominant la région des hauts plateaux.",
+                "url": "/lieux/forteresse.html",
+                "image": "/assets/images/forteresse.webp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.4081,
+                    36.1911
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "saharien",
+                "name": "Paysage Culturel Saharien",
+                "name_ar": "المناظر الثقافية الصحراوية",
+                "wilaya": "Illizi",
+                "type": "naturel",
+                "era": "prehistorique",
+                "description": "Art rupestre millénaire gravé dans le silence des montagnes de pierre.",
+                "url": "/lieux/saharien.html",
+                "image": "/assets/images/saharien.webp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.4833,
+                    24.5500
+                ]
+            }
+        }
+    ]
+}

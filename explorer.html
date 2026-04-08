@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explorer — Traça</title>
+    <meta name="description"
+        content="Explorez les lieux patrimoniaux à travers des expériences 3D immersives. Cinq sites, cinq voyages dans l'histoire." />
+    <link rel="stylesheet" href="/style.css" />
+
+  <!-- SEO Open Graph & Twitter Cards (Étape 2) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://traca-weld.vercel.app/explorer" />
+  <meta property="og:title" content="Explorer — Traça" />
+  <meta property="og:description" content="Explorez les lieux patrimoniaux à travers des expériences 3D immersives. Cinq sites, cinq voyages dans l'histoire." />
+  <meta property="og:image" content="https://traca-weld.vercel.app/Logos/logo-traca-symbole-black.webp" />
+  <meta property="og:site_name" content="Traça" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://traca-weld.vercel.app/explorer" />
+  <meta name="twitter:title" content="Explorer — Traça" />
+  <meta name="twitter:description" content="Explorez les lieux patrimoniaux à travers des expériences 3D immersives. Cinq sites, cinq voyages dans l'histoire." />
+  <meta name="twitter:image" content="https://traca-weld.vercel.app/Logos/logo-traca-symbole-black.webp" />
+  <link rel="canonical" href="https://traca-weld.vercel.app/explorer.html" />
+  <meta name="theme-color" content="#F9F6EF" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VOTRE_ID_ICI"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VOTRE_ID_ICI');
+  </script>
+</head>
+
+<body>
+
+    <header id="site-header">
+    <nav class="nav" id="nav">
+        <a class="nav-logo" href="/index.html?forceIntro=true" aria-label="Traça — Accueil">
+        <img src="/Logos/logo-traca-symbole-black.webp" class="nav-symbol-logo" alt="Logo Traça">
+      </a>
+        <ul class="nav-center">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./explorer.html" class="active" aria-current="page">Explorer</a></li>
+            <li><a href="./carte.html">Carte</a></li>
+            <li><a href="./articles.html">Chroniques</a></li>
+            <li><a href="./about.html">À propos</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-right"><button id="lang-toggle" aria-label="Changer de langue">FR</button></div>
+    </nav>
+
+  <main id="main-content">
+
+    <!-- HERO -->
+    <header class="explorer-hero">
+        <h2 class="section-label green reveal" style="justify-content:center;">Patrimoine en 3D</h2>
+        <h1 class="explorer-hero-title reveal reveal-delay-1">Explorer les <em>Lieux</em></h1>
+        <p class="explorer-hero-sub reveal reveal-delay-2" style="margin-top:32px;">
+            Découvrez une sélection de sites patrimoniaux à travers des expériences immersives en trois dimensions.
+            Chaque lieu est accompagné d'un récit historique, d'archives visuelles et d'une narration audio.
+        </p>
+    </header>
+
+    <!-- NARRATIVE LIST -->
+    <section class="section">
+        <div class="container-wide explorer-narrative">
+
+            <!-- 01 -->
+            <article class="narrative-row" style="grid-template-columns:1fr 1fr;">
+                <div class="narrative-content reveal-left delay-1">
+                    <span class="narrative-num">01 / 05</span>
+                    <p class="section-label reveal-up">Mausolée Royal</p>
+                    <h3 class="narrative-title">Tombeau de la Chrétienne</h3>
+                    <p class="narrative-desc">
+                        Énigmatique et majestueux, ce monument numide domine la côte de Tipaza. Sa forme circulaire
+                        défie le temps et invite à percer les mystères des dynasties antiques.
+                    </p>
+                    <a href="./lieux/funeraire.html" class="narrative-cta">Explorer le monument →</a>
+                </div>
+                <div class="narrative-image-wrap reveal-right">
+                    <div class="explorer-card-bg bg-funeraire narrative-image"></div>
+                </div>
+            </article>
+
+            <!-- 02 -->
+            <article class="narrative-row" style="grid-template-columns:1fr 1fr;">
+                <div class="narrative-image-wrap reveal-left">
+                    <div class="explorer-card-bg bg-archeo narrative-image"></div>
+                </div>
+                <div class="narrative-content reveal-right delay-1">
+                    <span class="narrative-num">02 / 05</span>
+                    <p class="section-label reveal-up">Archéologie · Antiquité</p>
+                    <h3 class="narrative-title">Site Archéologique Antique</h3>
+                    <p class="narrative-desc">
+                        Vestiges de colonnes et fondations en pierre qui racontent l'organisation d'une cité millénaire.
+                        Un voyage au cœur de la structure même de notre passé.
+                    </p>
+                    <a href="./lieux/archeologique.html" class="narrative-cta">Entrer dans le récit →</a>
+                </div>
+            </article>
+
+
+            <!-- 03 -->
+            <article class="narrative-row" style="grid-template-columns:1fr 1fr;">
+                <div class="narrative-content reveal-left delay-1">
+                    <span class="narrative-num">03 / 05</span>
+                    <p class="section-label reveal-up">Architecture Vernaculaire</p>
+                    <h3 class="narrative-title">Ancienne Médina</h3>
+                    <p class="narrative-desc">
+                        Un labyrinthe de chaux blanche, d'arches sculptées et de ruelles suspendues. La Médina
+                        représente l'âme urbaine de l'histoire médiévale algérienne.
+                    </p>
+                    <a href="./lieux/medina.html" class="narrative-cta">Parcourir les ruelles →</a>
+                </div>
+                <div class="narrative-image-wrap reveal-right">
+                    <div class="explorer-card-bg bg-medina narrative-image"></div>
+                </div>
+            </article>
+
+            <!-- 04 -->
+            <article class="narrative-row" style="grid-template-columns:1fr 1fr;">
+                <div class="narrative-image-wrap reveal-left">
+                    <div class="explorer-card-bg bg-forteresse narrative-image"
+                        style="background-position: center; background-size: cover; width: 100%; height: 100%;"></div>
+                </div>
+                <div class="narrative-content reveal-right delay-1">
+                    <span class="narrative-num">04 / 05</span>
+                    <p class="section-label reveal-up">Militaire · Ottoman</p>
+                    <h3 class="narrative-title">Forteresse Historique</h3>
+                    <p class="narrative-desc">
+                        Sentinelle de pierre veillant sur les ports, cette forteresse incarne la puissance stratégique
+                        des époques de résistance et de faste impérial.
+                    </p>
+                    <a href="./lieux/forteresse.html" class="narrative-cta">Visiter la garde →</a>
+                </div>
+            </article>
+
+            <!-- 05 -->
+            <article class="narrative-row" style="grid-template-columns:1fr 1fr;">
+                <div class="narrative-content reveal-left delay-1">
+                    <span class="narrative-num">05 / 05</span>
+                    <p class="section-label reveal-up">Art Rupestre · Préhistoire</p>
+                    <h3 class="narrative-title">Paysage Culturel Saharien</h3>
+                    <p class="narrative-desc">
+                        Là où le temps s'est figé sur la roche. Des peintures et gravures vieilles de 10 000 ans
+                        témoignent d'une Afrique verdoyante et d'une humanité naissante.
+                    </p>
+                    <a href="./lieux/saharien.html" class="narrative-cta">Traverser le désert →</a>
+                </div>
+                <div class="narrative-image-wrap reveal-right">
+                    <div class="explorer-card-bg bg-sahara narrative-image"
+                        style="background-position: center; background-size: cover; width: 100%; height: 100%;"></div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- MENTION MVP -->
+    <section class="section-sm background-ink text-center">
+        <div class="container">
+            <p class="reveal-up"
+                style="font-family:var(--font-serif);font-style:italic;font-size:1.15rem;color:rgba(249,246,239,0.3);max-width:600px;margin:0 auto 48px;line-height:1.9;">
+                « Ces lieux sont génériques et serviront de démonstration — ils seront remplacés par les vrais sites
+                algériens lors du lancement officiel. »
+            </p>
+            <a href="./contact.html" class="btn-ghost"
+                style="color:rgba(249,246,239,0.5);border-color:rgba(249,246,239,0.15); opacity:0.6;">Proposer un site ·
+                Collaborer</a>
+        </div>
+    </section>
+
+    </main>
+
+    </main>
+
+  <footer class="site-footer">
+        <div class="footer-compact-inner">
+            <div class="footer-compact-left">
+                <a href="/index.html" class="footer-logo" aria-label="Traça — Accueil" style="display: flex; align-items: center;">
+                    <img src="/Logos/logo-traca-typographique.webp" style="height: 48px; width: auto;" alt="Typographie Traça" loading="lazy" class="footer-logo-img">
+                </a>
+                <span class="footer-compact-sep">·</span>
+                <p class="footer-compact-tagline">Patrimoine algérien &amp; mémoire numérique</p>
+            </div>
+            <nav class="footer-compact-nav" aria-label="Footer navigation">
+                <a href="/index.html">Home</a>
+                <a href="/explorer.html">Explorer</a>
+                <a href="/articles.html">Chroniques</a>
+                <a href="/about.html">À propos</a>
+                <a href="/contact.html">Contact</a>
+            </nav>
+            <div class="footer-compact-right">
+                <div class="footer-socials">
+                    <a href="https://facebook.com" class="footer-social-link" aria-label="Facebook">
+                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
+                    </a>
+                    <a href="https://instagram.com" class="footer-social-link" aria-label="Instagram">
+                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" style="fill:none;stroke:currentColor;stroke-width:1.5" /><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/traçapatrimoine/" class="footer-social-link" aria-label="LinkedIn">
+                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-legal-bottom">
+            <p class="footer-copy-text">
+                © Traça<br>
+                Tous droits réservés. Contenus, structure et concept protégés par le droit d'auteur.
+            </p>
+            <div class="footer-legal-links">
+                <a href="/legal.html">Mentions légales &amp; Conditions d'utilisation</a>
+                <a href="/privacy.html">Politique de confidentialité</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="module" src="/js/main.js"></script>
+</body>
+
+</html>

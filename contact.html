@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact — Traça</title>
+    <meta name="description"
+        content="Contactez Traça pour collaborer, soutenir ou en savoir plus sur la plateforme culturelle immersive." />
+    <link rel="stylesheet" href="/style.css" />
+
+  <!-- SEO Open Graph & Twitter Cards (Étape 2) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://traca-weld.vercel.app/contact" />
+  <meta property="og:title" content="Contact — Traça" />
+  <meta property="og:description" content="Contactez Traça pour collaborer, soutenir ou en savoir plus sur la plateforme culturelle immersive." />
+  <meta property="og:image" content="https://traca-weld.vercel.app/Logos/logo-traca-symbole-black.webp" />
+  <meta property="og:site_name" content="Traça" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://traca-weld.vercel.app/contact" />
+  <meta name="twitter:title" content="Contact — Traça" />
+  <meta name="twitter:description" content="Contactez Traça pour collaborer, soutenir ou en savoir plus sur la plateforme culturelle immersive." />
+  <meta name="twitter:image" content="https://traca-weld.vercel.app/Logos/logo-traca-symbole-black.webp" />
+  <link rel="canonical" href="https://traca-weld.vercel.app/contact.html" />
+  <meta name="theme-color" content="#F9F6EF" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VOTRE_ID_ICI"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VOTRE_ID_ICI');
+  </script>
+</head>
+
+<body>
+
+    <nav class="nav scrolled" id="nav"
+        style="background:rgba(249,246,239,0.96);border-bottom:1px solid rgba(201,150,58,0.15);">
+        <a class="nav-logo" href="/index.html?forceIntro=true" aria-label="Traça — Accueil">
+        <img src="/Logos/logo-traca-symbole-black.webp" class="nav-symbol-logo" alt="Logo Traça">
+      </a>
+        <ul class="nav-center">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./explorer.html">Explorer</a></li>
+            <li><a href="./carte.html">Carte</a></li>
+            <li><a href="./articles.html">Chroniques</a></li>
+            <li><a href="./about.html">À propos</a></li>
+            <li><a href="./contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="nav-right"><button id="lang-toggle">FR</button></div>
+    </nav>
+
+    </header>
+
+    <main id="main-content">
+    <main class="contact-layout">
+
+        <!-- LEFT (dark) -->
+        <div class="contact-left">
+            <p class="section-label">Collaborons</p>
+            <h1 class="contact-heading reveal">
+                Construire<br><em>ensemble</em><br>la mémoire.
+            </h1>
+            <p class="contact-desc reveal reveal-delay-1">
+                Vous souhaitez collaborer, soutenir ou en savoir plus sur Traça ? Institutions, partenaires, chercheurs
+                — toutes les formes de collaboration nous intéressent.
+            </p>
+
+            <ul class="contact-info-list reveal reveal-delay-2">
+                <li class="contact-info-item">
+                    <span class="contact-info-icon">✉</span>
+                    <div>
+                        <div class="contact-info-label">Email</div>
+                        <div class="contact-info-value"><a href="mailto:contact.Traça@gmail.com" style="color:inherit;">contact.Traça@gmail.com</a></div>
+                    </div>
+                </li>
+                <li class="contact-info-item">
+                    <span class="contact-info-icon">🌍</span>
+                    <div>
+                        <div class="contact-info-label">Projet</div>
+                        <div class="contact-info-value">Algérie · International</div>
+                    </div>
+                </li>
+                <li class="contact-info-item">
+                    <span class="contact-info-icon">⬡</span>
+                    <div>
+                        <div class="contact-info-label">Statut</div>
+                        <div class="contact-info-value">MVP en cours · Partenariats ouverts</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- RIGHT (ivory) -->
+        <div class="contact-right">
+            <p class="section-label green reveal">Formulaire de contact</p>
+
+            <form class="contact-form reveal reveal-delay-1" id="contact-form" novalidate>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label" for="name">Nom complet</label>
+                        <input class="form-input" type="text" id="name" name="name" placeholder="Votre nom" required />
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="org">Organisation</label>
+                        <input class="form-input" type="text" id="org" name="org"
+                            placeholder="Institution, entreprise…" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="email">Adresse email</label>
+                    <input class="form-input" type="email" id="email" name="email" placeholder="votre@email.com"
+                        required />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="subject">Objet</label>
+                    <select class="form-select" id="subject" name="subject">
+                        <option value="">Choisir un objet</option>
+                        <option value="institution">Collaboration institutionnelle</option>
+                        <option value="partenariat">Partenariat</option>
+                        <option value="presse">Presse / Médias</option>
+                        <option value="recherche">Recherche académique</option>
+                        <option value="investissement">Investissement</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="message">Message</label>
+                    <textarea class="form-textarea" id="message" name="message"
+                        placeholder="Décrivez votre projet ou vos questions…" required></textarea>
+                </div>
+
+                <button type="submit" class="form-submit">Envoyer le message</button>
+            </form>
+        </div>
+
+    </main>
+
+    </main>
+
+<footer class="site-footer">
+        <div class="footer-compact-inner">
+            <div class="footer-compact-left">
+                <a href="/index.html" class="footer-logo" aria-label="Traça — Accueil" style="display: flex; align-items: center; gap: 12px;">
+          <img src="/Logos/logo-traca-symbole.webp" style="height: 35px; width: auto;" alt="Symbole Traça" loading="lazy">
+          <img src="/Logos/logo-traca-typographique.webp" style="height: 20px; width: auto;" alt="Typographie Traça" loading="lazy">
+        </a>
+                <span class="footer-compact-sep">·</span>
+                <p class="footer-compact-tagline">Patrimoine algérien &amp; mémoire numérique</p>
+            </div>
+            <nav class="footer-compact-nav" aria-label="Footer navigation">
+                <a href="./index.html">Home</a>
+                <a href="./explorer.html">Explorer</a>
+                <a href="./articles.html">Chroniques</a>
+                <a href="./about.html">À propos</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+            <div class="footer-compact-right">
+                <div class="footer-socials">
+                    <a href="https://facebook.com" class="footer-social-link" aria-label="Facebook">
+                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                        </svg>
+                    </a>
+                    <a href="https://instagram.com" class="footer-social-link" aria-label="Instagram">
+                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                                style="fill:none;stroke:currentColor;stroke-width:1.5" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/tra%C3%A7apatrimoine/" class="footer-social-link" aria-label="LinkedIn">
+                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                            <rect x="2" y="9" width="4" height="12" />
+                            <circle cx="4" cy="4" r="2" />
+                        </svg>
+                    </a>
+                </div>
+                <p class="footer-compact-copy">© 2026 Traça</p>
+            </div>
+        </div>
+
+
+
+        <script type="module" src="/js/main.js"></script>
+</body>
+
+</html>

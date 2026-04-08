@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tombeau de la Chrétienne (Kbor er Roumia) — Mausolée Royal de Maurétanie · TRACA</title>
+    <meta name="description"
+        content="Découvrez le Tombeau de la Chrétienne (Kbor er Roumia) à Tipaza. Un mausolée royal monumental de Maurétanie lié à Juba II et Cléopâtre Séléné. Patrimoine algérien classé à l'UNESCO.">
+    <meta property="og:title"
+        content="Tombeau de la Chrétienne (Kbor er Roumia) — Mausolée Royal de Maurétanie · TRACA">
+    <meta property="og:description"
+        content="Découvrez le Tombeau de la Chrétienne (Kbor er Roumia) à Tipaza. Un mausolée royal monumental de Maurétanie lié à Juba II et Cléopâtre Séléné.">
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+        /* Scoped V2 Styles */
+
+        /* — Sticky Tabs (CSS-only) — */
+        .lieu-tabs {
+            position: sticky;
+            top: 0;
+            z-index: 900;
+            background: #FAF7F2;
+            border-top: 1px solid var(--gold);
+            padding: 6px 0;
+        }
+
+        
+
+        .nav-dark .nav-logo {
+            color: var(--ivory) !important;
+        }
+
+        /* Bug 2: Custom Audio Controls Stylings */
+        .audio-controls-v2 {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-left: auto;
+            padding: 0 20px;
+        }
+
+        .audio-control-btn {
+            background: none;
+            border: none;
+            color: var(--gold);
+            cursor: pointer;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+
+        .audio-control-btn:hover {
+            opacity: 1;
+        }
+
+        .v2-volume-container {
+            width: 70px;
+            display: flex;
+            align-items: center;
+        }
+
+        #v2-volume-slider {
+            width: 100%;
+            cursor: pointer;
+            accent-color: var(--gold);
+            height: 3px;
+        }
+
+        @media (max-width: 768px) {
+            .audio-controls-v2 {
+                display: none;
+                /* Hide on mobile to save space */
+            }
+        }
+
+        .lieu-tabs-inner {
+            justify-content: flex-start;
+            padding-left: 56px;
+            /* Match scrolled navbar left padding (TRACA logo) */
+            gap: 20px;
+            /* Tighter spacing */
+        }
+
+        .lieu-tab {
+            font-size: 0.6rem;
+            /* Even smaller */
+            letter-spacing: 0.14em;
+            padding: 4px 0;
+        }
+
+        .lieu-tabs .lieu-tab {
+            color: var(--ink-soft);
+        }
+
+        .lieu-tabs .lieu-tab.active {
+            color: var(--gold);
+        }
+
+        /* — V2 Compact Vertical Timeline — */
+        .v2-compact-timeline .timeline-item {
+            margin-bottom: 20px;
+            opacity: 0 !important;
+            transform: translateX(-20px) !important;
+            transition: opacity 0.5s ease, transform 0.5s ease !important;
+        }
+
+        .v2-compact-timeline .timeline-detail {
+            opacity: 0;
+            transform: translateY(4px);
+            height: 0;
+            overflow: hidden;
+            transition: opacity 0.3s ease, transform 0.3s ease, margin-top 0.3s ease;
+            margin-top: 0;
+        }
+
+        .v2-compact-timeline .timeline-item:hover .timeline-detail,
+        .v2-compact-timeline .timeline-item:active .timeline-detail {
+            opacity: 1;
+            transform: translateY(0);
+            height: auto;
+            margin-top: 8px;
+        }
+
+        .v2-compact-timeline::before {
+            height: 100% !important;
+            /* Ensure full height so scaleY can work */
+            transform-origin: top center;
+            transform: scaleY(0);
+            transition: transform 1.2s ease-out;
+        }
+
+        .v2-compact-timeline.is-visible::before {
+            transform: scaleY(1);
+        }
+
+        .v2-compact-timeline.is-visible .timeline-item {
+            opacity: 1 !important;
+            transform: translateX(0) !important;
+        }
+
+        .v2-compact-timeline .timeline-dot {
+            transition: transform 0.4s ease-out;
+            transform: scale(0);
+        }
+
+        .v2-compact-timeline.is-visible .timeline-dot {
+            animation: dotPulseV2 0.4s ease-out forwards;
+        }
+
+        @keyframes dotPulseV2 {
+            0% {
+                transform: scale(0);
+            }
+
+            60% {
+                transform: scale(1.4);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        /* Stagger visibility delays */
+        .v2-compact-timeline.is-visible .timeline-item:nth-child(1),
+        .v2-compact-timeline.is-visible .timeline-item:nth-child(1) .timeline-dot {
+            transition-delay: 0.12s;
+            animation-delay: 0.12s;
+        }
+
+        .v2-compact-timeline.is-visible .timeline-item:nth-child(2),
+        .v2-compact-timeline.is-visible .timeline-item:nth-child(2) .timeline-dot {
+            transition-delay: 0.24s;
+            animation-delay: 0.24s;
+        }
+
+        .v2-compact-timeline.is-visible .timeline-item:nth-child(3),
+        .v2-compact-timeline.is-visible .timeline-item:nth-child(3) .timeline-dot {
+            transition-delay: 0.36s;
+            animation-delay: 0.36s;
+        }
+
+        .v2-compact-timeline.is-visible .timeline-item:nth-child(4),
+        .v2-compact-timeline.is-visible .timeline-item:nth-child(4) .timeline-dot {
+            transition-delay: 0.48s;
+            animation-delay: 0.48s;
+        }
+
+        .v2-compact-timeline.is-visible .timeline-item:nth-child(5),
+        .v2-compact-timeline.is-visible .timeline-item:nth-child(5) .timeline-dot {
+            transition-delay: 0.60s;
+            animation-delay: 0.60s;
+        }
+
+        .v2-compact-timeline.is-visible .timeline-item:nth-child(6),
+        .v2-compact-timeline.is-visible .timeline-item:nth-child(6) .timeline-dot {
+            transition-delay: 0.72s;
+            animation-delay: 0.72s;
+        }
+
+        .v2-compact-timeline.is-visible .timeline-item:nth-child(7),
+        .v2-compact-timeline.is-visible .timeline-item:nth-child(7) .timeline-dot {
+            transition-delay: 0.84s;
+            animation-delay: 0.84s;
+        }
+
+        .v2-compact-timeline.is-visible .timeline-item:nth-child(8),
+        .v2-compact-timeline.is-visible .timeline-item:nth-child(8) .timeline-dot {
+            transition-delay: 0.96s;
+            animation-delay: 0.96s;
+        }
+
+        .v2-compact-timeline.is-visible .timeline-item:nth-child(9),
+        .v2-compact-timeline.is-visible .timeline-item:nth-child(9) .timeline-dot {
+            transition-delay: 1.08s;
+            animation-delay: 1.08s;
+        }
+
+
+
+        .v2-legendes-section {
+            position: relative;
+            background-image: url('../assets/images/gallery_images/tombeau_de_chretienne/1.webp');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding-bottom: var(--section-gap);
+        }
+
+        .v2-legendes-section::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom,
+                    rgba(15, 8, 3, 0.95) 0%,
+                    rgba(15, 8, 3, 0.65) 15%,
+                    rgba(15, 8, 3, 0.65) 85%,
+                    rgba(15, 8, 3, 0.95) 100%);
+            -webkit-backdrop-filter: blur(8px);
+            backdrop-filter: blur(8px);
+            z-index: 0;
+        }
+
+        @media (max-width: 768px) {
+            .v2-legendes-section {
+                background-attachment: scroll;
+            }
+        }
+
+        .v2-legendes-section .container-wide {
+            position: relative;
+            z-index: 1;
+        }
+
+        .v2-legendes-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-top: var(--inner-padding);
+        }
+
+        @media (max-width: 900px) {
+            .v2-legendes-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .v2-legende-card {
+            background: rgba(15, 8, 3, 0.55);
+            -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(201, 150, 58, 0.25);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+            border-radius: var(--radius);
+            padding: 40px 32px;
+            transition: transform 0.4s var(--ease-out), border-color 0.4s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .v2-legende-card::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: inherit;
+            background: radial-gradient(circle at 50% 0%, rgba(201, 150, 58, 0.08) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.6s ease;
+            z-index: 0;
+        }
+
+        .v2-legende-card:hover::after {
+            opacity: 1;
+        }
+
+        .v2-legende-card>* {
+            position: relative;
+            z-index: 1;
+        }
+
+        .v2-legende-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(201, 150, 58, 0.4);
+        }
+
+        @keyframes v2-glow-pulse {
+
+            0%,
+            100% {
+                text-shadow: 0 0 8px rgba(201, 150, 58, 0.4);
+            }
+
+            50% {
+                text-shadow: 0 0 20px rgba(201, 150, 58, 0.9), 0 0 40px rgba(201, 150, 58, 0.4);
+            }
+        }
+
+        .v2-legende-icon {
+            font-size: 2rem;
+            color: var(--gold-light);
+            margin-bottom: 24px;
+            opacity: 0.8;
+            display: inline-block;
+        }
+
+        .v2-legende-card:hover .v2-legende-icon {
+            animation: v2-glow-pulse 1.5s ease-in-out infinite;
+        }
+
+        .v2-legende-title {
+            font-family: var(--font-serif);
+            font-size: 1.4rem;
+            color: var(--ivory);
+            margin-bottom: 16px;
+            line-height: 1.3;
+        }
+
+        .v2-legende-text {
+            font-size: 0.9rem;
+            color: rgba(249, 246, 239, 0.75);
+            line-height: 1.8;
+            margin-bottom: 24px;
+        }
+
+        .v2-legende-quote {
+            font-family: var(--font-serif);
+            font-style: italic;
+            font-size: 1.05rem;
+            color: var(--gold);
+            padding-top: 20px;
+            border-top: 1px solid rgba(201, 150, 58, 0.2);
+        }
+
+        .v2-architecture-split {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 64px;
+            align-items: start;
+            margin-top: 40px;
+        }
+
+        .v2-arch-column {
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media (max-width: 1000px) {
+            .v2-architecture-split {
+                grid-template-columns: 1fr;
+                gap: 48px;
+            }
+        }
+
+        /* — V2 Accordion Styles — */
+        .v2-accordion-item {
+            border-bottom: 1px solid rgba(201, 150, 58, 0.15);
+        }
+
+        .v2-accordion-trigger {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 0;
+            background: none;
+            border: none;
+            border-bottom: 1px solid rgba(201, 150, 58, 0.2);
+            cursor: pointer;
+            font-family: var(--font-serif);
+            font-size: 1rem;
+            color: var(--ink);
+            text-align: left;
+        }
+
+        .v2-accordion-trigger:hover {
+            color: var(--gold);
+            transition: color 0.3s ease;
+        }
+
+        .v2-accordion-chevron {
+            font-size: 0.8rem;
+            color: var(--gold);
+            opacity: 0.6;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        .v2-accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+        }
+
+        .v2-accordion-content p {
+            padding: 0 0 14px 0;
+            font-size: 0.88rem;
+            color: var(--ink-soft);
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        .v2-accordion-item.open .v2-accordion-chevron {
+            transform: rotate(90deg);
+            opacity: 1;
+        }
+
+        .v2-accordion-item.open .v2-accordion-content {
+            max-height: 200px;
+        }
+
+        .v2-arch-block {
+            margin-bottom: 48px;
+        }
+
+        .v2-arch-block-title {
+            font-family: var(--font-serif);
+            font-size: 1.8rem;
+            color: var(--ink);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .v2-arch-block-title::before {
+            content: '';
+            width: 40px;
+            height: 1px;
+            background: var(--gold);
+        }
+
+        .v2-arch-list {
+            list-style: none;
+            padding: 0;
+            margin: 24px 0;
+        }
+
+        .v2-arch-list li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 12px;
+            font-size: 0.95rem;
+            color: var(--ink-soft);
+            line-height: 1.8;
+        }
+
+        .v2-arch-list li::before {
+            content: '·';
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .v2-arch-image-placeholder {
+            width: 100%;
+            aspect-ratio: 4/5;
+            background: linear-gradient(to bottom right, var(--ivory-dark), rgba(201, 150, 58, 0.1));
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 32px;
+            color: var(--ink-muted);
+            font-size: 0.9rem;
+            border: 1px dashed rgba(201, 150, 58, 0.3);
+            margin-bottom: 24px;
+        }
+
+        .v2-arch-image-placeholder[data-aspect="wide"] {
+            aspect-ratio: 16/9;
+        }
+
+        .v2-encart-famille {
+            background: var(--ivory-dark);
+            border-left: 3px solid var(--algerian-green);
+            padding: 32px;
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            margin-top: 40px;
+        }
+
+        .v2-encart-title {
+            font-size: 0.7rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--algerian-green);
+            margin-bottom: 12px;
+        }
+
+        .v2-encart-text {
+            font-family: var(--font-serif);
+            font-size: 1.15rem;
+            color: var(--ink);
+            line-height: 1.6;
+        }
+
+        /* — 6A: Reveal Enrichi — */
+        .lieu-section {
+            perspective: 1000px;
+        }
+
+        .reveal-up {
+            opacity: 0;
+            transform: translateY(40px) rotateX(10deg);
+            transition: opacity 0.8s ease, transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .reveal-up.visible {
+            opacity: 1;
+            transform: translateY(0) rotateX(0);
+        }
+
+        /* — 6B: Séparateurs Animés — */
+        .v2-sep-animated {
+            height: 1px;
+            background: var(--gold);
+            transform: scaleX(0);
+            transform-origin: left center;
+            transition: transform 0.6s ease-out;
+            opacity: 0.3;
+        }
+
+        .v2-sep-animated.visible {
+            transform: scaleX(1);
+        }
+
+        /* — 6C: Curseur — */
+        #v2-cursor {
+            position: fixed;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--gold);
+            opacity: 0;
+            pointer-events: none;
+            z-index: 9999;
+            transform: translate(-50%, -50%);
+            transition: transform 0.15s ease, opacity 0.3s ease, width 0.3s ease, height 0.3s ease;
+        }
+
+        @media (max-width: 768px) {
+            #v2-cursor {
+                display: none;
+            }
+        }
+    </style>
+  <link rel="canonical" href="https://traca-weld.vercel.app/lieux/funeraire.html" />
+  <meta name="theme-color" content="#F9F6EF" />
+</head>
+
+<body class="is-lieu-page">
+    <!-- 6C CURSOR -->
+    <div id="v2-cursor" aria-hidden="true"></div>
+
+    <nav class="nav" id="nav">
+        <a class="nav-logo" href="/index.html?forceIntro=true" aria-label="Traça — Accueil">
+        <img src="/Logos/logo-traca-symbole-black.webp" class="nav-symbol-logo" alt="Logo Traça">
+      </a>
+        <ul class="nav-center">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../explorer.html">Explorer</a></li>
+            <li><a href="../carte.html">Carte</a></li>
+            <li><a href="../articles.html">Chroniques</a></li>
+            <li><a href="../about.html">À propos</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-right"><button id="lang-toggle">FR</button></div>
+    </nav>
+
+    <header class="lieu-hero">
+        <div class="lieu-hero-bg bg-funeraire"></div>
+        <div class="lieu-hero-overlay"></div>
+        <div class="lieu-hero-content">
+            <p class="lieu-hero-tag">Monument funéraire · Tipaza · Iᵉʳ siècle av. J.-C.</p>
+            <h1 class="lieu-hero-title">Tombeau de la<br>Chrétienne</h1>
+            <p class="lieu-hero-subtitle">Kbor er Roumia · Mausolée Royal de Maurétanie</p>
+        </div>
+    </header>
+
+    <nav class="lieu-tabs" id="v2-tabs" aria-label="Navigation du lieu">
+        <div class="lieu-tabs-inner">
+            <a href="#presentation" class="lieu-tab active" data-tab-target="presentation">Présentation</a>
+            <a href="#histoire" class="lieu-tab" data-tab-target="histoire">Histoire</a>
+            <a href="#legendes" class="lieu-tab" data-tab-target="legendes">Légendes</a>
+            <a href="#architecture" class="lieu-tab" data-tab-target="architecture">Architecture</a>
+            <a href="#galerie" class="lieu-tab" data-tab-target="galerie">Galerie</a>
+            <a href="#audio" class="lieu-tab" data-tab-target="audio">Audio</a>
+            <a href="#experience3d" class="lieu-tab" data-tab-target="experience3d">Expérience 3D</a>
+        </div>
+    </nav>
+
+    <!-- SECTION 2 · PRÉSENTATION GÉNÉRALE -->
+    <section id="presentation" class="lieu-section lieu-section-alt">
+        <div class="container">
+            <div class="lieu-content-grid">
+                <div>
+                    <p class="section-label reveal-up">Présentation</p>
+                    <h2 class="lieu-heading reveal-up delay-1">L'énigme de pierre<br><em>face à la Méditerranée</em>
+                    </h2>
+                    <p class="lieu-text reveal-up delay-2">Dressé majestueusement à 261 mètres d'altitude sur les
+                        collines de Sidi Rached, dans la wilaya de Tipaza, le Tombeau de la Chrétienne domine la plaine
+                        de la Mitidja et la mer Méditerranée. Ce mausolée monumental en pierre de taille est le pinacle
+                        de l'architecture funéraire numido-maurétanienne.</p>
+                    <p class="lieu-text reveal-up delay-2">Bâti vraisemblablement sous le règne du roi savant Juba II et
+                        de son épouse Cléopâtre Séléné II, l'édifice porte le nom populaire de "Kbor er Roumia" en
+                        arabe. Ce monument circulaire titanesque symbolise l'union d'un héritage autochtone numide et
+                        d'une ouverture aux influences grecques et ptolémaïques, formant une œuvre architecturale unique
+                        au Maghreb.</p>
+                    <p class="lieu-text reveal-up delay-3">Témoin silencieux mais puissant de la grandeur du royaume de
+                        Maurétanie, il a survécu aux pillages, aux canonnades navales et aux affres du temps. Reconnu
+                        pour sa valeur universelle, il figure sur la liste du patrimoine mondial de l'UNESCO depuis 1982
+                        et, tout récemment en avril 2025, sur la liste indicative des "Mausolées Royaux".</p>
+                </div>
+                <aside>
+                    <div class="info-card reveal-up delay-2">
+                        <div class="info-card-title">Fiche du lieu</div>
+                        <div class="info-item">
+                            <div class="info-label">Nom officiel</div>
+                            <div class="info-value">Tombeau de la Chrétienne<br><span
+                                    style="font-size:0.85em; color:var(--ink-muted);">Kbor er Roumia</span></div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Type</div>
+                            <div class="info-value">Monument funéraire royal</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Datation</div>
+                            <div class="info-value">Iᵉʳ siècle av. J.-C.</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Localisation</div>
+                            <div class="info-value">Sidi Rached, Tipaza</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Altitude</div>
+                            <div class="info-value">261m</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Dimensions</div>
+                            <div class="info-value">Ø 60,9m · Haut. 32,4m</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Statut</div>
+                            <div class="info-value">Classé UNESCO (1982)<br><span
+                                    style="font-size:0.85em; color:var(--ink-muted);">Liste indicative (2025)</span>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider-motif"></div>
+    <div class="v2-sep-animated reveal"></div>
+    <!-- SECTION 3 · APERÇU HISTORIQUE -->
+    <section id="histoire" class="lieu-section background-white">
+        <div class="container">
+            <p class="section-label reveal-up">Aperçu Historique</p>
+            <h2 class="lieu-heading reveal-up delay-1" style="max-width: 700px; margin-bottom: 48px;">Le repère des
+                siècles<br><em>chronique d'un monument immortel</em></h2>
+
+            <p class="lieu-text reveal-up delay-2" style="max-width: 800px; margin-bottom: 40px;">La datation exacte du
+                mausolée demeure incertaine. L'hypothèse la plus communément admise, soutenue notamment par l'historien
+                Stéphane Gsell, l'attribue au règne de Juba II (25 av. J.-C. à 23 apr. J.-C.) ou de son fils Ptolémée.
+                La première mention du monument nous vient du géographe antique Pomponius Mela vers l'an 40, qui le
+                décrit poétiquement comme <em>« monumentum commune regiae gentis »</em> (le monument commun de la
+                famille royale).</p>
+
+            <ul class="timeline v2-compact-timeline" id="v2-timeline">
+                <li class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">Antiquité</div>
+                        <div class="timeline-event">Pillage des origines</div>
+                        <div class="timeline-detail">Violation précoce et disparition du mobilier funéraire, peu de
+                            temps après sa dernière utilisation.</div>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">Iᵉʳ siècle av. J.-C.</div>
+                        <div class="timeline-event">Construction probable</div>
+                        <div class="timeline-detail">Édification commanditée par Juba II, roi de Maurétanie.</div>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">Iᵉʳ siècle apr. J.-C.</div>
+                        <div class="timeline-event">Première mention écrite</div>
+                        <div class="timeline-detail">Le géographe Pomponius Mela en fait état dans ses écrits (env. 40
+                            apr. J.-C.).</div>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">1555</div>
+                        <div class="timeline-event">L'assaut de Salah Raïs</div>
+                        <div class="timeline-detail">Tentative de destruction pour extraire le trésor, repoussée par une
+                            <a href="#legendes">nuée de guêpes</a>.
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">Fin XVIIIᵉ siècle</div>
+                        <div class="timeline-event">Canons de Baba Mahommed</div>
+                        <div class="timeline-detail">Nouvelle percée à l'artillerie, échouant face à la robustesse des
+                            maçonneries.</div>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">Période coloniale</div>
+                        <div class="timeline-event">Cible militaire</div>
+                        <div class="timeline-detail">Le monument sert de cible d'entraînement pour les canons de la
+                            marine française.</div>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">1865</div>
+                        <div class="timeline-event">La grande fouille</div>
+                        <div class="timeline-detail">Berbrugger et Mac Carthy découvrent l'entrée secrète et
+                            l'architecture intérieure.</div>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">1982</div>
+                        <div class="timeline-event">Héritage mondial</div>
+                        <div class="timeline-detail">Classement officiel au Patrimoine Mondial de l'Humanité par
+                            l'UNESCO.</div>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">Avril 2025</div>
+                        <div class="timeline-event">Héritage réaffirmé</div>
+                        <div class="timeline-detail">Inscription sur la liste indicative mondiale des "Mausolées
+                            Royaux".</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="v2-sep-animated reveal"></div>
+    <!-- SECTION 4 · LÉGENDES -->
+    <section id="legendes" class="lieu-section v2-legendes-section">
+        <div class="container-wide">
+            <div style="text-align: center; margin-bottom: 64px;">
+                <p class="section-label reveal-up" style="justify-content:center; color: var(--gold-light);">Mémoire
+                    vivante</p>
+                <h2 class="lieu-heading reveal-up delay-1" style="color: var(--ivory);">Aux frontières du Mythe</h2>
+                <p class="lieu-text reveal-up delay-2"
+                    style="color: rgba(249, 246, 239, 0.7); max-width: 640px; margin: 0 auto;">L'hermétisme de cette
+                    architecture impénétrable a nourri pendant des siècles l'imaginaire populaire. Entre trésors
+                    inaccessibles et sortilèges puissants, la mémoire orale a façonné l'aura du lieu.</p>
+            </div>
+
+            <div class="v2-legendes-grid">
+                <!-- Carte 1 -->
+                <div class="v2-legende-card reveal-up delay-1">
+                    <div class="v2-legende-icon">✧</div>
+                    <h3 class="v2-legende-title">Le trésor volant</h3>
+                    <p class="v2-legende-text">Un Algérien prisonnier en Europe fut libéré par son maître magicien à
+                        l'unique condition de brûler un talisman au sommet du tombeau lors de son retour. À peine le
+                        papier consumé, la montagne de pierre s'entrouvrit. Une immense quantité d'or vola en direction
+                        de l'Espagne. D'un geste désespéré pour en retenir une partie, l'ancien prisonnier projeta son
+                        burnous : le charme se brisa. Le tombeau se referma lourdement sur la faille, lui laissant les
+                        seules richesses piégées sous son vêtement d'or qui suffirent à le faire roi parmi les riches
+                        d'Alger.</p>
+                    <div class="v2-legende-quote">« L'or qui défie le temps, l'or qui traverse les mers. »</div>
+                </div>
+
+                <!-- Carte 2 -->
+                <div class="v2-legende-card reveal-up delay-2">
+                    <div class="v2-legende-icon">♃</div>
+                    <h3 class="v2-legende-title">La vache et le berger</h3>
+                    <p class="v2-legende-text">Au crépuscule, un pâtre intrigué s'aperçut que sa plus belle vache
+                        s'échappait mystérieusement. Il la suivit discrètement dans la nuit et découvrit qu'elle
+                        pénétrait dans le mausolée royal par une fine ouverture dissimulée dans la roche. S'accrochant
+                        fermement à sa queue, il parvint à s'y glisser. Là, au cœur des ténèbres, s'offrirent à lui des
+                        amoncellements de pièces étincelantes. Il s'en empara, tant qu'il put en porter, ressortant
+                        juste à temps avant l'aube, devenu l'homme le plus riche de sa lignée.</p>
+                    <div class="v2-legende-quote">« La porte secrète qui ne s'ouvre qu'aux bêtes à cornes. »</div>
+                </div>
+
+                <!-- Carte 3 -->
+                <div class="v2-legende-card reveal-up delay-3">
+                    <div class="v2-legende-icon">☩</div>
+                    <h3 class="v2-legende-title">Chrétienne ou Romaine ?</h3>
+                    <p class="v2-legende-text">L'appellation "Tombeau de la Chrétienne" serait le fruit d'une pure
+                        traduction erronée. En arabe, "Kbor er Roumia" signifie "Le tombeau de la Romaine". Le terme Rûm
+                        englobait les byzantins, romains puis chrétiens. Les Français ont opté pour la "Chrétienne".
+                        D'aucuns avançaient aussi que le nom tenait à la forme spécifique des moulures croisées taillées
+                        sur les fausses portes, évoquant une croix latine trompeuse.</p>
+                    <div class="v2-legende-quote">« Une erreur ancrée dans le marbre et les esprits. »</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="v2-sep-animated reveal"></div>
+    <!-- SECTION 5 · ARCHITECTURE -->
+    <section id="architecture" class="lieu-section background-white">
+        <div class="container">
+            <p class="section-label reveal-up">Ingénierie & Structure</p>
+            <h2 class="lieu-heading reveal-up delay-1">Un titan de pierre<br><em>scellé face au vent</em></h2>
+
+            <div class="v2-architecture-split">
+                <!-- GAUCHE : EXTÉRIEUR -->
+                <div class="v2-arch-column reveal-up delay-2">
+                    <div class="v2-arch-block">
+                        <h3 class="v2-arch-block-title">L'Extérieur de l'Édifice</h3>
+                        <p class="lieu-text">Monumental et cyclopéen, ce tumulus de pierre compte près de 80 000 mètres
+                            cubes de matériaux. Avec un diamètre faramineux de 60,9 mètres, il s'élevait à plus de 40
+                            mètres à l'origine (contre 32,4 mètres conservés aujourd'hui). L'édifice repose sur une
+                            composition ternaire stricte.</p>
+
+                        <ul class="v2-arch-list">
+                            <li><strong>Le soubassement carré :</strong> mesurant 63,4 mètres de côté, base ancrant le
+                                mausolée dans sa plateforme naturelle.</li>
+                            <li><strong>Le corps cylindrique :</strong> doté d'une circonférence de 185,5 mètres. Il est
+                                habillé d'une chemise architecturale animée par 60 colonnes engagées aux chapiteaux
+                                (désormais disparus) soutenant une imposante corniche.</li>
+                            <li><strong>Le cône à gradins :</strong> la toiture étagée formée initialement d'exactement
+                                33 assises circulaires concentriques se rétrécissant vers le sommet.</li>
+                        </ul>
+
+                        <img loading="lazy" src="/assets/images/gallery_images/tombeau_de_chretienne/2.webp"
+                            alt="Façade extérieure du Tombeau de la Chrétienne"
+                            style="width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:var(--radius); margin-bottom: 24px;">
+                        <p class="lieu-text">Aux quatre points cardinaux se dressent des fausses portes de 6,9 mètres de
+                            hauteur. L'encadrement en forme de croix de ces portes aveugles a largement contribué au
+                            mythe de la tombe "Chrétienne". Ces éléments factices étaient destinés à empêcher les
+                            violations, un lourd trompe-l'œil minéral.</p>
+                    </div>
+                </div>
+
+                <!-- DROITE : INTÉRIEUR -->
+                <div class="v2-arch-column reveal-up delay-3">
+                    <div class="v2-arch-block">
+                        <h3 class="v2-arch-block-title">Le Labyrinthe Intérieur</h3>
+                        <p class="lieu-text">Ce n'est qu'en 1865, sous Napoléon III, qu'Adrien Berbrugger sondé
+                            l'emplacement de l'entrée véritable : dissimulée sur le flanc du soubassement droit sous la
+                            fausse porte orientale. L'accès, large d'à peine 1,1 mètre et fermé par une dalle de grès
+                            retrouvée brisée, plongeait dans les ténèbres.</p>
+
+                        <div
+                            style="width:100%; aspect-ratio:16/9; border-radius:var(--radius); overflow:hidden; margin-bottom: 24px;">
+                            <iframe title="Grotte intérieure"
+                                src="https://sketchfab.com/models/693860cafc324783ae5148da12410809/embed?autostart=0&ui_hint=0&ui_theme=dark&ui_watermark=0"
+                                width="100%" height="100%" allow="autoplay; fullscreen; xr-spatial-tracking"
+                                allowfullscreen style="border:none;"></iframe>
+                        </div>
+
+                        <div class="v2-arch-accordion" style="margin: 24px 0;">
+                            <div class="v2-accordion-item">
+                                <button class="v2-accordion-trigger">
+                                    <span>Le vestibule des Lions</span>
+                                    <span class="v2-accordion-chevron">›</span>
+                                </button>
+                                <div class="v2-accordion-content">
+                                    <p>À l'entrée supérieure du couloir oblique, on découvre les bas-reliefs sculptés
+                                        d'une lionne et d'un lion. Un puissant symbole monarchique (associé à Juba II).
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="v2-accordion-item">
+                                <button class="v2-accordion-trigger">
+                                    <span>La galerie circulaire</span>
+                                    <span class="v2-accordion-chevron">›</span>
+                                </button>
+                                <div class="v2-accordion-content">
+                                    <p>Long couloir d'environ 2,5 m de haut faisant prudemment le tour du monument
+                                        interne, dans l'ombre rassurante des épaisses maçonneries.</p>
+                                </div>
+                            </div>
+                            <div class="v2-accordion-item">
+                                <button class="v2-accordion-trigger">
+                                    <span>La chambre centrale inexplorée</span>
+                                    <span class="v2-accordion-chevron">›</span>
+                                </button>
+                                <div class="v2-accordion-content">
+                                    <p>Au centre névralgique du monument se loge un ultime réduit (4m par 3m) isolé par
+                                        une lourde porte à herse dont on retrouva les fragments.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="lieu-text">Les murs nord, sud et ouest de la pièce abritaient diverses niches
+                            funéraires. Mais à l'arrivée des explorateurs du XIXe siècle, la chambre résonnait déjà de
+                            mille pillages : le tombeau était complètement vide, nourrissant l'épineuse thèse d'un
+                            simple cénotaphe d'apparat, un tombeau sans corps dressé en hommage éternel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="v2-sep-animated reveal"></div>
+    <!-- SECTION 6 · GENÈSE ARCHITECTURALE -->
+    <section id="genese" class="lieu-section background-ivory">
+        <div class="container">
+            <div class="lieu-content-grid">
+                <div>
+                    <p class="section-label reveal-up">Influences</p>
+                    <h2 class="lieu-heading reveal-up delay-1">L'Ancêtre de Numidie<br><em>le métissage d'un Empire</em>
+                    </h2>
+                    <p class="lieu-text reveal-up delay-2">Le Tombeau de la Chrétienne ne naît pas de nulle part. Il
+                        s'inscrit au bout d'une longue tradition archaïque d'inhumation protohistorique sous tumulus (ou
+                        bazina). Mais sa grande force fut d'hybrider cette structure indigène berbère avec les
+                        innovations d'un monde hellénistique en pleine expansion.</p>
+                    <p class="lieu-text reveal-up delay-2">On retrouve un écho fort des traits hellénistiques à l'image
+                        du célèbre Mausolée d'Auguste érigé à Rome. Toutefois, les historiens affirment que c’est
+                        précisément l'intégration de colonnes pseudo-grecques (ordre ionique) d’inspiration
+                        hellénistique sur un puissant bâti d’architecture tumulaire circulaire pré-romaine qui lui
+                        confère son aspect magistral.</p>
+                    <p class="lieu-text reveal-up delay-3">L'historien Stéphane Gsell y décrit l'édifice comme <em>« une
+                            construction de type indigène, couverte d'une chemise grecque »</em>. Un métissage dont on
+                        soupçonne aussi la présence lointaine de Cléopâtre Séléné II, par certains symboles (notamment
+                        les fauves sculptés), mêlant une spiritualité parfois venue des rives du Nil à une roche taillée
+                        purement africaine.</p>
+                </div>
+                <aside>
+                    <div class="v2-encart-famille reveal-up delay-3">
+                        <div class="v2-encart-title">Dans la même lignée</div>
+                        <p class="v2-encart-text">Le style et le plan du tombeau sont intimement liés au
+                            <strong>Medracen</strong> de Batna. Érigé sur les terres d'Aurès bien plus tôt par la
+                            première grande dynastie numide de Syphax et Massinissa, le Medracen est le père
+                            architectural et l'inspirateur d'une longue tradition des grandiformes bazinas royales
+                            algériennes.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+    <hr class="sep-hr">
+    <div class="v2-sep-animated reveal"></div>
+
+    <!-- SECTION 7 · GALERIE -->
+    <section id="galerie" class="gallery-section">
+        <div class="container-wide">
+            <p class="section-label reveal-up">Galerie · Tipaza Archives</p>
+            <div class="gallery-grid-museum reveal-up delay-1" style="margin-top: var(--inner-padding);">
+                <div class="gallery-museum-item" style="cursor:pointer;">
+                    <div class="gallery-museum-inner"
+                        style="background-image:url('/assets/images/gallery_images/tombeau_de_chretienne/5.webp');">
+                    </div>
+                </div>
+                <div class="gallery-museum-item" style="cursor:pointer;">
+                    <div class="gallery-museum-inner"
+                        style="background-image:url('/assets/images/gallery_images/tombeau_de_chretienne/1.webp');">
+                    </div>
+                </div>
+                <div class="gallery-museum-item" style="cursor:pointer;">
+                    <div class="gallery-museum-inner"
+                        style="background-image:url('/assets/images/gallery_images/tombeau_de_chretienne/2.webp');">
+                    </div>
+                </div>
+                <div class="gallery-museum-item" style="cursor:pointer;">
+                    <div class="gallery-museum-inner"
+                        style="background-image:url('/assets/images/gallery_images/tombeau_de_chretienne/3.webp');">
+                    </div>
+                </div>
+                <div class="gallery-museum-item" style="cursor:pointer;">
+                    <div class="gallery-museum-inner"
+                        style="background-image:url('/assets/images/gallery_images/tombeau_de_chretienne/4.webp');">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="v2-sep-animated reveal"></div>
+    <!-- SECTION 8 · NARRATION AUDIO -->
+    <section id="audio" class="lieu-section audio-section" style="background:var(--ivory-dark);">
+        <div class="container">
+            <p class="section-label green reveal-up">Héritage sonore</p>
+            <div class="audio-player-wrap reveal-up delay-1" style="margin-top: var(--inner-padding);">
+                <button id="audio-toggle" aria-label="Écouter la narration audio">▶</button>
+                <div class="audio-info">
+                    <div class="audio-title">Narration guidée — Kbor er Roumia</div>
+                    <div class="audio-label">
+                        <span
+                            style="font-size:0.78rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-muted);">Écouter
+                            la narration</span>
+                    </div>
+                </div>
+                <div id="audio-wave" class="audio-wave" aria-hidden="true">
+                    <div class="audio-bar"></div>
+                    <div class="audio-bar"></div>
+                    <div class="audio-bar"></div>
+                    <div class="audio-bar"></div>
+                    <div class="audio-bar"></div>
+                </div>
+
+                <!-- Bug 2: Custom Audio Controls -->
+                <div class="audio-controls-v2">
+                    <button id="v2-audio-mute" class="audio-control-btn" title="Couper/Activer le son">🔊</button>
+                    <div class="v2-volume-container">
+                        <input type="range" id="v2-volume-slider" min="0" max="1" step="0.1" value="1"
+                            aria-label="Volume">
+                    </div>
+                </div>
+
+                <audio id="audio-element" src="../audio/tombeau-de-chretienne.mp3"></audio>
+            </div>
+            <blockquote class="narration-quote reveal-up delay-2">
+                « Kbor er Roumia — Le tombeau de la Romaine. Ni trésor envolé, ni chrétienne oubliée. Juste une reine,
+                un roi, et la pierre qui résiste au temps. »
+            </blockquote>
+        </div>
+    </section>
+
+    <div class="v2-sep-animated reveal"></div>
+    <!-- SECTION 9 · EXPÉRIENCE 3D -->
+    <section id="experience3d" class="experience-section" style="padding-bottom:0;">
+        <div class="experience-cta-block">
+            <p class="section-label" style="justify-content:center;margin-bottom:32px;">L'Immersion</p>
+            <h2 class="experience-cta-title reveal">
+                Traversez la<br><em>Pierre</em>
+            </h2>
+            <p class="experience-cta-desc reveal reveal-delay-1">
+                Explorez gratuitement les vestiges monumentaux grâce à ce nuage de points immersif interactif. Nuage de
+                points · Scan laser · Exploration libre de l'architecture.
+            </p>
+            <div class="reveal reveal-delay-2"
+                style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:56px;">
+                <div id="experience-launcher-hero" role="button" aria-label="Lancer l'expérience 3D" tabindex="0">
+                    ⬡ Actionner le Scan 3D
+                </div>
+            </div>
+        </div>
+
+        <div class="viewer-wrapper">
+            <div id="experience-launcher">
+                <div class="launcher-icon">⬡</div>
+                <span class="launcher-label">Cliquer pour lancer</span>
+                <p class="launcher-sub">Nuage de Points · Scan Laser · 360°</p>
+            </div>
+            <div id="sketchfab-container">
+                <iframe title="Tombeau de la Chrétienne — Expérience 3D TRACA"
+                    allow="autoplay; fullscreen; xr-spatial-tracking" allowfullscreen
+                    data-src="https://sketchfab.com/models/ea0a4612234c4aa3bad3ad68dd369953/embed?autostart=1&ui_hint=0&ui_theme=dark&ui_watermark=0"></iframe>
+            </div>
+        </div>
+        <div class="experience-footer-lieu">
+            <p class="experience-note-lieu">Modèle Sketchfab Placeholder Immersif · Scan laser proof-of-concept</p>
+            <span class="experience-tech-badge">Sketchfab WebGL · MVP</span>
+        </div>
+    </section>
+
+    <!-- SECTION 10 · NAVIGATION -->
+    <div class="section-sm background-ink">
+        <div class="container"
+            style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;">
+            <a href="../lieux/archeologique.html" class="btn-ghost"
+                style="color:rgba(249,246,239,0.45);border-color:rgba(249,246,239,0.12);">← Lieu Précédent</a>
+            <a href="../lieux/medina.html" class="btn-ghost"
+                style="color:rgba(249,246,239,0.45);border-color:rgba(249,246,239,0.12);">Lieu Suivant →</a>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-compact-inner">
+            <div class="footer-compact-left">
+                <a href="/index.html" class="footer-logo" aria-label="Traça — Accueil" style="display: flex; align-items: center;">
+                    <img src="/Logos/logo-traca-typographique.webp" style="height: 48px; width: auto;" alt="Typographie Traça" loading="lazy" class="footer-logo-img">
+                </a>
+                <span class="footer-compact-sep">·</span>
+                <p class="footer-compact-tagline">Patrimoine algérien &amp; mémoire numérique</p>
+            </div>
+            <nav class="footer-compact-nav" aria-label="Footer navigation">
+                <a href="/index.html">Home</a>
+                <a href="/explorer.html">Explorer</a>
+                <a href="/articles.html">Chroniques</a>
+                <a href="/about.html">À propos</a>
+                <a href="/contact.html">Contact</a>
+            </nav>
+            <div class="footer-compact-right">
+                <div class="footer-socials">
+                    <a href="https://facebook.com" class="footer-social-link" aria-label="Facebook">
+                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
+                    </a>
+                    <a href="https://instagram.com" class="footer-social-link" aria-label="Instagram">
+                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" style="fill:none;stroke:currentColor;stroke-width:1.5" /><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/traçapatrimoine/" class="footer-social-link" aria-label="LinkedIn">
+                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-legal-bottom">
+            <p class="footer-copy-text">
+                © Traça<br>
+                Tous droits réservés. Contenus, structure et concept protégés par le droit d'auteur.
+            </p>
+            <div class="footer-legal-links">
+                <a href="/legal.html">Mentions légales &amp; Conditions d'utilisation</a>
+                <a href="/privacy.html">Politique de confidentialité</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/js/main.js"></script>
+
+    <!-- V2 PAGE-SPECIFIC SCRIPTS -->
+    <script>
+        (function () {
+            'use strict';
+
+            // ——— FIX B: cinematographic smooth scroll (cubicInOut RAF, 1000ms) ———
+            function cubicInOut(t) {
+                return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+            }
+            function smoothScrollTo(targetY, duration) {
+                const startY = window.scrollY;
+                const dist = targetY - startY;
+                let startT = null;
+                function step(ts) {
+                    if (!startT) startT = ts;
+                    const elapsed = ts - startT;
+                    const progress = Math.min(elapsed / duration, 1);
+                    window.scrollTo(0, startY + dist * cubicInOut(progress));
+                    if (progress < 1) requestAnimationFrame(step);
+                }
+                requestAnimationFrame(step);
+            }
+
+            // CSS position:sticky handles the sticky behavior — no JS needed.
+            const tabs = document.getElementById('v2-tabs');
+            const tabLinks = tabs ? tabs.querySelectorAll('.lieu-tab[data-tab-target]') : [];
+
+            // ——— Smooth scroll on tab click ———
+            tabLinks.forEach(function (link) {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('data-tab-target');
+                    const targetEl = document.getElementById(targetId);
+                    if (!targetEl) return;
+                    // offset = navbar scrolled height (56px) + tabs bar height + gap
+                    const tabsH = tabs ? tabs.offsetHeight : 0;
+                    const offset = 56 + tabsH + 8;
+                    const targetY = targetEl.getBoundingClientRect().top + window.scrollY - offset;
+                    smoothScrollTo(targetY, 1000);
+                });
+            });
+
+            // ——— Active tab follows scroll (IntersectionObserver — unchanged) ———
+            const sectionIds = ['presentation', 'histoire', 'legendes', 'architecture', 'galerie', 'audio', 'experience3d'];
+            const sectionEls = sectionIds.map(id => document.getElementById(id)).filter(Boolean);
+
+            function setActiveTab(id) {
+                tabLinks.forEach(function (link) {
+                    link.classList.toggle('active', link.getAttribute('data-tab-target') === id);
+                });
+            }
+
+            if ('IntersectionObserver' in window && sectionEls.length) {
+                const obs = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (entry) {
+                        if (entry.isIntersecting) setActiveTab(entry.target.id);
+                    });
+                }, { rootMargin: '-30% 0px -60% 0px', threshold: 0 });
+                sectionEls.forEach(function (el) { obs.observe(el); });
+            }
+
+            // ——— Timeline Reveal trigger ———
+            const timelineEl = document.getElementById('v2-timeline');
+            if ('IntersectionObserver' in window && timelineEl) {
+                const timelineObs = new IntersectionObserver(function (entries) {
+                    if (entries[0].isIntersecting) {
+                        timelineEl.classList.add('is-visible');
+                        timelineObs.disconnect(); // Only animate once
+                    }
+                }, { rootMargin: '0px 0px -25% 0px', threshold: 0 });
+                timelineObs.observe(timelineEl);
+            }
+
+            // ——— V2 Accordion logic ———
+            document.querySelectorAll('.v2-accordion-trigger').forEach(trigger => {
+                trigger.addEventListener('click', () => {
+                    const item = trigger.parentElement;
+                    const isOpen = item.classList.contains('open');
+                    document.querySelectorAll('.v2-accordion-item').forEach(i => i.classList.remove('open'));
+                    if (!isOpen) item.classList.add('open');
+                });
+            });
+
+            // ——— 6C: Cursor Logic ———
+            const v2Cursor = document.getElementById('v2-cursor');
+            if (v2Cursor && window.innerWidth > 768) {
+                document.addEventListener('mousemove', e => {
+                    v2Cursor.style.left = e.clientX + 'px';
+                    v2Cursor.style.top = e.clientY + 'px';
+                    v2Cursor.style.opacity = '0.6';
+                });
+                document.querySelectorAll('.v2-legende-card, .lieu-tab, .v2-accordion-trigger, .btn-ghost, .gallery-museum-item').forEach(el => {
+                    el.addEventListener('mouseenter', () => {
+                        v2Cursor.style.width = '20px';
+                        v2Cursor.style.height = '20px';
+                        v2Cursor.style.opacity = '0.9';
+                    });
+                    el.addEventListener('mouseleave', () => {
+                        v2Cursor.style.width = '10px';
+                        v2Cursor.style.height = '10px';
+                        v2Cursor.style.opacity = '0.6';
+                    });
+                });
+                document.addEventListener('mouseleave', () => {
+                    v2Cursor.style.opacity = '0';
+                });
+            }
+
+            // ——— Fix 1: Navbar Dark Mode at Top ———
+            function handleNavDark() {
+                if (window.scrollY < 80) {
+                    document.body.classList.add('nav-dark');
+                } else {
+                    document.body.classList.remove('nav-dark');
+                }
+            }
+
+            handleNavDark();
+            window.addEventListener('scroll', handleNavDark);
+
+            // ——— Bug 2: Custom Audio Controls JS ———
+            const audioElCustom = document.getElementById('audio-element');
+            const muteBtn = document.getElementById('v2-audio-mute');
+            const volumeSlider = document.getElementById('v2-volume-slider');
+
+            if (audioElCustom && muteBtn && volumeSlider) {
+                muteBtn.addEventListener('click', () => {
+                    audioElCustom.muted = !audioElCustom.muted;
+                    muteBtn.textContent = audioElCustom.muted ? '🔇' : '🔊';
+                });
+
+                volumeSlider.addEventListener('input', (e) => {
+                    audioElCustom.volume = e.target.value;
+                    if (audioElCustom.volume == 0) {
+                        muteBtn.textContent = '🔇';
+                        audioElCustom.muted = true;
+                    } else {
+                        muteBtn.textContent = '🔊';
+                        audioElCustom.muted = false;
+                    }
+                });
+            }
+
+        })();
+    </script>
+</body>
+
+</html>

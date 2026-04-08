@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://traca-weld.vercel.app/sitemap.xml
