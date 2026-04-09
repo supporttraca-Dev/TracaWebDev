@@ -2,6 +2,11 @@
    TRACA — Shared JavaScript
    ============================================================ */
 import './tour.js';
+import { initScrollProgress } from './scrollProgress.js';
+import { initI18n } from './i18n.js';
+
+// Initialize i18n
+initI18n();
 
 // ── Nav & Back-to-Top scroll effects ────────────────────────
 const nav = document.getElementById('nav');
@@ -152,19 +157,7 @@ document.querySelectorAll('.site-card').forEach(card => {
     });
 });
 
-// ── Language Toggle ────────────────────────────────────────────
-const langToggle = document.getElementById('lang-toggle');
-if (langToggle) {
-    let currentLang = 'fr';
-    langToggle.addEventListener('click', () => {
-        currentLang = currentLang === 'fr' ? 'en' : 'fr';
-        langToggle.textContent = currentLang.toUpperCase();
-        document.documentElement.lang = currentLang;
-        // Visual feedback only for MVP
-        langToggle.classList.add('switching');
-        setTimeout(() => langToggle.classList.remove('switching'), 300);
-    });
-}
+
 
 // ── Gallery Lightbox (Enhanced & Navigable) ────────────────────
 const museumGallery = document.querySelector('.gallery-grid-museum');
@@ -348,3 +341,6 @@ document.querySelectorAll('.faq-accordion-btn').forEach(btn => {
         }
     });
 });
+
+// Initialize Scroll Progress Custom Bar
+initScrollProgress();

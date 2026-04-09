@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -121,16 +121,16 @@
 <body>
 
     <nav class="nav scrolled" id="nav">
-        <a class="nav-logo" href="/index.html?forceIntro=true" aria-label="Traça — Accueil">
+        <a class="nav-logo" href="/index.html?forceIntro=true" data-i18n="[aria-label]nav.home">
         <img src="/logos/logo-traca-symbole-black.webp" class="nav-symbol-logo" alt="Logo Traça">
       </a>
         <ul class="nav-center">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../explorer.html">Explorer</a></li>
-            <li><a href="../carte.html">Carte</a></li>
-            <li><a href="../articles.html">Chroniques</a></li>
-            <li><a href="../about.html">À propos</a></li>
-            <li><a href="../contact.html">Contact</a></li>
+            <li><a href="../index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="../explorer.html" data-i18n="nav.explore">Explorer</a></li>
+            <li><a href="../carte.html" data-i18n="nav.map">Carte</a></li>
+            <li><a href="../articles.html" data-i18n="nav.chronicles">Chroniques</a></li>
+            <li><a href="../about.html" data-i18n="nav.about">À propos</a></li>
+            <li><a href="../contact.html" data-i18n="nav.contact">Contact</a></li>
         </ul>
         <div class="nav-right"><button id="lang-toggle">FR</button></div>
     </nav>
@@ -138,25 +138,24 @@
     <header class="article-hero">
         <div class="article-hero-bg"></div>
         <div class="container" style="position:relative; z-index:2;">
-            <p class="article-category reveal-up">Art Rupestre</p>
-            <h1 class="article-title reveal-up delay-1" style="color:var(--white);">L'Art du Tassili :<br>Voyage
-                Millénaire</h1>
+            <p class="article-category reveal-up" data-i18n="articleTassili.hero.cat">Art Rupestre</p>
+            <h1 class="article-title reveal-up delay-1" style="color:var(--white);" data-i18n="[html]articleTassili.hero.title">L'Art du Tassili :<br>Voyage Millénaire</h1>
         </div>
     </header>
 
     <main class="article-content">
         <div class="article-header reveal-up">
-            <p class="article-meta-info">Par l'Équipe Traça · 19 Janvier 2025</p>
+            <p class="article-meta-info" data-i18n="articleTassili.meta">Par l'Équipe Traça · 19 Janvier 2025</p>
         </div>
 
         <div class="article-body reveal-up delay-1">
-            <p>
+            <p data-i18n="articleTassili.body.p1">
                 Le Tassili n'Ajjer, plateau aride du sud-est algérien, abrite l'un des ensembles les plus importants
                 d'art rupestre préhistorique au monde. Plus de 15 000 dessins et gravures y sont répertoriés,
                 formant une véritable bibliothèque à ciel ouvert de l'évolution humaine.
             </p>
 
-            <p>
+            <p data-i18n="articleTassili.body.p2">
                 L'exposition inaugurée au Musée du Bardo en 2025 présente pour la première fois des reproductions
                 numériques haute résolution de ces chefs-d'œuvre. Ce projet ambitieux, mené en collaboration avec
                 l'UNESCO, visait à documenter les panneaux les plus fragiles, menacés par l'érosion naturelle.
@@ -166,15 +165,15 @@
                 <img loading="lazy" src="/images/saharien.webp" alt="Peintures rupestres du Tassili">
             </div>
 
-            <h2>Le Sahara, Terre d'Eau</h2>
-            <p>
+            <h2 data-i18n="articleTassili.body.h2_1">Le Sahara, Terre d'Eau</h2>
+            <p data-i18n="articleTassili.body.p3">
                 Ce qui frappe le plus dans ces fresques, c'est la présence d'animaux aujourd'hui disparus de la
                 région : des girafes, des éléphants, et même des hippopotames. Ces images racontent une époque
                 où le Sahara était une terre fertile, sillonnée par des rivières et habitée par d'importantes
                 populations de chasseurs-cueilleurs puis de pasteurs.
             </p>
 
-            <p>
+            <p data-i18n="articleTassili.body.p4">
                 Traça a contribué à cette mission par la création de modèles 3D des sites les plus inaccessibles.
                 Grâce au scan laser, nous pouvons aujourd'hui survoler virtuellement les canyons du Tassili et
                 zoomer sur des détails invisibles à l'œil nu, révélant la superposition complexe des styles
@@ -184,33 +183,46 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="footer-compact">
+    <footer class="site-footer">
         <div class="footer-compact-inner">
-            <div class="footer-left">
-                <span class="footer-logo"><img src="/logos/logo-traca-symbole-black.webp" class="footer-logo-img" alt="Traça"></span>
-                <p class="footer-tagline">Patrimoine Algérien &amp; Mémoire Numérique</p>
+            <div class="footer-compact-left">
+                <a href="/index.html" class="footer-logo" aria-label="Traça — Accueil" style="display: flex; align-items: center;" data-i18n="[aria-label]nav.home">
+                    <img src="/logos/logo-traca-typographique.webp" style="height: 48px; width: auto;" alt="Typographie Traça" loading="lazy" class="footer-logo-img">
+                </a>
+                <span class="footer-compact-sep">·</span>
+                <p class="footer-compact-tagline" data-i18n="footer.tagline">Patrimoine algérien &amp; mémoire numérique</p>
             </div>
-
-            <ul class="footer-nav">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../explorer.html">Explorer</a></li>
-                <li><a href="../carte.html">Carte</a></li>
-                <li><a href="../articles.html">Chroniques</a></li>
-                <li><a href="../about.html">À propos</a></li>
-            </ul>
-
-            <div class="footer-socials">
-                <a href="#" class="footer-social-link"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
-                        <path
-                            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
-                    </svg></a>
-                <a href="#" class="footer-social-link"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
-                        <path
-                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.266.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.209-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                    </svg></a>
+            <nav class="footer-compact-nav" aria-label="Footer navigation">
+                <a href="../index.html" data-i18n="nav.home">Home</a>
+                <a href="../explorer.html" data-i18n="nav.explore">Explorer</a>
+                <a href="../articles.html" data-i18n="nav.chronicles">Chroniques</a>
+                <a href="../about.html" data-i18n="nav.about">À propos</a>
+                <a href="../contact.html" data-i18n="nav.contact">Contact</a>
+            </nav>
+            <div class="footer-compact-right">
+                <div class="footer-socials">
+                    <a href="https://facebook.com" class="footer-social-link" aria-label="Facebook">
+                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
+                    </a>
+                    <a href="https://instagram.com" class="footer-social-link" aria-label="Instagram">
+                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" style="fill:none;stroke:currentColor;stroke-width:1.5" /><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/traçapatrimoine/" class="footer-social-link" aria-label="LinkedIn">
+                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></svg>
+                    </a>
+                </div>
             </div>
+        </div>
 
-            <p class="footer-copyright">&copy; 2025 Traça. Tous droits réservés.</p>
+        <div class="footer-legal-bottom">
+            <p class="footer-copy-text" data-i18n="[html]footer.rights">
+                © Traça<br>
+                Tous droits réservés. Contenus, structure et concept protégés par le droit d'auteur.
+            </p>
+            <div class="footer-legal-links">
+                <a href="/legal.html" data-i18n="footer.legal">Mentions légales &amp; Conditions d'utilisation</a>
+                <a href="/privacy.html" data-i18n="footer.privacy">Politique de confidentialité</a>
+            </div>
         </div>
     </footer>
 

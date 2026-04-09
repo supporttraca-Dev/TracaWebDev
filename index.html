@@ -28,38 +28,33 @@
       justify-content: center;
     }
     .hero-eyebrow {
-      font-size: 0.85rem !important; /* Plus grand */
+      font-size: 0.85rem !important;
       letter-spacing: 0.28em !important;
       font-weight: 500 !important;
-      margin-bottom: 12px !important; /* Très proche du logo */
+      margin-bottom: 12px !important;
     }
     .hero-title {
       margin-top: 0px !important;
-      margin-bottom: 0px !important; /* Collé à la tagline */
-      opacity: 0;
-      animation: fadeUp 1.2s ease 0.5s forwards;
+      margin-bottom: 0px !important;
       line-height: normal;
     }
     .hero-divider-anim {
       display: none !important;
     }
     .hero-tagline {
-      font-size: clamp(1.1rem, 2.2vw, 1.55rem) !important; /* Un peu plus grand */
-      margin-top: 8px !important; /* Très proche du logo */
-      margin-bottom: 28px !important; /* Plus d'espace avant le bouton */
+      font-size: clamp(1.1rem, 2.2vw, 1.55rem) !important;
+      margin-top: 8px !important;
+      margin-bottom: 28px !important;
     }
     .hero-cta {
-      margin-top: 0px !important; /* Laisser la marge du bas de la tagline faire le travail */
-      opacity: 0;
-      animation: fadeUp 1s ease 1.5s forwards;
+      margin-top: 0px !important;
     }
-    /* Cacher les annotations de scroll qui prenaient trop de place visuellement */
     .hero-scroll {
       bottom: 24px !important; 
     }
   </style>
 
-  <!-- SEO Open Graph & Twitter Cards (Étape 2) -->
+  <!-- SEO Open Graph & Twitter Cards -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://traca-weld.vercel.app" />
   <meta property="og:title" content="Traça — Patrimoine Algérien en 3D" />
@@ -119,14 +114,6 @@
   </script>
   <link rel="canonical" href="https://traca-weld.vercel.app/" />
   <meta name="theme-color" content="#F9F6EF" />
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VOTRE_ID_ICI"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-VOTRE_ID_ICI');
-  </script>
 </head>
 
 <body>
@@ -138,277 +125,226 @@
     </video>
   </div>
 
-  <header id="site-header">
   <nav class="nav" id="nav">
-    <a class="nav-logo" href="/index.html?forceIntro=true" aria-label="Traça — Accueil">
+    <a class="nav-logo" href="/index.html?forceIntro=true" data-i18n="[aria-label]nav.home">
         <img src="/logos/logo-traca-symbole-black.webp" class="nav-symbol-logo" alt="Logo Traça">
       </a>
     <ul class="nav-center">
-      <li><a href="./index.html" aria-current="page">Home</a></li>
-      <li><a href="./explorer.html">Explorer</a></li>
-      <li><a href="./carte.html">Carte</a></li>
-      <li><a href="./articles.html">Chroniques</a></li>
-      <li><a href="./about.html">À propos</a></li>
-      <li><a href="./contact.html">Contact</a></li>
+      <li><a href="./index.html" aria-current="page" data-i18n="nav.home">Home</a></li>
+      <li><a href="./explorer.html" data-i18n="nav.explore">Explorer</a></li>
+      <li><a href="./carte.html" data-i18n="nav.map">Carte</a></li>
+      <li><a href="./articles.html" data-i18n="nav.chronicles">Chroniques</a></li>
+      <li><a href="./about.html" data-i18n="nav.about">À propos</a></li>
+      <li><a href="./contact.html" data-i18n="nav.contact">Contact</a></li>
     </ul>
     <div class="nav-right">
-      <button id="lang-toggle" aria-label="Changer de langue">FR</button>
+      <button id="lang-toggle">FR</button>
     </div>
   </nav>
 
   <main id="main-content">
 
-  <!-- ── HERO ───────────────────────────────────────────── -->
-  <section class="hero" id="hero">
-    <div class="hero-ring hero-ring-1" aria-hidden="true"></div>
-    <div class="hero-ring hero-ring-2" aria-hidden="true"></div>
-    
-    <p class="hero-eyebrow">Patrimoine Algérien &amp; Mémoire Numérique</p>
-    <h1 class="hero-title">
-      <img
-        src="/logos/logo-traca-typographique.webp"
-        alt="Traça"
-        class="hero-logo-typo"
-        draggable="false"
-      >
-    </h1>
-    <div class="hero-divider-anim" aria-hidden="true"></div>
-    <p class="hero-tagline">Explorer, préserver et transmettre<br>le patrimoine culturel algérien.</p>
-    <div class="hero-cta">
-      <a href="./explorer.html" class="btn-primary">Explore the world <span class="arrow">→</span></a>
-    </div>
-    
-  </section>
-
-  <!-- ── MANIFESTE ─────────────────────────────────────── -->
-  <section class="section manifeste-home" id="manifeste">
-    <div class="container">
-      <div class="reveal-scale">
-        <h2 class="section-label reveal" style="justify-content:center;">Le Manifeste</h2>
-        <h3 class="manifeste-quote-big reveal reveal-delay-1">
-          Le patrimoine ne disparaît pas<br>
-          lorsqu'il est <em>oublié</em>.<br>
-          Il disparaît lorsqu'il n'est<br>
-          plus <em>transmis</em>.
-        </h3>
-        <div class="divider-green" aria-hidden="true"></div>
-        <p class="manifeste-body reveal reveal-delay-2">
-          Traça est née d'un besoin urgent : rendre accessibles des lieux souvent éloignés, fragiles ou invisibles, et
-          les inscrire dans une mémoire collective vivante. Une plateforme immersive dédiée à la découverte des lieux
-          historiques et architecturaux à travers des expériences 3D, des récits documentés et une approche muséale
-          numérique.
-        </p>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-ring hero-ring-1" aria-hidden="true"></div>
+      <div class="hero-ring hero-ring-2" aria-hidden="true"></div>
+      
+      <p class="hero-eyebrow" data-i18n="home.hero.eyebrow">Patrimoine Algérien &amp; Mémoire Numérique</p>
+      <h1 class="hero-title">
+        <img src="/logos/logo-traca-typographique.webp" alt="Traça" class="hero-logo-typo" draggable="false">
+      </h1>
+      <p class="hero-tagline" data-i18n="home.hero.tagline">Explorer, préserver et transmettre<br>le patrimoine culturel algérien.</p>
+      <div class="hero-cta">
+        <a href="./explorer.html" class="btn-primary" data-i18n="home.hero.cta">Explore the world <span class="arrow">→</span></a>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ── STATS ──────────────────────────────────────────── -->
-  <section class="section-sm background-white">
-    <div class="container-wide">
-      <div class="stats-grid reveal">
-        <div class="stat-item">
-          <div class="stat-number">5<span>+</span></div>
-          <div class="stat-label">Lieux Patrimoniaux</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number">3<span>D</span></div>
-          <div class="stat-label">Expériences Immersives</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number">∞</div>
-          <div class="stat-label">Mémoire Transmise</div>
+    <!-- MANIFESTE -->
+    <section class="section manifeste-home" id="manifeste">
+      <div class="container">
+        <div class="reveal-scale">
+          <h2 class="section-label reveal" style="justify-content:center;" data-i18n="home.manifesto.title">Le Manifeste</h2>
+          <h3 class="manifeste-quote-big reveal reveal-delay-1" data-i18n="[html]home.manifesto.quote">
+            Le patrimoine ne disparaît pas<br>
+            lorsqu'il est <em>oublié</em>.<br>
+            Il disparaît lorsqu'il n'est<br>
+            plus <em>transmis</em>.
+          </h3>
+          <div class="divider-green" aria-hidden="true"></div>
+          <p class="manifeste-body reveal reveal-delay-2" data-i18n="home.manifesto.body">
+            Traça est née d'un besoin urgent : rendre accessibles des lieux souvent éloignés, fragiles ou invisibles, et
+            les inscrire dans une mémoire collective vivante. Une plateforme immersive dédiée à la découverte des lieux
+            historiques et architecturaux à travers des expériences 3D, des récits documentés et une approche muséale
+            numérique.
+          </p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ── PREVIEW LIEUX ─────────────────────────────────── -->
-  <section class="section section-ivory no-pb">
-    <div class="container-wide">
-      <h2 class="section-label reveal">Les Lieux</h2>
-      <h2 class="reveal reveal-delay-1"
-        style="font-family:var(--font-serif);font-size:clamp(2rem,4vw,3.5rem);font-weight:300;color:var(--ink);margin-bottom:var(--inner-padding);line-height:1.15;">
-        Des espaces vivants,<br><em style="color:var(--gold);font-style:italic;">des mémoires à traverser.</em>
-      </h2>
-    </div>
-    <div class="container-wide" style="padding-bottom:0;">
-      <div class="preview-grid reveal reveal-delay-2">
-        <a href="./lieux/archeologique.html" class="preview-card">
-          <div class="preview-card-bg bg-archeo"></div>
-          <div class="preview-card-overlay">
-            <div class="preview-card-info">
-              <div class="preview-card-cat">Archéologie</div>
-              <div class="preview-card-name">Site Archéologique Antique</div>
-            </div>
+    <!-- STATS -->
+    <section class="section-sm background-white">
+      <div class="container-wide">
+        <div class="stats-grid reveal">
+          <div class="stat-item">
+            <div class="stat-number">5<span>+</span></div>
+            <div class="stat-label" data-i18n="home.stats.places">Lieux Patrimoniaux</div>
           </div>
-        </a>
-        <a href="./lieux/funeraire.html" class="preview-card">
-          <div class="preview-card-bg bg-funeraire"></div>
-          <div class="preview-card-overlay">
-            <div class="preview-card-info">
-              <div class="preview-card-cat">Monument</div>
-              <div class="preview-card-name">Tombeau de la Chrétienne</div>
-            </div>
+          <div class="stat-item">
+            <div class="stat-number">3<span>D</span></div>
+            <div class="stat-label" data-i18n="home.stats.immersive">Expériences Immersives</div>
           </div>
-        </a>
-        <a href="./lieux/medina.html" class="preview-card">
-          <div class="preview-card-bg bg-medina"></div>
-          <div class="preview-card-overlay">
-            <div class="preview-card-info">
-              <div class="preview-card-cat">Architecture</div>
-              <div class="preview-card-name">Ancienne Médina</div>
-            </div>
+          <div class="stat-item">
+            <div class="stat-number">∞</div>
+            <div class="stat-label" data-i18n="home.stats.memory">Mémoire Transmise</div>
           </div>
-        </a>
-        <a href="./lieux/forteresse.html" class="preview-card">
-          <div class="preview-card-bg bg-forteresse"></div>
-          <div class="preview-card-overlay">
-            <div class="preview-card-info">
-              <div class="preview-card-cat">Militaire</div>
-              <div class="preview-card-name">Forteresse Historique</div>
-            </div>
-          </div>
-        </a>
-        <a href="./lieux/saharien.html" class="preview-card">
-          <div class="preview-card-bg bg-sahara"></div>
-          <div class="preview-card-overlay">
-            <div class="preview-card-info">
-              <div class="preview-card-cat">Art Rupestre</div>
-              <div class="preview-card-name">Paysage Culturel Saharien</div>
-            </div>
-          </div>
-        </a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ── MAP TEASER ────────────────────────────────────── -->
-  <section class="section map-teaser-home background-ink">
-    <div class="container">
-      <div style="max-width:800px; margin: 0 auto; text-align:center; position:relative; z-index:2;">
-        <p class="section-label green reveal" style="justify-content:center;">L'Expérience
-          Géographique</p>
-        <h2 class="reveal reveal-delay-1"
-          style="font-family:var(--font-serif); font-size:clamp(2.5rem, 5vw, 4rem); font-weight:300; margin-bottom:32px;">
-          L'Algérie en <em style="color:var(--algerian-green); font-style:normal;">Trois Dimensions</em>
+    <!-- PREVIEW LIEUX -->
+    <section class="section section-ivory no-pb">
+      <div class="container-wide">
+        <h2 class="section-label reveal" data-i18n="home.placesPreview.label">Les Lieux</h2>
+        <h2 class="reveal reveal-delay-1" style="font-family:var(--font-serif);font-size:clamp(2rem,4vw,3.5rem);font-weight:300;color:var(--ink);margin-bottom:var(--inner-padding);line-height:1.15;" data-i18n="[html]home.placesPreview.title">
+          Des espaces vivants,<br><em style="color:var(--gold);font-style:italic;">des mémoires à traverser.</em>
         </h2>
-        <p class="reveal reveal-delay-2"
-          style="font-size:1.05rem; opacity:0.8; line-height:2; margin-bottom:var(--inner-padding); max-width:640px; margin-left:auto; margin-right:auto;">
-          Parcourez les 58 wilayas à travers une cartographie interactive inédite. Filtrez par époques, thématiques et
-          découvrez les secrets de chaque site historique.
-        </p>
-        <div class="reveal reveal-delay-3">
-          <a href="./carte.html" class="btn-secondary"
-            style="background:var(--algerian-green); color:var(--white); border-color:var(--algerian-green);">Explorer
-            la Carte Interactive</a>
+      </div>
+      <div class="container-wide" style="padding-bottom:0;">
+        <div class="preview-grid reveal reveal-delay-2">
+          <a href="./lieux/archeologique.html" class="preview-card">
+            <div class="preview-card-bg bg-archeo"></div>
+            <div class="preview-card-overlay">
+              <div class="preview-card-info">
+                <div class="preview-card-cat" data-i18n="home.placesPreview.cards.archeo.cat">Archéologie</div>
+                <div class="preview-card-name" data-i18n="home.placesPreview.cards.archeo.name">Site Archéologique Antique</div>
+              </div>
+            </div>
+          </a>
+          <a href="./lieux/funeraire.html" class="preview-card">
+            <div class="preview-card-bg bg-funeraire"></div>
+            <div class="preview-card-overlay">
+              <div class="preview-card-info">
+                <div class="preview-card-cat" data-i18n="home.placesPreview.cards.funeraire.cat">Monument</div>
+                <div class="preview-card-name" data-i18n="home.placesPreview.cards.funeraire.name">Tombeau de la Chrétienne</div>
+              </div>
+            </div>
+          </a>
+          <a href="./lieux/medina.html" class="preview-card">
+            <div class="preview-card-bg bg-medina"></div>
+            <div class="preview-card-overlay">
+              <div class="preview-card-info">
+                <div class="preview-card-cat" data-i18n="home.placesPreview.cards.medina.cat">Architecture</div>
+                <div class="preview-card-name" data-i18n="home.placesPreview.cards.medina.name">Ancienne Médina</div>
+              </div>
+            </div>
+          </a>
+          <a href="./lieux/forteresse.html" class="preview-card">
+            <div class="preview-card-bg bg-forteresse"></div>
+            <div class="preview-card-overlay">
+              <div class="preview-card-info">
+                <div class="preview-card-cat" data-i18n="home.placesPreview.cards.forteresse.cat">Militaire</div>
+                <div class="preview-card-name" data-i18n="home.placesPreview.cards.forteresse.name">Forteresse Historique</div>
+              </div>
+            </div>
+          </a>
+          <a href="./lieux/saharien.html" class="preview-card">
+            <div class="preview-card-bg bg-sahara"></div>
+            <div class="preview-card-overlay">
+              <div class="preview-card-info">
+                <div class="preview-card-cat" data-i18n="home.placesPreview.cards.saharien.cat">Art Rupestre</div>
+                <div class="preview-card-name" data-i18n="home.placesPreview.cards.saharien.name">Paysage Culturel Saharien</div>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
+    </section>
 
-      <!-- Styled Decorative Elements -->
-      <div class="map-teaser-mesh"
-        style="position:absolute; top:0; left:0; width:100%; height:100%; opacity:0.1; pointer-events:none; background-image: radial-gradient(var(--algerian-green) 1px, transparent 1px); background-size: 40px 40px;"
-        aria-hidden="true"></div>
-    </div>
-  </section>
-
-  <!-- ── CTA INSTITUTIONNEL ─────────────────────────────── -->
-  <section class="section background-ivory-dark text-center">
-    <div class="container">
-      <p class="section-label reveal" style="justify-content:center;margin-bottom:32px;">Une
-        vision institutionnelle</p>
-      <h2 class="reveal reveal-delay-1"
-        style="font-family:var(--font-serif);font-size:clamp(1.8rem,3.5vw,3rem);font-weight:300;color:var(--ink);line-height:1.25;margin-bottom:24px;">
-        Traça ambitionne de devenir<br>le musée numérique du <em style="color:var(--gold);font-style:italic;">patrimoine
-          algérien</em>.
-      </h2>
-      <p class="reveal reveal-delay-2"
-        style="font-size:0.9rem;color:var(--ink-muted);line-height:1.9;max-width:540px;margin:0 auto 48px;">
-        Un pont entre les lieux, les savoirs et les générations — pensé pour les institutions culturelles, les acteurs
-        du tourisme et les générations futures.
-      </p>
-      <div class="reveal reveal-delay-3" style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;">
-        <a href="./explorer.html" class="btn-primary">Explore the world <span class="arrow">→</span></a>
-        <a href="./contact.html" class="btn-secondary">Nous contacter</a>
+    <!-- MAP TEASER -->
+    <section class="section map-teaser-home background-ink">
+      <div class="container">
+        <div style="max-width:800px; margin: 0 auto; text-align:center; position:relative; z-index:2;">
+          <p class="section-label green reveal" style="justify-content:center;" data-i18n="home.mapTeaser.label">L'Expérience Géographique</p>
+          <h2 class="reveal reveal-delay-1" style="font-family:var(--font-serif); font-size:clamp(2.5rem, 5vw, 4rem); font-weight:300; margin-bottom:32px;" data-i18n="home.mapTeaser.title">
+            L'Algérie en <em style="color:var(--algerian-green); font-style:normal;">Trois Dimensions</em>
+          </h2>
+          <p class="reveal reveal-delay-2" style="font-size:1.05rem; opacity:0.8; line-height:2; margin-bottom:var(--inner-padding); max-width:640px; margin-left:auto; margin-right:auto;" data-i18n="home.mapTeaser.text">
+            Parcourez les 58 wilayas à travers une cartographie interactive inédite. Filtrez par époques, thématiques et découvrez les secrets de chaque site historique.
+          </p>
+          <div class="reveal reveal-delay-3">
+            <a href="./carte.html" class="btn-secondary" style="background:var(--algerian-green); color:var(--white); border-color:var(--algerian-green);" data-i18n="home.mapTeaser.btn">Explorer la Carte Interactive</a>
+          </div>
+        </div>
+        <div class="map-teaser-mesh" style="position:absolute; top:0; left:0; width:100%; height:100%; opacity:0.1; pointer-events:none; background-image: radial-gradient(var(--algerian-green) 1px, transparent 1px); background-size: 40px 40px;" aria-hidden="true"></div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <!-- CTA INSTITUTIONNEL -->
+    <section class="section background-ivory-dark text-center">
+      <div class="container">
+        <p class="section-label reveal" style="justify-content:center;margin-bottom:32px;" data-i18n="home.institutionalCta.label">Une vision institutionnelle</p>
+        <h2 class="reveal reveal-delay-1" style="font-family:var(--font-serif);font-size:clamp(1.8rem,3.5vw,3rem);font-weight:300;color:var(--ink);line-height:1.25;margin-bottom:24px;" data-i18n="[html]home.institutionalCta.title">
+          Traça ambitionne de devenir<br>le musée numérique du <em style="color:var(--gold);font-style:italic;">patrimoine algérien</em>.
+        </h2>
+        <p class="reveal reveal-delay-2" style="font-size:0.9rem;color:var(--ink-muted);line-height:1.9;max-width:540px;margin:0 auto 48px;" data-i18n="home.institutionalCta.text">
+          Un pont entre les lieux, les savoirs et les générations — pensé pour les institutions culturelles, les acteurs du tourisme et les générations futures.
+        </p>
+        <div class="reveal reveal-delay-3" style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;">
+          <a href="./explorer.html" class="btn-primary" data-i18n="home.institutionalCta.btnExplore">Explore the world <span class="arrow">→</span></a>
+          <a href="./contact.html" class="btn-secondary" data-i18n="home.institutionalCta.btnContact">Nous contacter</a>
+        </div>
+      </div>
+    </section>
 
-  <!-- LLM / AI Comprehension Block: invisible to users, structured for AI crawlers -->
-  <section class="sr-only" aria-label="Description de la plateforme Tra�a">
-    <h2>Qu'est-ce que Tra�a ?</h2>
-    <p>Tra�a est une plateforme culturelle num�rique alg�rienne d�di�e � la pr�servation, la valorisation et la transmission du patrimoine architectural et arch�ologique alg�rien.</p>
-    <h3>Le probl�me r�solu</h3>
-    <p>De nombreux sites patrimoniaux alg�riens sont �loign�s, fragiles, peu document�s ou inaccessibles au grand public. Tra�a les rend accessibles virtuellement gr�ce � des technologies web modernes.</p>
-    <h3>Comment �a fonctionne</h3>
-    <ul>
-      <li>Num�risation en 3D via photogramm�trie de sites historiques</li>
-      <li>Int�gration des mod�les 3D directement dans le navigateur via WebGL et Sketchfab</li>
-      <li>Cartographie interactive des 58 wilayas alg�riennes (MapLibre GL)</li>
-      <li>Articles et chroniques historiques document�s par des chercheurs</li>
-      <li>Interface accessible sur desktop et mobile, sans t�l�chargement</li>
-    </ul>
-    <h3>Technologies utilis�es</h3>
-    <p>Photogramm�trie 3D, WebGL, MapLibre GL, Sketchfab API, Vite, d�ploy� sur Vercel.</p>
-    <h3>Sites patrimoniaux disponibles</h3>
-    <ul>
-      <li>Tombeau de la Chr�tienne � Monument numide, Tipaza</li>
-      <li>Site Arch�ologique Antique � Vestiges romains et berb�res</li>
-      <li>Ancienne M�dina � Architecture vernaculaire m�di�vale alg�rienne</li>
-      <li>Forteresse Historique � Architecture militaire ottomane</li>
-      <li>Paysage Culturel Saharien � Art rupestre, peintures pr�historiques, Tassili n'Ajjer</li>
-    </ul>
-  </section>
-  </main>
+    <!-- AI Comprehension Block -->
+    <section class="sr-only" aria-label="Description de la plateforme Traça">
+      <h2>Qu'est-ce que Traça ?</h2>
+      <p>Traça est une plateforme culturelle numérique algérienne dédiée à la préservation, la valorisation et la transmission du patrimoine architectural et archéologique algérien.</p>
+      <h3>Technologies utilisées</h3>
+      <p>Photogrammétrie 3D, WebGL, MapLibre GL, Sketchfab API, Vite, déployé sur Vercel.</p>
+    </section>
 
-  <!-- FOOTER -->
   </main>
 
   <footer class="site-footer">
-        <div class="footer-compact-inner">
-            <div class="footer-compact-left">
-                <a href="/index.html" class="footer-logo" aria-label="Traça — Accueil" style="display: flex; align-items: center;">
-                    <img src="/logos/logo-traca-typographique.webp" style="height: 48px; width: auto;" alt="Typographie Traça" loading="lazy" class="footer-logo-img">
-                </a>
-                <span class="footer-compact-sep">·</span>
-                <p class="footer-compact-tagline">Patrimoine algérien &amp; mémoire numérique</p>
-            </div>
-            <nav class="footer-compact-nav" aria-label="Footer navigation">
-                <a href="/index.html">Home</a>
-                <a href="/explorer.html">Explorer</a>
-                <a href="/articles.html">Chroniques</a>
-                <a href="/about.html">À propos</a>
-                <a href="/contact.html">Contact</a>
-            </nav>
-            <div class="footer-compact-right">
-                <div class="footer-socials">
-                    <a href="https://facebook.com" class="footer-social-link" aria-label="Facebook">
-                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
-                    </a>
-                    <a href="https://instagram.com" class="footer-social-link" aria-label="Instagram">
-                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" style="fill:none;stroke:currentColor;stroke-width:1.5" /><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg>
-                    </a>
-                    <a href="https://www.linkedin.com/company/traçapatrimoine/" class="footer-social-link" aria-label="LinkedIn">
-                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></svg>
-                    </a>
-                </div>
-            </div>
+    <div class="footer-compact-inner">
+      <div class="footer-compact-left">
+        <a href="/index.html" class="footer-logo" aria-label="Traça — Accueil" style="display: flex; align-items: center;" data-i18n="[aria-label]nav.home">
+          <img src="/logos/logo-traca-typographique.webp" style="height: 48px; width: auto;" alt="Typographie Traça" loading="lazy" class="footer-logo-img">
+        </a>
+        <span class="footer-compact-sep">·</span>
+        <p class="footer-compact-tagline" data-i18n="footer.tagline">Patrimoine algérien &amp; mémoire numérique</p>
+      </div>
+      <nav class="footer-compact-nav" aria-label="Footer navigation">
+        <a href="/index.html" data-i18n="nav.home">Home</a>
+        <a href="/explorer.html" data-i18n="nav.explore">Explorer</a>
+        <a href="/articles.html" data-i18n="nav.chronicles">Chroniques</a>
+        <a href="/about.html" data-i18n="nav.about">À propos</a>
+        <a href="/contact.html" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="footer-compact-right">
+        <div class="footer-socials">
+          <a href="https://facebook.com" class="footer-social-link" aria-label="Facebook">
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
+          </a>
+          <a href="https://instagram.com" class="footer-social-link" aria-label="Instagram">
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" style="fill:none;stroke:currentColor;stroke-width:1.5" /><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg>
+          </a>
+          <a href="https://www.linkedin.com/company/traçapatrimoine/" class="footer-social-link" aria-label="LinkedIn">
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></svg>
+          </a>
         </div>
-
-        <div class="footer-legal-bottom">
-            <p class="footer-copy-text">
-                © Traça<br>
-                Tous droits réservés. Contenus, structure et concept protégés par le droit d'auteur.
-            </p>
-            <div class="footer-legal-links">
-                <a href="/legal.html">Mentions légales &amp; Conditions d'utilisation</a>
-                <a href="/privacy.html">Politique de confidentialité</a>
-            </div>
-        </div>
-    </footer>
-
+      </div>
+    </div>
+    <div class="footer-legal-bottom">
+      <p class="footer-copy-text" data-i18n="[html]footer.rights">© Traça<br>Tous droits réservés. Contenus, structure et concept protégés par le droit d'auteur.</p>
+      <div class="footer-legal-links">
+        <a href="/legal.html" data-i18n="footer.legal">Mentions légales &amp; Conditions d'utilisation</a>
+        <a href="/privacy.html" data-i18n="footer.privacy">Politique de confidentialité</a>
+      </div>
+    </div>
+  </footer>
 
   <script type="module" src="/js/main.js"></script>
 </body>
-
 </html>

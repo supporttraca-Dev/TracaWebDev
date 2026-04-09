@@ -1,0 +1,413 @@
+{
+  "nav": {
+    "home": "Home",
+    "explore": "Explore",
+    "map": "Map",
+    "chronicles": "Chronicles",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "footer": {
+    "tagline": "Algerian heritage & digital memory",
+    "rights": "© Traça<br>All rights reserved. Content, structure, and concept protected by copyright.",
+    "legal": "Legal Notice & Terms of Use",
+    "privacy": "Privacy Policy",
+    "copyright": "© 2026 Traça. All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Algerian Heritage & Digital Memory",
+      "tagline": "Explore, preserve, and transmit<br>Algerian cultural heritage.",
+      "cta": "Explore the world"
+    },
+    "manifesto": {
+      "title": "The Manifesto",
+      "quote": "Heritage does not disappear<br>when it is <em>forgotten</em>.<br>It disappears when it is no<br>longer <em>transmitted</em>.",
+      "body": "Traça was born from an urgent need: to make often remote, fragile, or invisible places accessible, and to anchor them in a living collective memory. An immersive platform dedicated to discovering historical and architectural sites through 3D experiences, documented narratives, and a digital museum approach."
+    },
+    "stats": {
+      "places": "Heritage Sites",
+      "immersive": "Immersive Experiences",
+      "memory": "Transmitted Memory"
+    },
+    "placesPreview": {
+      "label": "The Places",
+      "title": "Living spaces,<br><em>memories to walk through.</em>",
+      "cards": {
+        "archeo": {
+          "cat": "Archaeology",
+          "name": "Ancient Archaeological Site"
+        },
+        "funeraire": {
+          "cat": "Monument",
+          "name": "Tomb of the Christian"
+        },
+        "medina": {
+          "cat": "Architecture",
+          "name": "Ancient Médina"
+        },
+        "forteresse": {
+          "cat": "Military",
+          "name": "Historical Fortress"
+        },
+        "saharien": {
+          "cat": "Rock Art",
+          "name": "Saharan Cultural Landscape"
+        }
+      }
+    },
+    "mapTeaser": {
+      "label": "The Geographical Experience",
+      "title": "Algeria in <em>Three Dimensions</em>",
+      "text": "Travel through the 58 wilayas via an unprecedented interactive map. Filter by eras, themes, and discover the secrets of each historical site.",
+      "btn": "Explore the Interactive Map"
+    },
+    "institutionalCta": {
+      "label": "An institutional vision",
+      "title": "Traça aims to become<br>the digital museum of <em>Algerian heritage</em>.",
+      "text": "A bridge between places, knowledge, and generations — designed for cultural institutions, tourism players, and future generations.",
+      "btnExplore": "Explore the world",
+      "btnContact": "Contact us"
+    }
+  },
+  "about": {
+    "hero": {
+      "label": "Our History",
+      "title": "About<br><em>Traça</em>",
+      "text": "Traça is an independent cultural project driven by a desire to preserve and transmit Algerian heritage. The platform aims to become a bridge between places, knowledge, and generations."
+    },
+    "values": {
+      "label": "Our values",
+      "preservationTitle": "Preservation",
+      "preservationText": "Documenting, digitizing, and archiving heritage sites before they disappear — a cultural urgency and collective responsibility that Traça fully assumes.",
+      "accessibilityTitle": "Accessibility",
+      "accessibilityText": "Making the remote, fragile, or invisible accessible — allowing everyone to walk through spaces that few can physically visit, without compromising the quality of the experience.",
+      "transmissionTitle": "Transmission",
+      "transmissionText": "Anchoring the memory of places within a living collective memory, through rigorous, sensitive, and accessible storytelling for all generations, here and in the diaspora."
+    },
+    "vision": {
+      "label": "Our Vision",
+      "title": "We believe that technology can be<br>a tool for <em>memory</em>.",
+      "text1": "A means to document, transmit, and protect what is fragile. Traça is designed as a foundation for future collaborations with cultural institutions, schools, researchers, and tourism stakeholders.",
+      "text2": "The platform uses immersive 3D experiences directly in the browser, without an external application. The scenes are built using photogrammetric scans, architectural modeling, and in-depth historical research.",
+      "quote": "« Heritage does not belong to the past. It is alive, it breathes, it waits to be traversed. »"
+    },
+    "founder": {
+      "label": "The Founder",
+      "name": "Chahinez Fettaka",
+      "role": "Architect by training, writer, researcher, and passionate about art and culture.",
+      "text1": "Driven by a fierce desire to preserve architectural memory and the richness of forgotten narratives, Chahinez Fettaka founded Traça. Her ambition: to build a technological and poetic bridge between ancient History and future generations.",
+      "text2": "Her unique approach relies on a dual expertise: the rigor of the architectural approach and the sensitivity of documentary and narrative research. Through her work, she aims not only to freeze structures in time via immersive experiences but also to transcribe the soul and deep culture of Algerian heritage.",
+      "btn": "View her portfolio"
+    },
+    "audience": {
+      "label": "Target Audiences",
+      "institutionsTitle": "Cultural Institutions",
+      "institutionsText": "Ministry of Culture, national museums, heritage directorates — institutional partners at the heart of the Traça project.",
+      "tourismTitle": "Tourism Stakeholders",
+      "tourismText": "Tourist offices, specialized agencies, and digital platforms wishing to promote heritage beyond borders.",
+      "academicTitle": "Academic Circles",
+      "academicText": "Schools of architecture, faculties of history and art, researchers in archaeology and heritage digitization.",
+      "publicTitle": "General Public",
+      "publicText": "The curious, travelers, Algerians of the diaspora — all those who wish to (re)discover their heritage."
+    },
+    "faq": {
+      "label": "Frequently Asked Questions",
+      "q1": "What is Traça?",
+      "a1": "Traça is an immersive cultural platform dedicated to the preservation and promotion of Algerian architectural heritage. Through 3D photogrammetry, we make historical sites accessible that are often remote, fragile or little-known, offering everyone the opportunity to pass through them virtually.",
+      "q2": "How to use the platform?",
+      "a2": "Very simple: <strong>1</strong>) Start on the <a href=\"./explorer.html\">Explorer</a> page to view all available sites. <strong>2</strong>) Click on a place that interests you. <strong>3</strong>) Read the presentation, explore the gallery and view the timeline. <strong>4</strong>) Launch the 3D experience by clicking the activation button. No download or plugin required.",
+      "q3": "How to access 3D experiences?",
+      "a3": "3D experiences are integrated directly into the browser via WebGL (Sketchfab). From a location page, scroll down to the <em>Immersive Experience</em> section and click the launch button. A stable internet connection is recommended for optimal quality. No installation is necessary.",
+      "q4": "How to view articles and chronicles?",
+      "a4": "All chronicles and analyses are available on the <a href=\"./articles.html\">Chronicles</a> page. They are organized by theme and date. Each article is accompanied by historical context, academic references and images associated with the site.",
+      "q5": "How to become a partner or collaborate?",
+      "a5": "We welcome all forms of collaboration: cultural institutions, researchers, tourist offices, architecture schools. Contact us directly via the <a href=\"./contact.html\">Contact page</a> or at <a href=\"mailto:contact.Traça@gmail.com\">contact.Traça@gmail.com</a> to discuss a partnership."
+    },
+    "partners": {
+      "label": "Partners wanted",
+      "p1": "Ministry of<br>Culture and Arts",
+      "p2": "National Office<br>of Tourism",
+      "p3": "National Schools<br>of Architecture",
+      "p4": "Institutes of<br>Archaeological Research",
+      "p5": "Private Cultural<br>Foundations",
+      "p6": "UNESCO<br>World Heritage",
+      "cta": "Become a partner"
+    }
+  },
+  "mapPage": {
+    "title": "Filters",
+    "help": "Use the mouse to rotate Algeria in 3D (Right click + drag). Zoom in for more details.",
+    "filters": {
+      "eraLabel": "Era",
+      "era": {
+        "all": "All",
+        "prehistorique": "Prehistoric",
+        "antique": "Ancient",
+        "medievale": "Medieval",
+        "moderne": "Modern"
+      },
+      "themeLabel": "Theme",
+      "theme": {
+        "all": "All types",
+        "funeraire": "Funerary",
+        "militaire": "Military",
+        "religieux": "Religious",
+        "naturel": "Natural / Rock Art"
+      },
+      "wilayaLabel": "Wilaya (58)",
+      "wilayaAll": "All the wilayas",
+      "wilayaOther": "Other Wilayas",
+      "searchLabel": "Search by name",
+      "searchPlaceholder": "Ex: Timgad, Casbah..."
+    },
+    "controls": {
+      "tip": "Use the mouse to rotate Algeria in 3D (Right-click + drag). Zoom in for more details."
+    }
+  },
+  "contact": {
+    "left": {
+      "label": "Let's collaborate",
+      "title": "Building<br>memory<br><em>together</em>.",
+      "desc": "Would you like to collaborate, support, or learn more about Traça? Institutions, partners, researchers — we are interested in all forms of collaboration.",
+      "info1": { "label": "Email", "value": "contact.Traça@gmail.com" },
+      "info2": { "label": "Project", "value": "Algeria · International" },
+      "info3": { "label": "Status", "value": "MVP in progress · Open partnerships" }
+    },
+    "right": {
+      "label": "Contact Form",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Your name",
+      "orgLabel": "Organization",
+      "orgPlaceholder": "Institution, company…",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "your@email.com",
+      "subjectLabel": "Subject",
+      "subjectOptions": {
+        "opt0": "Choose a subject",
+        "opt1": "Institutional collaboration",
+        "opt2": "Partnership",
+        "opt3": "Press / Media",
+        "opt4": "Academic research",
+        "opt5": "Investment",
+        "opt6": "Other"
+      },
+      "messageLabel": "Message",
+      "messagePlaceholder": "Describe your project or your questions…",
+      "btn": "Send message"
+    }
+  },
+  "articlesHub": {
+    "hero": {
+      "eyebrow": "Chronicles & Studies",
+      "title": "Living<br><em>Memory</em>",
+      "sub": "Recent excavations, 3D restorations, field studies, and major exhibitions — research on Algerian heritage, editorialized by Traça."
+    },
+    "featured": {
+      "label": "Featured",
+      "badge": "Discovery 2025",
+      "meta": "Archaeology · February 14, 2025",
+      "title": "Splendors Rediscovered:<br>The Khenchela Mosaic",
+      "excerpt": "8 kilometers south of Babar, a team from the University of Constantine unearthed a 14 m² Roman mosaic panel depicting a Numidian hunting scene. The exceptional state of preservation suggests a patrician villa from the era of Septimius Severus. Traça participated in the photogrammetric documentation of the site.",
+      "cta": "Read the full report →"
+    },
+    "secondary1": {
+      "meta": "Urban History · November 3, 2024",
+      "title": "Mers Eddadjadj: Immersion into Medieval Daily Life",
+      "excerpt": "The 2024 excavations in Boumerdès reveal unprecedented stratigraphic layers of an 11th-century merchant city. Ceramics, Fatimides coins, and metal tools outline the daily life of an advanced urban civilization.",
+      "cta": "Read more →"
+    },
+    "secondary2": {
+      "meta": "Rock Art · January 19, 2025",
+      "title": "The Art of Tassili: A Millennial Journey",
+      "excerpt": "The exhibition inaugurated at the Bardo Museum in 2025 presents for the first time high-resolution digital reproductions of 340 rock panels from Tassili n'Ajjer — a project co-financed with UNESCO and to which Traça contributed with its 3D models.",
+      "cta": "Read more →"
+    },
+    "editorial": {
+      "title": "Writing<br><em>History</em><br>now.",
+      "text": "Every article published on Traça is the result of direct collaboration with Algerian archaeologists, historians, and cultural institutions. We don't just report history — we document it, at the source, as it is being written. Our texts are verified, sourced, and linked to the 3D experiences available on the platform."
+    },
+    "readAlso": {
+      "label": "Read also",
+      "card1": {
+        "meta": "Archaeology · Oct 7, 2024",
+        "title": "The Tomb of the Christian revisited",
+        "excerpt": "New thermoluminescence dating confirms a Numidian construction prior to the Roman period, questioning the attribution to Cleopatra Selene II.",
+        "cta": "Read →"
+      },
+      "card2": {
+        "meta": "Military Architecture · Aug 22, 2024",
+        "title": "Ottoman fortresses of the Algerian coastline",
+        "excerpt": "A comparative study of fortification techniques between the 15th and 17th centuries reveals surprising local adaptations to the geological constraints of the Mediterranean coast.",
+        "cta": "Read →"
+      },
+      "card3": {
+        "meta": "Photogrammetry · Jun 5, 2024",
+        "title": "Digitizing before it's too late",
+        "excerpt": "According to an ICOMOS report, 34% of classified sites in Algeria are in critical danger. Traça documents the emergency digitization process on 3 threatened sites.",
+        "cta": "Read →"
+      }
+    },
+    "newsletter": {
+      "label": "Traça Newsletter",
+      "title": "Stay connected to <em>History</em>",
+      "sub": "An in-depth monthly article, new discoveries, and 3D experience releases — directly in your inbox.",
+      "placeholder": "your@email.com",
+      "btn": "Subscribe"
+    }
+  },
+  "articleKhenchela": {
+    "hero": {
+      "cat": "Archaeology",
+      "title": "Splendors Rediscovered:<br>The Khenchela Mosaic"
+    },
+    "meta": "By the Traça Team · February 14, 2025",
+    "body": {
+      "p1": "8 kilometers south of Babar, a team of researchers from the University of Constantine unearthed what could be one of the most significant archaeological discoveries of the decade: a 14 m² Roman mosaic panel in an exceptional state of preservation.",
+      "p2": "Depicting a Numidian hunting scene of great finesse, the artwork testifies to the cultural richness of the region during the era of Septimius Severus. The pigments, which remained vibrant despite centuries spent underground, depict hunters on horseback pursuing gazelles amidst complex geometric patterns.",
+      "h2_1": "A Documented Heritage",
+      "p3": "The Traça team had the privilege of participating in the photogrammetric documentation of the site. Using laser scanning and high-resolution photography technologies, we were able to create a digital twin of the mosaic, allowing it to be studied without risking damage through excessive physical manipulation.",
+      "p4": "This discovery suggests the existence of a vast patrician villa still buried. Excavations are ongoing, and every day brings new clues about the daily life of the elites of the Numidia province at the height of the Roman Empire."
+    }
+  },
+  "articleMersEddadjadj": {
+    "hero": {
+      "cat": "Urban History",
+      "title": "Mers Eddadjadj:<br>Medieval Immersion"
+    },
+    "meta": "By the Traça Team · November 3, 2024",
+    "body": {
+      "p1": "The 2024 excavations at the Mers Eddadjadj site, near Boumerdès, revealed a little-known facet of Algerian medieval urbanism. This ancient and medieval port, mentioned by numerous Arab travelers, is finally bringing its secrets to light.",
+      "p2": "Archaeologists have uncovered a dynamic port area with massive warehouses, indicating that Mers Eddadjadj was a crucial center of commerce in the 11th century, connecting the Algerian coasts to the rest of the Mediterranean and beyond.",
+      "h2_1": "A Civilization of the Everyday",
+      "p3": "Among the most touching finds are everyday objects: carved bone combs, terracotta oil lamps with delicate patterns, and most notably, a large quantity of Fatimides ceramics whose metallic reflections testify to high-level craftsmanship.",
+      "p4": "\"It's not just a city we are uncovering, it's a way of life,\" explains one of the researchers on site. Traça collaborated with the team to digitize these objects, allowing visitors to our platform to manipulate them virtually and appreciate their finesse."
+    }
+  },
+  "articleTassili": {
+    "hero": {
+      "cat": "Rock Art",
+      "title": "The Art of Tassili:<br>A Millennial Journey"
+    },
+    "meta": "By the Traça Team · January 19, 2025",
+    "body": {
+      "p1": "Tassili n'Ajjer, an arid plateau in southeastern Algeria, is home to one of the most important collections of prehistoric rock art in the world. Over 15,000 drawings and engravings are listed there, forming a true open-air library of human evolution.",
+      "p2": "The exhibition inaugurated at the Bardo Museum in 2025 presents for the first time high-resolution digital reproductions of these masterpieces. This ambitious project, carried out in collaboration with UNESCO, aimed to document the most fragile panels, threatened by natural erosion.",
+      "h2_1": "The Sahara, Land of Water",
+      "p3": "What is most striking in these frescoes is the presence of animals that have now disappeared from the region: giraffes, elephants, and even hippopotamuses. These images tell of an era when the Sahara was a fertile land, crisscrossed by rivers and inhabited by large populations of hunter-gatherers and later pastoralists.",
+      "p4": "Traça contributed to this mission by creating 3D models of the most inaccessible sites. Thanks to laser scanning, we can today virtually fly over the canyons of Tassili and zoom in on details invisible to the naked eye, revealing the complex superimposition of typographic and artistic styles over the millennia."
+    }
+  },
+  "funeraire": {
+    "hero": {
+      "tag": "Funerary monument • Tipaza • 1st century BC",
+      "title": "Tomb of the<br>Christian",
+      "subtitle": "Kbor er Roumia — Royal Mausoleum of Mauretania"
+    },
+    "tabs": {
+      "presentation": "Presentation",
+      "histoire": "History",
+      "legendes": "Legends",
+      "architecture": "Architecture",
+      "galerie": "Gallery",
+      "audio": "Audio",
+      "experience3d": "3D Experience"
+    },
+    "presentation": {
+      "label": "Presentation",
+      "title": "The enigma of stone<br><em>facing the Mediterranean</em>",
+      "p1": "Standing majestically at an altitude of 261 meters on the hills of Sidi Rached, in the Tipaza wilaya, the Tomb of the Christian dominates the Mitidja plain and the Mediterranean Sea. This monumental ashlar mausoleum is the pinnacle of Numido-Mauretanian funerary architecture.",
+      "p2": "Most likely built under the reign of the scholar king Juba II and his wife Cleopatra Selene II, the edifice bears the popular Arabic name \"Kbor er Roumia\". This titanic circular monument symbolizes the union of a native Numidian heritage and an openness to Greek and Ptolemaic influences, forming a unique architectural work in the Maghreb.",
+      "p3": "A silent but powerful witness to the greatness of the Kingdom of Mauretania, it has survived looting, naval bombardments, and the ravages of time. Recognized for its universal value, it has been on the UNESCO World Heritage list since 1982 and, more recently in April 2025, on the tentative list of \"Royal Mausoleums\"."
+    },
+    "fiche": {
+      "title": "Site details",
+      "officialNameLabel": "Official Name",
+      "officialNameValue": "Tomb of the Christian",
+      "officialNameSub": "Kbor er Roumia",
+      "typeLabel": "Type",
+      "typeValue": "Royal funerary monument",
+      "dateLabel": "Dating",
+      "dateValue": "1st century BC",
+      "locLabel": "Location",
+      "locValue": "Sidi Rached, Tipaza",
+      "altLabel": "Altitude",
+      "altValue": "261m",
+      "dimLabel": "Dimensions",
+      "dimValue": "Ø 60.9m · Height 32.4m",
+      "statusLabel": "Status",
+      "statusValue": "UNESCO Classified (1982)",
+      "statusSub": "Tentative List (2025)"
+    },
+    "histoire": {
+      "label": "Historical Overview",
+      "title": "The landmark of centuries<br><em>chronicle of an immortal monument</em>",
+      "p1": "The exact dating of the mausoleum remains uncertain. The most commonly accepted hypothesis, supported notably by the historian Stéphane Gsell, attributes it to the reign of Juba II (25 BC to 23 AD) or his son Ptolemy. The first written mention of the monument comes from the ancient geographer Pomponius Mela around the year 40, who poetically describes it as <em>« monumentum commune regiae gentis »</em> (the common monument of the royal family).",
+      "t1": { "period": "Antiquity", "event": "Early looting", "detail": "Early violation and disappearance of the funerary furnishings, shortly after its last use." },
+      "t2": { "period": "1st century BC", "event": "Probable construction", "detail": "Construction commissioned by Juba II, King of Mauretania." },
+      "t3": { "period": "1st century AD", "event": "First written mention", "detail": "The geographer Pomponius Mela notes it in his writings (approx. 40 AD)." },
+      "t4": { "period": "1555", "event": "The assault of Salah Raïs", "detail": "Attempted destruction to extract the treasure, repelled by a swarm of wasps." },
+      "t5": { "period": "Late 18th century", "event": "Cannons of Baba Mahommed", "detail": "New artillery breach attempt, failing against the robustness of the masonry." },
+      "t6": { "period": "Colonial period", "event": "Military target", "detail": "The monument served as a training target for the cannons of the French navy." },
+      "t7": { "period": "1865", "event": "The great excavation", "detail": "Berbrugger and Mac Carthy discover the secret entrance and the interior architecture." },
+      "t8": { "period": "1982", "event": "World Heritage", "detail": "Official classification as a World Heritage Site by UNESCO." },
+      "t9": { "period": "April 2025", "event": "Heritage reaffirmed", "detail": "Inscription on the global tentative list of \"Royal Mausoleums\"." }
+    },
+    "legendes": {
+      "label": "Living Memory",
+      "title": "On the borders of Myth",
+      "p": "The hermetism of this impenetrable architecture has fed the popular imagination for centuries. Between inaccessible treasures and powerful spells, oral memory has shaped the aura of the place.",
+      "c1": { "title": "The flying treasure", "text": "An Algerian prisoner in Europe was freed by his magician master on the sole condition that he burn a talisman at the top of the tomb upon his return. Barely had the paper been consumed when the mountain of stone split open. A massive amount of gold flew towards Spain. In a desperate gesture to keep some of it, the former prisoner threw his burnous: the charm broke. The tomb closed heavily over the fault line, leaving him only the riches trapped under his golden garment, which were enough to make him a king among the rich of Algiers.", "quote": "« Gold that defies time, gold that crosses the seas. »" },
+      "c2": { "title": "The cow and the shepherd", "text": "At dusk, an intrigued herdsman noticed that his most beautiful cow was mysteriously escaping. He followed her discreetly into the night and discovered that she was entering the royal mausoleum through a fine opening hidden in the rock. Holding firmly onto her tail, he managed to slip inside. There, in the heart of darkness, piles of sparkling coins appeared before him. He grabbed as many as he could carry, emerging just in time before dawn, becoming the richest man of his lineage.", "quote": "« The secret door that opens only to horned beasts. »" },
+      "c3": { "title": "Christian or Roman?", "text": "The name \"Tomb of the Christian\" is said to be the result of a pure mistranslation. In Arabic, \"Kbor er Roumia\" means \"The tomb of the Roman woman\". The term Rûm encompassed Byzantines, Romans, and later Christians. The French opted for \"Christian\". Some also suggested that the name was due to the specific shape of the crossed moldings carved on the false doors, evoking a misleading Latin cross.", "quote": "« An error etched in marble and minds. »" }
+    },
+    "architecture": {
+      "label": "Engineering & Structure",
+      "title": "A titan of stone<br><em>sealed against the wind</em>",
+      "extTitle": "The Exterior of the Edifice",
+      "extP1": "Monumental and cyclopean, this stone tumulus contains nearly 80,000 cubic meters of materials. With a staggering diameter of 60.9 meters, it originally stood over 40 meters high (compared to the 32.4 meters preserved today). The edifice rests on a strict ternary composition.",
+      "extL1": "<strong>The square base:</strong> measuring 63.4 meters on each side, a foundation anchoring the mausoleum into its natural platform.",
+      "extL2": "<strong>The cylindrical body:</strong> with a circumference of 185.5 meters. It is clad in an architectural shell animated by 60 engaged columns whose capitals (now missing) supported an imposing cornice.",
+      "extL3": "<strong>The stepped cone:</strong> the tiered roof initially formed of exactly 33 concentric circular courses narrowing towards the top.",
+      "extP2": "At the four cardinal points stand false doors 6.9 meters high. The cross-shaped framing of these blind doors largely contributed to the myth of the \"Christian\" tomb. These dummy elements were intended to prevent violations, a heavy mineral optical illusion.",
+      "intTitle": "The Interior Labyrinth",
+      "intP1": "It was not until 1865, under Napoleon III, that Adrien Berbrugger probed the location of the true entrance: hidden on the side of the right base beneath the eastern false door. The access, barely 1.1 meters wide and closed by a sandstone slab found shattered, plunged into darkness.",
+      "acc1Title": "The Vestibule of the Lions",
+      "acc1Text": "At the upper entrance of the oblique corridor, one discovers the sculpted bas-reliefs of a lioness and a lion. A powerful monarchical symbol (associated with Juba II).",
+      "acc2Title": "The circular gallery",
+      "acc2Text": "A long corridor about 2.5 m high carefully circling the internal monument, in the reassuring shadow of the thick masonry.",
+      "acc3Title": "The unexplored central chamber",
+      "acc3Text": "A space of 4m by 3m that was supposed to house the royal remains. Unfortunately found empty by Berbrugger following early Roman looting."
+    },
+    "genese": {
+      "label": "Influences",
+      "title": "The Ancestor of Numidia<br><em>the blending of an Empire</em>",
+      "p1": "The Tomb of the Christian does not come out of nowhere. It is the culmination of a long archaic tradition of protohistoric burial under a tumulus (or bazina). But its great strength was to hybridize this indigenous Berber structure with the innovations of a rapidly expanding Hellenistic world.",
+      "p2": "There is a strong echo of Hellenistic features, similar to the famous Mausoleum of Augustus erected in Rome. However, historians claim that it is precisely the integration of pseudo-Greek columns (Ionic order) of Hellenistic inspiration onto a powerful pre-Roman circular tumular architecture that gives it its masterful appearance.",
+      "p3": "The historian Stéphane Gsell described the building as <em>« a construction of an indigenous type, covered with a Greek shell »</em>. A blending in which one also suspects the distant presence of Cleopatra Selene II, through certain symbols (notably the sculpted felines), mixing a spirituality sometimes from the banks of the Nile with purely African carved rock.",
+      "encartTitle": "In the same lineage",
+      "encartText": "The style and layout of the tomb are intimately linked to the <strong>Medracen</strong> of Batna. Erected on the lands of Aurès much earlier by the first great Numidian dynasty of Syphax and Massinissa, the Medracen is the architectural father and the inspirer of a long tradition of large-scale Algerian royal bazinas."
+    },
+    "galerie": {
+      "label": "Gallery · Tipaza Archives"
+    },
+    "audioSec": {
+      "label": "Sonic Heritage",
+      "title": "Guided Narration — Kbor er Roumia",
+      "sub": "Listen to the narration",
+      "quote": "« Kbor er Roumia — The tomb of the Roman woman. No lost treasure, no forgotten Christian. Just a queen, a king, and the stone that withstands time. »"
+    },
+    "exp3d": {
+      "label": "The Immersion",
+      "title": "Walk through the<br><em>Stone</em>",
+      "desc": "Explore the monumental ruins for free using this interactive immersive point cloud. Point cloud · Laser scan · Free exploration of the architecture.",
+      "btn": "⬡ Activate the 3D Scan",
+      "hint": "Click to launch",
+      "sub": "Point Cloud · Laser Scan · 360°"
+    },
+    "nav": {
+      "prev": "← Ancient Archaeological Site",
+      "next": "Ancient Médina →"
+    }
+  }
+}

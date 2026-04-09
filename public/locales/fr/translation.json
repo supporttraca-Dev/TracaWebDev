@@ -1,0 +1,413 @@
+{
+  "nav": {
+    "home": "Home",
+    "explore": "Explorer",
+    "map": "Carte",
+    "chronicles": "Chroniques",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "footer": {
+    "tagline": "Patrimoine algérien & mémoire numérique",
+    "rights": "© Traça<br>Tous droits réservés. Contenus, structure et concept protégés par le droit d'auteur.",
+    "legal": "Mentions légales & Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "copyright": "© 2026 Traça. Tous droits réservés."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Patrimoine Algérien & Mémoire Numérique",
+      "tagline": "Explorer, préserver et transmettre<br>le patrimoine culturel algérien.",
+      "cta": "Explorer le monde"
+    },
+    "manifesto": {
+      "title": "Le Manifeste",
+      "quote": "Le patrimoine ne disparaît pas<br>lorsqu'il est <em>oublié</em>.<br>Il disparaît lorsqu'il n'est<br>plus <em>transmis</em>.",
+      "body": "Traça est née d'un besoin urgent : rendre accessibles des lieux souvent éloignés, fragiles ou invisibles, et les inscrire dans une mémoire collective vivante. Une plateforme immersive dédiée à la découverte des lieux historiques et architecturaux à travers des expériences 3D, des récits documentés et une approche muséale numérique."
+    },
+    "stats": {
+      "places": "Lieux Patrimoniaux",
+      "immersive": "Expériences Immersives",
+      "memory": "Mémoire Transmise"
+    },
+    "placesPreview": {
+      "label": "Les Lieux",
+      "title": "Des espaces vivants,<br><em>des mémoires à traverser.</em>",
+      "cards": {
+        "archeo": {
+          "cat": "Archéologie",
+          "name": "Site Archéologique Antique"
+        },
+        "funeraire": {
+          "cat": "Monument",
+          "name": "Tombeau de la Chrétienne"
+        },
+        "medina": {
+          "cat": "Architecture",
+          "name": "Ancienne Médina"
+        },
+        "forteresse": {
+          "cat": "Militaire",
+          "name": "Forteresse Historique"
+        },
+        "saharien": {
+          "cat": "Art Rupestre",
+          "name": "Paysage Culturel Saharien"
+        }
+      }
+    },
+    "mapTeaser": {
+      "label": "L'Expérience Géographique",
+      "title": "L'Algérie en <em>Trois Dimensions</em>",
+      "text": "Parcourez les 58 wilayas à travers une cartographie interactive inédite. Filtrez par époques, thématiques et découvrez les secrets de chaque site historique.",
+      "btn": "Explorer la Carte Interactive"
+    },
+    "institutionalCta": {
+      "label": "Une vision institutionnelle",
+      "title": "Traça ambitionne de devenir<br>le musée numérique du <em>patrimoine algérien</em>.",
+      "text": "Un pont entre les lieux, les savoirs et les générations — pensé pour les institutions culturelles, les acteurs du tourisme et les générations futures.",
+      "btnExplore": "Explorer le monde",
+      "btnContact": "Nous contacter"
+    }
+  },
+  "about": {
+    "hero": {
+      "label": "Notre Histoire",
+      "title": "À propos<br>de <em>Traça</em>",
+      "text": "Traça est un projet culturel indépendant porté par une volonté de préservation et de transmission du patrimoine algérien. La plateforme ambitionne de devenir un pont entre les lieux, les savoirs et les générations."
+    },
+    "values": {
+      "label": "Nos valeurs",
+      "preservationTitle": "Préservation",
+      "preservationText": "Documenter, numériser et archiver les lieux patrimoniaux avant qu'ils ne disparaissent — une urgence culturelle et une responsabilité collective que Traça assume pleinement.",
+      "accessibilityTitle": "Accessibilité",
+      "accessibilityText": "Rendre accessible ce qui est éloigné, fragile ou invisible — permettre à chacun de traverser des espaces que peu peuvent visiter physiquement, sans compromis sur la qualité de l'expérience.",
+      "transmissionTitle": "Transmission",
+      "transmissionText": "Inscrire la mémoire des lieux dans une mémoire collective vivante, à travers une narration rigoureuse, sensible et accessible à toutes les générations, ici et dans la diaspora."
+    },
+    "vision": {
+      "label": "Notre Vision",
+      "title": "Nous croyons que la technologie peut être<br>un outil de <em>mémoire</em>.",
+      "text1": "Un moyen de documenter, transmettre et protéger ce qui est fragile. Traça est pensée comme une base pour des collaborations futures avec institutions culturelles, écoles, chercheurs et acteurs du tourisme.",
+      "text2": "La plateforme utilise des expériences 3D immersives directement dans le navigateur, sans application externe. Les scènes sont construites à partir de scans photogrammétriques, de modélisation architecturale et de recherches historiques approfondies.",
+      "quote": "« Le patrimoine n'appartient pas au passé. Il est vivant, il respire, il attend d'être traversé. »"
+    },
+    "founder": {
+      "label": "La Fondatrice",
+      "name": "Chahinez Fettaka",
+      "role": "Architecte de formation, écrivaine, chercheuse et passionnée d'art et de culture.",
+      "text1": "Portée par une volonté farouche de préserver la mémoire architecturale et la richesse des récits oubliés, Chahinez Fettaka a fondé Traça. Son ambition : bâtir un pont technologique et poétique entre l'Histoire ancienne et les générations futures.",
+      "text2": "Sa démarche singulière s'appuie sur une double expertise : la rigueur de l'approche architecturale et la sensibilité de la recherche documentaire et narrative. À travers ses travaux, elle vise non seulement à figer des structures dans le temps via des expériences immersives, mais également à retranscrire l'âme et la culture profonde du patrimoine algérien.",
+      "btn": "Consulter son portfolio"
+    },
+    "audience": {
+      "label": "Publics concernés",
+      "institutionsTitle": "Institutions culturelles",
+      "institutionsText": "Ministère de la Culture, musées nationaux, directions du patrimoine — partenaires institutionnels au cœur du projet Traça.",
+      "tourismTitle": "Acteurs du tourisme",
+      "tourismText": "Offices du tourisme, agences spécialisées et plateformes numériques souhaitant valoriser le patrimoine au-delà des frontières.",
+      "academicTitle": "Milieux académiques",
+      "academicText": "Écoles d'architecture, facultés d'histoire et d'art, chercheurs en archéologie et en numérisation du patrimoine.",
+      "publicTitle": "Grand public",
+      "publicText": "Curieux, voyageurs, Algériens de la diaspora — toutes celles et tous ceux qui souhaitent (re)découvrir leur patrimoine."
+    },
+    "faq": {
+      "label": "Questions fréquentes",
+      "q1": "C'est quoi Traça ?",
+      "a1": "Traça est une plateforme culturelle immersive dédiée à la préservation et la valorisation du patrimoine architectural algérien. Grâce à la photogrammétrie 3D, nous rendons accessibles des lieux historiques souvent éloignés, fragiles ou peu connus, offrant à chacun la possibilité de les traverser virtuellement.",
+      "q2": "Comment utiliser la plateforme ?",
+      "a2": "Très simple : <strong>1</strong>) Commencez par la page <a href=\"./explorer.html\">Explorer</a> pour consulter tous les sites disponibles. <strong>2</strong>) Cliquez sur un lieu qui vous intéresse. <strong>3</strong>) Lisez la présentation, explorez la galerie et consultez la timeline. <strong>4</strong>) Lancez l'expérience 3D en cliquant sur le bouton d'activation. Aucun téléchargement ni plugin requis.",
+      "q3": "Comment accéder aux expériences 3D ?",
+      "a3": "Les expériences 3D sont intégrées directement dans le navigateur via WebGL (Sketchfab). Depuis la page d'un lieu, faites défiler jusqu'à la section <em>Expérience Immersive</em> et cliquez sur le bouton de lancement. Une connexion internet stable est recommandée pour une qualité optimale. Aucune installation n'est nécessaire.",
+      "q4": "Comment consulter les articles et chroniques ?",
+      "a4": "Toutes les chroniques et analyses sont disponibles sur la page <a href=\"./articles.html\">Chroniques</a>. Elles sont organisées par thématique et par date. Chaque article est accompagné d'un contexte historique, de références académiques et d'images associées au site.",
+      "q5": "Comment devenir partenaire ou collaborer ?",
+      "a5": "Nous accueillons toutes les formes de collaboration : institutions culturelles, chercheurs, offices du tourisme, écoles d'architecture. Contactez-nous directement via la <a href=\"./contact.html\">page Contact</a> ou à <a href=\"mailto:contact.Traça@gmail.com\">contact.Traça@gmail.com</a> pour discuter d'un partenariat."
+    },
+    "partners": {
+      "label": "Partenaires recherchés",
+      "p1": "Ministère de la<br>Culture et des Arts",
+      "p2": "Office National<br>du Tourisme",
+      "p3": "Écoles Nationales<br>d'Architecture",
+      "p4": "Instituts de<br>Recherche Archéologique",
+      "p5": "Fondations<br>Culturelles Privées",
+      "p6": "UNESCO<br>Patrimoine Mondial",
+      "cta": "Devenir partenaire"
+    }
+  },
+  "mapPage": {
+    "title": "Filtres",
+    "help": "Utilisez la souris pour pivoter l'Algérie en 3D (Clic droit + glisser). Zoomer pour plus de détails.",
+    "filters": {
+      "eraLabel": "Époque",
+      "era": {
+        "all": "Toutes",
+        "prehistorique": "Préhistorique",
+        "antique": "Antique",
+        "medievale": "Médiévale",
+        "moderne": "Moderne"
+      },
+      "themeLabel": "Thématique",
+      "theme": {
+        "all": "Tous les types",
+        "funeraire": "Funéraire",
+        "militaire": "Militaire",
+        "religieux": "Religieux",
+        "naturel": "Naturel / Rupestre"
+      },
+      "wilayaLabel": "Wilaya (58)",
+      "wilayaAll": "Toutes les wilayas",
+      "wilayaOther": "Autres Wilayas",
+      "searchLabel": "Recherche par nom",
+      "searchPlaceholder": "Ex: Timgad, Casbah..."
+    },
+    "controls": {
+      "tip": "Utilisez la souris pour pivoter l'Algérie en 3D (Clic droit + glisser). Zoomer pour plus de détails."
+    }
+  },
+  "contact": {
+    "left": {
+      "label": "Collaborons",
+      "title": "Construire<br><em>ensemble</em><br>la mémoire.",
+      "desc": "Vous souhaitez collaborer, soutenir ou en savoir plus sur Traça ? Institutions, partenaires, chercheurs — toutes les formes de collaboration nous intéressent.",
+      "info1": { "label": "Email", "value": "contact.Traça@gmail.com" },
+      "info2": { "label": "Projet", "value": "Algérie · International" },
+      "info3": { "label": "Statut", "value": "MVP en cours · Partenariats ouverts" }
+    },
+    "right": {
+      "label": "Formulaire de contact",
+      "nameLabel": "Nom complet",
+      "namePlaceholder": "Votre nom",
+      "orgLabel": "Organisation",
+      "orgPlaceholder": "Institution, entreprise…",
+      "emailLabel": "Adresse email",
+      "emailPlaceholder": "votre@email.com",
+      "subjectLabel": "Objet",
+      "subjectOptions": {
+        "opt0": "Choisir un objet",
+        "opt1": "Collaboration institutionnelle",
+        "opt2": "Partenariat",
+        "opt3": "Presse / Médias",
+        "opt4": "Recherche académique",
+        "opt5": "Investissement",
+        "opt6": "Autre"
+      },
+      "messageLabel": "Message",
+      "messagePlaceholder": "Décrivez votre projet ou vos questions…",
+      "btn": "Envoyer le message"
+    }
+  },
+  "articlesHub": {
+    "hero": {
+      "eyebrow": "Chroniques & Études",
+      "title": "Mémoire<br><em>Vivante</em>",
+      "sub": "Fouilles récentes, restitutions 3D, études de terrain et expositions majeures — la recherche sur le patrimoine algérien, éditorialisée par Traça."
+    },
+    "featured": {
+      "label": "À la une",
+      "badge": "Découverte 2025",
+      "meta": "Archéologie · 14 Février 2025",
+      "title": "Splendeurs Retrouvées :<br>La Mosaïque de Khenchela",
+      "excerpt": "À 8 kilomètres au sud de Babar, une équipe de l'Université de Constantine a mis au jour un panneau de mosaïque romaine de 14 m² représentant une scène de chasse numide. L'état de conservation exceptionnel laisse présager une villa patricienne de l'époque de Septime Sévère. Traça a participé à la documentation photogrammétrique du site.",
+      "cta": "Lire le dossier complet →"
+    },
+    "secondary1": {
+      "meta": "Histoire Urbaine · 3 Novembre 2024",
+      "title": "Mers Eddadjadj : Immersion dans le Quotidien Médiéval",
+      "excerpt": "Les fouilles de 2024 à Boumerdès révèlent des couches stratigraphiques inédites d'une cité marchande du XIe siècle. Céramiques, monnaies fatimides et outils métalliques dessinent la vie quotidienne d'une civilisation urbaine avancée.",
+      "cta": "Lire la suite →"
+    },
+    "secondary2": {
+      "meta": "Art Rupestre · 19 Janvier 2025",
+      "title": "L'Art du Tassili : Voyage Millénaire",
+      "excerpt": "L'exposition inaugurée au Musée du Bardo en 2025 présente pour la première fois des reproductions numériques haute résolution de 340 panneaux rupestres du Tassili n'Ajjer — un projet co-financé avec l'UNESCO et auquel Traça a contribué par ses modèles 3D.",
+      "cta": "Lire la suite →"
+    },
+    "editorial": {
+      "title": "Écrire<br>l'<em>Histoire</em><br>maintenant.",
+      "text": "Chaque article publié sur Traça est le fruit d'une collaboration directe avec des archéologues, historiens et institutions culturelles algériennes. Nous ne rapportons pas l'histoire — nous la documentons, à la source, au moment où elle s'écrit. Nos textes sont vérifiés, sourcés et liés aux expériences 3D disponibles sur la plateforme."
+    },
+    "readAlso": {
+      "label": "À lire aussi",
+      "card1": {
+        "meta": "Archéologie · 7 Oct 2024",
+        "title": "Le Tombeau de la Chrétienne revisité",
+        "excerpt": "Nouvelles datations par thermoluminescence confirment une construction numide antérieure à la période romaine, remettant en question l'attribution à Cléopâtre Séléné II.",
+        "cta": "Lire →"
+      },
+      "card2": {
+        "meta": "Architecture Militaire · 22 Août 2024",
+        "title": "Forteresses ottomanes du littoral algérien",
+        "excerpt": "Une étude comparative des techniques de fortification entre les XV et XVIIe siècles révèle des adaptations locales surprenantes aux contraintes géologiques du littoral méditerranéen.",
+        "cta": "Lire →"
+      },
+      "card3": {
+        "meta": "Photogrammétrie · 5 Juin 2024",
+        "title": "Numériser avant qu'il soit trop tard",
+        "excerpt": "Selon un rapport de l'ICOMOS, 34 % des sites classés en Algérie sont en danger critique. Traça documente le processus de numérisation d'urgence sur 3 sites menacés.",
+        "cta": "Lire →"
+      }
+    },
+    "newsletter": {
+      "label": "Newsletter Traça",
+      "title": "Restez connectés à <em>l'Histoire</em>",
+      "sub": "Un article mensuel approfondi, les nouvelles découvertes et les sorties d'expériences 3D — directement dans votre boîte mail.",
+      "placeholder": "votre@email.com",
+      "btn": "S'inscrire"
+    }
+  },
+  "articleKhenchela": {
+    "hero": {
+      "cat": "Archéologie",
+      "title": "Splendeurs Retrouvées :<br>La Mosaïque de Khenchela"
+    },
+    "meta": "Par l'Équipe Traça · 14 Février 2025",
+    "body": {
+      "p1": "À 8 kilomètres au sud de Babar, une équipe de chercheurs de l'Université de Constantine a mis au jour ce qui pourrait être l'une des découvertes archéologiques les plus significatives de la décennie : un panneau de mosaïque romaine de 14 m² dans un état de conservation exceptionnel.",
+      "p2": "Représentant une scène de chasse numide d'une grande finesse, l'œuvre témoigne de la richesse culturelle de la région durant l'époque de Septime Sévère. Les pigments, restés vibrants malgré les siècles passés sous la terre, dépeignent des chasseurs à cheval poursuivant des gazelles parmi des motifs géométriques complexes.",
+      "h2_1": "Un Patrimoine Documenté",
+      "p3": "L'équipe de Traça a eu le privilège de participer à la documentation photogrammétrique du site. Grâce aux technologies de scan laser et de photographie haute résolution, nous avons pu créer un jumeau numérique de la mosaïque, permettant ainsi son étude sans risquer de l'endommager par des manipulations physiques excessives.",
+      "p4": "Cette découverte laisse présager l'existence d'une vaste villa patricienne encore enfouie. Les fouilles se poursuivent, et chaque jour apporte de nouveaux indices sur la vie quotidienne des élites de la province de Numidie à l'apogée de l'Empire Romain."
+    }
+  },
+  "articleMersEddadjadj": {
+    "hero": {
+      "cat": "Histoire Urbaine",
+      "title": "Mers Eddadjadj :<br>Immersion Médiévale"
+    },
+    "meta": "Par l'Équipe Traça · 3 Novembre 2024",
+    "body": {
+      "p1": "Les fouilles de 2024 sur le site de Mers Eddadjadj, près de Boumerdès, ont révélé une facette méconnue de l'urbanisme médiéval algérien. Ce port antique et médiéval, mentionné par de nombreux voyageurs arabes, livre enfin ses secrets au grand jour.",
+      "p2": "Les archéologues ont mis au jour une zone portuaire dynamique avec des entrepôts massifs, indiquant que Mers Eddadjadj était un centre de commerce crucial au XIe siècle, reliant les côtes algériennes au reste de la Méditerranée et au-delà.",
+      "h2_1": "Une Civilisation du Quotidien",
+      "p3": "Parmi les trouvailles les plus touchantes figurent des objets de la vie de tous les jours : des peignes en os sculpté, des lampes à huile en terre cuite aux motifs délicats, et surtout, une grande quantité de céramiques fatimides dont les reflets métalliques témoignent d'un artisanat de haute volée.",
+      "p4": "\"Ce n'est pas seulement une ville que nous dégageons, c'est un mode de vie,\" explique l'un des chercheurs sur place. Traça a collaboré avec l'équipe pour numériser ces objets, permettant aux visiteurs de notre plateforme de les manipuler virtuellement et d'en apprécier la finesse."
+    }
+  },
+  "articleTassili": {
+    "hero": {
+      "cat": "Art Rupestre",
+      "title": "L'Art du Tassili :<br>Voyage Millénaire"
+    },
+    "meta": "Par l'Équipe Traça · 19 Janvier 2025",
+    "body": {
+      "p1": "Le Tassili n'Ajjer, plateau aride du sud-est algérien, abrite l'un des ensembles les plus importants d'art rupestre préhistorique au monde. Plus de 15 000 dessins et gravures y sont répertoriés, formant une véritable bibliothèque à ciel ouvert de l'évolution humaine.",
+      "p2": "L'exposition inaugurée au Musée du Bardo en 2025 présente pour la première fois des reproductions numériques haute résolution de ces chefs-d'œuvre. Ce projet ambitieux, mené en collaboration avec l'UNESCO, visait à documenter les panneaux les plus fragiles, menacés par l'érosion naturelle.",
+      "h2_1": "Le Sahara, Terre d'Eau",
+      "p3": "Ce qui frappe le plus dans ces fresques, c'est la présence d'animaux aujourd'hui disparus de la région : des girafes, des éléphants, et même des hippopotames. Ces images racontent une époque où le Sahara était une terre fertile, sillonnée par des rivières et habitée par d'importantes populations de chasseurs-cueilleurs puis de pasteurs.",
+      "p4": "Traça a contribué à cette mission par la création de modèles 3D des sites les plus inaccessibles. Grâce au scan laser, nous pouvons aujourd'hui survoler virtuellement les canyons du Tassili et zoomer sur des détails invisibles à l'œil nu, révélant la superposition complexe des styles typographiques et artistiques au fil des millénaires."
+    }
+  },
+  "funeraire": {
+    "hero": {
+      "tag": "Monument funéraire • Tipaza • Ier siècle av. J.-C.",
+      "title": "Tombeau de la<br>Chrétienne",
+      "subtitle": "Kbor er Roumia — Mausolée Royal de Maurétanie"
+    },
+    "tabs": {
+      "presentation": "Présentation",
+      "histoire": "Histoire",
+      "legendes": "Légendes",
+      "architecture": "Architecture",
+      "galerie": "Galerie",
+      "audio": "Audio",
+      "experience3d": "Expérience 3D"
+    },
+    "presentation": {
+      "label": "Présentation",
+      "title": "L'énigme de pierre<br><em>face à la Méditerranée</em>",
+      "p1": "Dressé majestueusement à 261 mètres d'altitude sur les collines de Sidi Rached, dans la wilaya de Tipaza, le Tombeau de la Chrétienne domine la plaine de la Mitidja et la mer Méditerranée. Ce mausolée monumental en pierre de taille est le pinacle de l'architecture funéraire numido-maurétanienne.",
+      "p2": "Bâti vraisemblablement sous le règne du roi savant Juba II et de son épouse Cléopâtre Séléné II, l'édifice porte le nom populaire de \"Kbor er Roumia\" en arabe. Ce monument circulaire titanesque symbolise l'union d'un héritage autochtone numide et d'une ouverture aux influences grecques et ptolémaïques, formant une œuvre architecturale unique au Maghreb.",
+      "p3": "Témoin silencieux mais puissant de la grandeur du royaume de Maurétanie, il a survécu aux pillages, aux canonnades navales et aux affres du temps. Reconnu pour sa valeur universelle, il figure sur la liste du patrimoine mondial de l'UNESCO depuis 1982 et, tout récemment en avril 2025, sur la liste indicative des \"Mausolées Royaux\"."
+    },
+    "fiche": {
+      "title": "Fiche du lieu",
+      "officialNameLabel": "Nom officiel",
+      "officialNameValue": "Tombeau de la Chrétienne",
+      "officialNameSub": "Kbor er Roumia",
+      "typeLabel": "Type",
+      "typeValue": "Monument funéraire royal",
+      "dateLabel": "Datation",
+      "dateValue": "Iᵉʳ siècle av. J.-C.",
+      "locLabel": "Localisation",
+      "locValue": "Sidi Rached, Tipaza",
+      "altLabel": "Altitude",
+      "altValue": "261m",
+      "dimLabel": "Dimensions",
+      "dimValue": "Ø 60,9m · Haut. 32,4m",
+      "statusLabel": "Statut",
+      "statusValue": "Classé UNESCO (1982)",
+      "statusSub": "Liste indicative (2025)"
+    },
+    "histoire": {
+      "label": "Aperçu Historique",
+      "title": "Le repère des siècles<br><em>chronique d'un monument immortel</em>",
+      "p1": "La datation exacte du mausolée demeure incertaine. L'hypothèse la plus communément admise, soutenue notamment par l'historien Stéphane Gsell, l'attribue au règne de Juba II (25 av. J.-C. à 23 apr. J.-C.) ou de son fils Ptolémée. La première mention du monument nous vient du géographe antique Pomponius Mela vers l'an 40, qui le décrit poétiquement comme <em>« monumentum commune regiae gentis »</em> (le monument commun de la famille royale).",
+      "t1": { "period": "Antiquité", "event": "Pillage des origines", "detail": "Violation précoce et disparition du mobilier funéraire, peu de temps après sa dernière utilisation." },
+      "t2": { "period": "Iᵉʳ siècle av. J.-C.", "event": "Construction probable", "detail": "Édification commanditée par Juba II, roi de Maurétanie." },
+      "t3": { "period": "Iᵉʳ siècle apr. J.-C.", "event": "Première mention écrite", "detail": "Le géographe Pomponius Mela en fait état dans ses écrits (env. 40 apr. J.-C.)." },
+      "t4": { "period": "1555", "event": "L'assaut de Salah Raïs", "detail": "Tentative de destruction pour extraire le trésor, repoussée par une nuée de guêpes." },
+      "t5": { "period": "Fin XVIIIᵉ siècle", "event": "Canons de Baba Mahommed", "detail": "Nouvelle percée à l'artillerie, échouant face à la robustesse des maçonneries." },
+      "t6": { "period": "Période coloniale", "event": "Cible militaire", "detail": "Le monument sert de cible d'entraînement pour les canons de la marine française." },
+      "t7": { "period": "1865", "event": "La grande fouille", "detail": "Berbrugger et Mac Carthy découvrent l'entrée secrète et l'architecture intérieure." },
+      "t8": { "period": "1982", "event": "Héritage mondial", "detail": "Classement officiel au Patrimoine Mondial de l'Humanité par l'UNESCO." },
+      "t9": { "period": "Avril 2025", "event": "Héritage réaffirmé", "detail": "Inscription sur la liste indicative mondiale des \"Mausolées Royaux\"." }
+    },
+    "legendes": {
+      "label": "Mémoire vivante",
+      "title": "Aux frontières du Mythe",
+      "p": "L'hermétisme de cette architecture impénétrable a nourri pendant des siècles l'imaginaire populaire. Entre trésors inaccessibles et sortilèges puissants, la mémoire orale a façonné l'aura du lieu.",
+      "c1": { "title": "Le trésor volant", "text": "Un Algérien prisonnier en Europe fut libéré par son maître magicien à l'unique condition de brûler un talisman au sommet du tombeau lors de son retour. À peine le papier consumé, la montagne de pierre s'entrouvrit. Une immense quantité d'or vola en direction de l'Espagne. D'un geste désespéré pour en retenir une partie, l'ancien prisonnier projeta son burnous : le charme se brisa. Le tombeau se referma lourdement sur la faille, lui laissant les seules richesses piégées sous son vêtement d'or qui suffirent à le faire roi parmi les riches d'Alger.", "quote": "« L'or qui défie le temps, l'or qui traverse les mers. »" },
+      "c2": { "title": "La vache et le berger", "text": "Au crépuscule, un pâtre intrigué s'aperçut que sa plus belle vache s'échappait mystérieusement. Il la suivit discrètement dans la nuit et découvrit qu'elle pénétrait dans le mausolée royal par une fine ouverture dissimulée dans la roche. S'accrochant fermement à sa queue, il parvint à s'y glisser. Là, au cœur des ténèbres, s'offrirent à lui des amoncellements de pièces étincelantes. Il s'en empara, tant qu'il put en porter, ressortant juste à temps avant l'aube, devenu l'homme le plus riche de sa lignée.", "quote": "« La porte secrète qui ne s'ouvre qu'aux bêtes à cornes. »" },
+      "c3": { "title": "Chrétienne ou Romaine ?", "text": "L'appellation \"Tombeau de la Chrétienne\" serait le fruit d'une pure traduction erronée. En arabe, \"Kbor er Roumia\" signifie \"Le tombeau de la Romaine\". Le terme Rûm englobait les byzantins, romains puis chrétiens. Les Français ont opté pour la \"Chrétienne\". D'aucuns avançaient aussi que le nom tenait à la forme spécifique des moulures croisées taillées sur les fausses portes, évoquant une croix latine trompeuse.", "quote": "« Une erreur ancrée dans le marbre et les esprits. »" }
+    },
+    "architecture": {
+      "label": "Ingénierie & Structure",
+      "title": "Un titan de pierre<br><em>scellé face au vent</em>",
+      "extTitle": "L'Extérieur de l'Édifice",
+      "extP1": "Monumental et cyclopéen, ce tumulus de pierre compte près de 80 000 mètres cubes de matériaux. Avec un diamètre faramineux de 60,9 mètres, il s'élevait à plus de 40 mètres à l'origine (contre 32,4 mètres conservés aujourd'hui). L'édifice repose sur une composition ternaire stricte.",
+      "extL1": "<strong>Le soubassement carré :</strong> mesurant 63,4 mètres de côté, base ancrant le mausolée dans sa plateforme naturelle.",
+      "extL2": "<strong>Le corps cylindrique :</strong> doté d'une circonférence de 185,5 mètres. Il est habillé d'une chemise architecturale animée par 60 colonnes engagées aux chapiteaux (désormais disparus) soutenant une imposante corniche.",
+      "extL3": "<strong>Le cône à gradins :</strong> la toiture étagée formée initialement d'exactement 33 assises circulaires concentriques se rétrécissant vers le sommet.",
+      "extP2": "Aux quatre points cardinaux se dressent des fausses portes de 6,9 mètres de hauteur. L'encadrement en forme de croix de ces portes aveugles a largement contribué au mythe de la tombe \"Chrétienne\". Ces éléments factices étaient destinés à empêcher les violations, un lourd trompe-l'œil minéral.",
+      "intTitle": "Le Labyrinthe Intérieur",
+      "intP1": "Ce n'est qu'en 1865, sous Napoléon III, qu'Adrien Berbrugger sondé l'emplacement de l'entrée véritable : dissimulée sur le flanc du soubassement droit sous la fausse porte orientale. L'accès, large d'à peine 1,1 mètre et fermé par une dalle de grès retrouvée brisée, plongeait dans les ténèbres.",
+      "acc1Title": "Le vestibule des Lions",
+      "acc1Text": "À l'entrée supérieure du couloir oblique, on découvre les bas-reliefs sculptés d'une lionne et d'un lion. Un puissant symbole monarchique (associé à Juba II).",
+      "acc2Title": "La galerie circulaire",
+      "acc2Text": "Long couloir d'environ 2,5 m de haut faisant prudemment le tour du monument interne, dans l'ombre rassurante des épaisses maçonneries.",
+      "acc3Title": "La chambre centrale inexplorée",
+      "acc3Text": "Un espace de 4m sur 3m qui devait abriter les dépouilles royales. Malheureusement trouvée vide par Berbrugger suite aux premiers pillages romains."
+    },
+    "genese": {
+      "label": "Influences",
+      "title": "L'Ancêtre de Numidie<br><em>le métissage d'un Empire</em>",
+      "p1": "Le Tombeau de la Chrétienne ne naît pas de nulle part. Il s'inscrit au bout d'une longue tradition archaïque d'inhumation protohistorique sous tumulus (ou bazina). Mais sa grande force fut d'hybrider cette structure indigène berbère avec les innovations d'un monde hellénistique en pleine expansion.",
+      "p2": "On retrouve un écho fort des traits hellénistiques à l'image du célèbre Mausolée d'Auguste érigé à Rome. Toutefois, les historiens affirment que c'est précisément l'intégration de colonnes pseudo-grecques (ordre ionique) d'inspiration hellénistique sur un puissant bâti d'architecture tumulaire circulaire pré-romaine qui lui confère son aspect magistral.",
+      "p3": "L'historien Stéphane Gsell y décrit l'édifice comme <em>« une construction de type indigène, couverte d'une chemise grecque »</em>. Un métissage dont on soupçonne aussi la présence lointaine de Cléopâtre Séléné II, par certains symboles (notamment les fauves sculptés), mêlant une spiritualité parfois venue des rives du Nil à une roche taillée purement africaine.",
+      "encartTitle": "Dans la même lignée",
+      "encartText": "Le style et le plan du tombeau sont intimement liés au <strong>Medracen</strong> de Batna. Érigé sur les terres d'Aurès bien plus tôt par la première grande dynastie numide de Syphax et Massinissa, le Medracen est le père architectural et l'inspirateur d'une longue tradition des grandiformes bazinas royales algériennes."
+    },
+    "galerie": {
+      "label": "Galerie · Tipaza Archives"
+    },
+    "audioSec": {
+      "label": "Héritage sonore",
+      "title": "Narration guidée — Kbor er Roumia",
+      "sub": "Écouter la narration",
+      "quote": "« Kbor er Roumia — Le tombeau de la Romaine. Ni trésor envolé, ni chrétienne oubliée. Juste une reine, un roi, et la pierre qui résiste au temps. »"
+    },
+    "exp3d": {
+      "label": "L'Immersion",
+      "title": "Traversez la<br><em>Pierre</em>",
+      "desc": "Explorez gratuitement les vestiges monumentaux grâce à ce nuage de points immersif interactif. Nuage de points · Scan laser · Exploration libre de l'architecture.",
+      "btn": "⬡ Actionner le Scan 3D",
+      "hint": "Cliquer pour lancer",
+      "sub": "Nuage de Points · Scan Laser · 360°"
+    },
+    "nav": {
+      "prev": "← Site Archéologique Antique",
+      "next": "Ancienne Médina →"
+    }
+  }
+}

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -9,63 +9,50 @@
         content="Contactez Traça pour collaborer, soutenir ou en savoir plus sur la plateforme culturelle immersive." />
     <link rel="stylesheet" href="/style.css" />
 
-  <!-- SEO Open Graph & Twitter Cards (Étape 2) -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://traca-weld.vercel.app/contact" />
-  <meta property="og:title" content="Contact — Traça" />
-  <meta property="og:description" content="Contactez Traça pour collaborer, soutenir ou en savoir plus sur la plateforme culturelle immersive." />
-  <meta property="og:image" content="https://traca-weld.vercel.app/logos/logo-traca-symbole-black.webp" />
-  <meta property="og:site_name" content="Traça" />
-  
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:url" content="https://traca-weld.vercel.app/contact" />
-  <meta name="twitter:title" content="Contact — Traça" />
-  <meta name="twitter:description" content="Contactez Traça pour collaborer, soutenir ou en savoir plus sur la plateforme culturelle immersive." />
-  <meta name="twitter:image" content="https://traca-weld.vercel.app/logos/logo-traca-symbole-black.webp" />
-  <link rel="canonical" href="https://traca-weld.vercel.app/contact.html" />
-  <meta name="theme-color" content="#F9F6EF" />
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VOTRE_ID_ICI"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-VOTRE_ID_ICI');
-  </script>
+    <!-- SEO Open Graph & Twitter Cards -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://traca-weld.vercel.app/contact" />
+    <meta property="og:title" content="Contact — Traça" />
+    <meta property="og:description" content="Contactez Traça pour collaborer, soutenir ou en savoir plus sur la plateforme culturelle immersive." />
+    <meta property="og:image" content="https://traca-weld.vercel.app/logos/logo-traca-symbole-black.webp" />
+    <meta property="og:site_name" content="Traça" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://traca-weld.vercel.app/contact" />
+    <meta name="twitter:title" content="Contact — Traça" />
+    <meta name="twitter:description" content="Contactez Traça pour collaborer, soutenir ou en savoir plus sur la plateforme culturelle immersive." />
+    <meta name="twitter:image" content="https://traca-weld.vercel.app/logos/logo-traca-symbole-black.webp" />
+    <link rel="canonical" href="https://traca-weld.vercel.app/contact.html" />
+    <meta name="theme-color" content="#F9F6EF" />
 </head>
 
 <body>
 
     <nav class="nav scrolled" id="nav"
         style="background:rgba(249,246,239,0.96);border-bottom:1px solid rgba(201,150,58,0.15);">
-        <a class="nav-logo" href="/index.html?forceIntro=true" aria-label="Traça — Accueil">
-        <img src="/logos/logo-traca-symbole-black.webp" class="nav-symbol-logo" alt="Logo Traça">
-      </a>
+        <a class="nav-logo" href="/index.html?forceIntro=true" data-i18n="[aria-label]nav.home">
+            <img src="/logos/logo-traca-symbole-black.webp" class="nav-symbol-logo" alt="Logo Traça">
+        </a>
         <ul class="nav-center">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./explorer.html">Explorer</a></li>
-            <li><a href="./carte.html">Carte</a></li>
-            <li><a href="./articles.html">Chroniques</a></li>
-            <li><a href="./about.html">À propos</a></li>
-            <li><a href="./contact.html" class="active">Contact</a></li>
+            <li><a href="./index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="./explorer.html" data-i18n="nav.explore">Explorer</a></li>
+            <li><a href="./carte.html" data-i18n="nav.map">Carte</a></li>
+            <li><a href="./articles.html" data-i18n="nav.chronicles">Chroniques</a></li>
+            <li><a href="./about.html" data-i18n="nav.about">À propos</a></li>
+            <li><a href="./contact.html" class="active" data-i18n="nav.contact">Contact</a></li>
         </ul>
         <div class="nav-right"><button id="lang-toggle">FR</button></div>
     </nav>
 
-    </header>
-
-    <main id="main-content">
-    <main class="contact-layout">
+    <main class="contact-layout" style="margin-top: 80px;">
 
         <!-- LEFT (dark) -->
         <div class="contact-left">
-            <p class="section-label">Collaborons</p>
-            <h1 class="contact-heading reveal">
+            <p class="section-label" data-i18n="contact.left.label">Collaborons</p>
+            <h1 class="contact-heading reveal" data-i18n="[html]contact.left.title">
                 Construire<br><em>ensemble</em><br>la mémoire.
             </h1>
-            <p class="contact-desc reveal reveal-delay-1">
+            <p class="contact-desc reveal reveal-delay-1" data-i18n="contact.left.desc">
                 Vous souhaitez collaborer, soutenir ou en savoir plus sur Traça ? Institutions, partenaires, chercheurs
                 — toutes les formes de collaboration nous intéressent.
             </p>
@@ -74,22 +61,22 @@
                 <li class="contact-info-item">
                     <span class="contact-info-icon">✉</span>
                     <div>
-                        <div class="contact-info-label">Email</div>
-                        <div class="contact-info-value"><a href="mailto:contact.Traça@gmail.com" style="color:inherit;">contact.Traça@gmail.com</a></div>
+                        <div class="contact-info-label" data-i18n="contact.left.info1.label">Email</div>
+                        <div class="contact-info-value"><a href="mailto:contact.Traça@gmail.com" style="color:inherit;" data-i18n="contact.left.info1.value">contact.Traça@gmail.com</a></div>
                     </div>
                 </li>
                 <li class="contact-info-item">
                     <span class="contact-info-icon">🌍</span>
                     <div>
-                        <div class="contact-info-label">Projet</div>
-                        <div class="contact-info-value">Algérie · International</div>
+                        <div class="contact-info-label" data-i18n="contact.left.info2.label">Projet</div>
+                        <div class="contact-info-value" data-i18n="contact.left.info2.value">Algérie · International</div>
                     </div>
                 </li>
                 <li class="contact-info-item">
                     <span class="contact-info-icon">⬡</span>
                     <div>
-                        <div class="contact-info-label">Statut</div>
-                        <div class="contact-info-value">MVP en cours · Partenariats ouverts</div>
+                        <div class="contact-info-label" data-i18n="contact.left.info3.label">Statut</div>
+                        <div class="contact-info-value" data-i18n="contact.left.info3.value">MVP en cours · Partenariats ouverts</div>
                     </div>
                 </li>
             </ul>
@@ -97,101 +84,96 @@
 
         <!-- RIGHT (ivory) -->
         <div class="contact-right">
-            <p class="section-label green reveal">Formulaire de contact</p>
+            <p class="section-label green reveal" data-i18n="contact.right.label">Formulaire de contact</p>
 
             <form class="contact-form reveal reveal-delay-1" id="contact-form" novalidate>
                 <div class="form-row">
                     <div class="form-group">
-                        <label class="form-label" for="name">Nom complet</label>
-                        <input class="form-input" type="text" id="name" name="name" placeholder="Votre nom" required />
+                        <label class="form-label" for="name" data-i18n="contact.right.nameLabel">Nom complet</label>
+                        <input class="form-input" type="text" id="name" name="name" placeholder="Votre nom" required data-i18n="[placeholder]contact.right.namePlaceholder" />
                     </div>
                     <div class="form-group">
-                        <label class="form-label" for="org">Organisation</label>
+                        <label class="form-label" for="org" data-i18n="contact.right.orgLabel">Organisation</label>
                         <input class="form-input" type="text" id="org" name="org"
-                            placeholder="Institution, entreprise…" />
+                            placeholder="Institution, entreprise…" data-i18n="[placeholder]contact.right.orgPlaceholder" />
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label class="form-label" for="email">Adresse email</label>
+                    <label class="form-label" for="email" data-i18n="contact.right.emailLabel">Adresse email</label>
                     <input class="form-input" type="email" id="email" name="email" placeholder="votre@email.com"
-                        required />
+                        required data-i18n="[placeholder]contact.right.emailPlaceholder" />
                 </div>
 
                 <div class="form-group">
-                    <label class="form-label" for="subject">Objet</label>
+                    <label class="form-label" for="subject" data-i18n="contact.right.subjectLabel">Objet</label>
                     <select class="form-select" id="subject" name="subject">
-                        <option value="">Choisir un objet</option>
-                        <option value="institution">Collaboration institutionnelle</option>
-                        <option value="partenariat">Partenariat</option>
-                        <option value="presse">Presse / Médias</option>
-                        <option value="recherche">Recherche académique</option>
-                        <option value="investissement">Investissement</option>
-                        <option value="autre">Autre</option>
+                        <option value="" data-i18n="contact.right.subjectOptions.opt0">Choisir un objet</option>
+                        <option value="institution" data-i18n="contact.right.subjectOptions.opt1">Collaboration institutionnelle</option>
+                        <option value="partenariat" data-i18n="contact.right.subjectOptions.opt2">Partenariat</option>
+                        <option value="presse" data-i18n="contact.right.subjectOptions.opt3">Presse / Médias</option>
+                        <option value="recherche" data-i18n="contact.right.subjectOptions.opt4">Recherche académique</option>
+                        <option value="investissement" data-i18n="contact.right.subjectOptions.opt5">Investissement</option>
+                        <option value="autre" data-i18n="contact.right.subjectOptions.opt6">Autre</option>
                     </select>
                 </div>
 
                 <div class="form-group">
-                    <label class="form-label" for="message">Message</label>
+                    <label class="form-label" for="message" data-i18n="contact.right.messageLabel">Message</label>
                     <textarea class="form-textarea" id="message" name="message"
-                        placeholder="Décrivez votre projet ou vos questions…" required></textarea>
+                        placeholder="Décrivez votre projet ou vos questions…" required data-i18n="[placeholder]contact.right.messagePlaceholder"></textarea>
                 </div>
 
-                <button type="submit" class="form-submit">Envoyer le message</button>
+                <button type="submit" class="form-submit" data-i18n="contact.right.btn">Envoyer le message</button>
             </form>
         </div>
 
     </main>
 
-    </main>
-
-<footer class="site-footer">
+    <footer class="site-footer">
         <div class="footer-compact-inner">
             <div class="footer-compact-left">
-                <a href="/index.html" class="footer-logo" aria-label="Traça — Accueil" style="display: flex; align-items: center; gap: 12px;">
-          <img src="/logos/logo-traca-symbole.webp" style="height: 35px; width: auto;" alt="Symbole Traça" loading="lazy">
-          <img src="/logos/logo-traca-typographique.webp" style="height: 20px; width: auto;" alt="Typographie Traça" loading="lazy">
-        </a>
+                <a href="/index.html" class="footer-logo" aria-label="Traça — Accueil" style="display: flex; align-items: center;" data-i18n="[aria-label]nav.home">
+                    <img src="/logos/logo-traca-typographique.webp" style="height: 48px; width: auto;" alt="Typographie Traça" loading="lazy" class="footer-logo-img">
+                </a>
                 <span class="footer-compact-sep">·</span>
-                <p class="footer-compact-tagline">Patrimoine algérien &amp; mémoire numérique</p>
+                <p class="footer-compact-tagline" data-i18n="footer.tagline">Patrimoine algérien &amp; mémoire numérique</p>
             </div>
             <nav class="footer-compact-nav" aria-label="Footer navigation">
-                <a href="./index.html">Home</a>
-                <a href="./explorer.html">Explorer</a>
-                <a href="./articles.html">Chroniques</a>
-                <a href="./about.html">À propos</a>
-                <a href="./contact.html">Contact</a>
+                <a href="/index.html" data-i18n="nav.home">Home</a>
+                <a href="/explorer.html" data-i18n="nav.explore">Explorer</a>
+                <a href="/articles.html" data-i18n="nav.chronicles">Chroniques</a>
+                <a href="/about.html" data-i18n="nav.about">À propos</a>
+                <a href="/contact.html" data-i18n="nav.contact">Contact</a>
             </nav>
             <div class="footer-compact-right">
                 <div class="footer-socials">
                     <a href="https://facebook.com" class="footer-social-link" aria-label="Facebook">
-                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-                        </svg>
+                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
                     </a>
                     <a href="https://instagram.com" class="footer-social-link" aria-label="Instagram">
-                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
-                                style="fill:none;stroke:currentColor;stroke-width:1.5" />
-                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
-                        </svg>
+                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" style="fill:none;stroke:currentColor;stroke-width:1.5" /><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg>
                     </a>
-                    <a href="https://www.linkedin.com/company/tra%C3%A7apatrimoine/" class="footer-social-link" aria-label="LinkedIn">
-                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                            <rect x="2" y="9" width="4" height="12" />
-                            <circle cx="4" cy="4" r="2" />
-                        </svg>
+                    <a href="https://www.linkedin.com/company/traçapatrimoine/" class="footer-social-link" aria-label="LinkedIn">
+                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></svg>
                     </a>
                 </div>
-                <p class="footer-compact-copy">© 2026 Traça</p>
             </div>
         </div>
 
+        <div class="footer-legal-bottom">
+            <p class="footer-copy-text" data-i18n="[html]footer.rights">
+                © Traça<br>
+                Tous droits réservés. Contenus, structure et concept protégés par le droit d'auteur.
+            </p>
+            <div class="footer-legal-links">
+                <a href="/legal.html" data-i18n="footer.legal">Mentions légales &amp; Conditions d'utilisation</a>
+                <a href="/privacy.html" data-i18n="footer.privacy">Politique de confidentialité</a>
+            </div>
+        </div>
+    </footer>
 
-
-        <script type="module" src="/js/main.js"></script>
+    <script type="module" src="/js/main.js"></script>
 </body>
 
 </html>

@@ -18,7 +18,7 @@
         /* — Sticky Tabs (CSS-only) — */
         .lieu-tabs {
             position: sticky;
-            top: 0;
+            top: 70px;
             z-index: 900;
             background: #FAF7F2;
             border-top: 1px solid var(--gold);
@@ -581,12 +581,12 @@
         <img src="/logos/logo-traca-symbole-black.webp" class="nav-symbol-logo" alt="Logo Traça">
       </a>
         <ul class="nav-center">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../explorer.html">Explorer</a></li>
-            <li><a href="../carte.html">Carte</a></li>
-            <li><a href="../articles.html">Chroniques</a></li>
-            <li><a href="../about.html">À propos</a></li>
-            <li><a href="../contact.html">Contact</a></li>
+            <li><a href="../index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="../explorer.html" data-i18n="nav.explore">Explorer</a></li>
+            <li><a href="../carte.html" data-i18n="nav.map">Carte</a></li>
+            <li><a href="../articles.html" data-i18n="nav.chronicles">Chroniques</a></li>
+            <li><a href="../about.html" data-i18n="nav.about">À propos</a></li>
+            <li><a href="../contact.html" data-i18n="nav.contact">Contact</a></li>
         </ul>
         <div class="nav-right"><button id="lang-toggle">FR</button></div>
     </nav>
@@ -596,20 +596,20 @@
         <div class="lieu-hero-overlay"></div>
         <div class="lieu-hero-content">
             <p class="lieu-hero-tag">Monument funéraire · Tipaza · Iᵉʳ siècle av. J.-C.</p>
-            <h1 class="lieu-hero-title">Tombeau de la<br>Chrétienne</h1>
+            <h1 class="lieu-hero-title" data-i18n="funeraire.hero.title">Tombeau de la<br>Chrétienne</h1>
             <p class="lieu-hero-subtitle">Kbor er Roumia · Mausolée Royal de Maurétanie</p>
         </div>
     </header>
 
     <nav class="lieu-tabs" id="v2-tabs" aria-label="Navigation du lieu">
         <div class="lieu-tabs-inner">
-            <a href="#presentation" class="lieu-tab active" data-tab-target="presentation">Présentation</a>
-            <a href="#histoire" class="lieu-tab" data-tab-target="histoire">Histoire</a>
-            <a href="#legendes" class="lieu-tab" data-tab-target="legendes">Légendes</a>
-            <a href="#architecture" class="lieu-tab" data-tab-target="architecture">Architecture</a>
-            <a href="#galerie" class="lieu-tab" data-tab-target="galerie">Galerie</a>
-            <a href="#audio" class="lieu-tab" data-tab-target="audio">Audio</a>
-            <a href="#experience3d" class="lieu-tab" data-tab-target="experience3d">Expérience 3D</a>
+            <a href="#presentation" class="lieu-tab active" data-tab-target="presentation" data-i18n="funeraire.tabs.presentation">Présentation</a>
+            <a href="#histoire" class="lieu-tab" data-tab-target="histoire" data-i18n="funeraire.tabs.histoire">Histoire</a>
+            <a href="#legendes" class="lieu-tab" data-tab-target="legendes" data-i18n="funeraire.tabs.legendes">Légendes</a>
+            <a href="#architecture" class="lieu-tab" data-tab-target="architecture" data-i18n="funeraire.tabs.architecture">Architecture</a>
+            <a href="#galerie" class="lieu-tab" data-tab-target="galerie" data-i18n="funeraire.tabs.galerie">Galerie</a>
+            <a href="#audio" class="lieu-tab" data-tab-target="audio" data-i18n="funeraire.tabs.audio">Audio</a>
+            <a href="#experience3d" class="lieu-tab" data-tab-target="experience3d" data-i18n="funeraire.tabs.experience3d">Expérience 3D</a>
         </div>
     </nav>
 
@@ -618,53 +618,52 @@
         <div class="container">
             <div class="lieu-content-grid">
                 <div>
-                    <p class="section-label reveal-up">Présentation</p>
-                    <h2 class="lieu-heading reveal-up delay-1">L'énigme de pierre<br><em>face à la Méditerranée</em>
+                    <p class="section-label reveal-up" data-i18n="funeraire.presentation.label">Présentation</p>
+                    <h2 class="lieu-heading reveal-up delay-1" data-i18n="[html]funeraire.presentation.title">L'énigme de pierre<br><em>face à la Méditerranée</em>
                     </h2>
-                    <p class="lieu-text reveal-up delay-2">Dressé majestueusement à 261 mètres d'altitude sur les
+                    <p class="lieu-text reveal-up delay-2" data-i18n="funeraire.presentation.p1">Dressé majestueusement à 261 mètres d'altitude sur les
                         collines de Sidi Rached, dans la wilaya de Tipaza, le Tombeau de la Chrétienne domine la plaine
                         de la Mitidja et la mer Méditerranée. Ce mausolée monumental en pierre de taille est le pinacle
                         de l'architecture funéraire numido-maurétanienne.</p>
-                    <p class="lieu-text reveal-up delay-2">Bâti vraisemblablement sous le règne du roi savant Juba II et
+                    <p class="lieu-text reveal-up delay-2" data-i18n="funeraire.presentation.p2">Bâti vraisemblablement sous le règne du roi savant Juba II et
                         de son épouse Cléopâtre Séléné II, l'édifice porte le nom populaire de "Kbor er Roumia" en
                         arabe. Ce monument circulaire titanesque symbolise l'union d'un héritage autochtone numide et
                         d'une ouverture aux influences grecques et ptolémaïques, formant une œuvre architecturale unique
                         au Maghreb.</p>
-                    <p class="lieu-text reveal-up delay-3">Témoin silencieux mais puissant de la grandeur du royaume de
+                    <p class="lieu-text reveal-up delay-3" data-i18n="funeraire.presentation.p3">Témoin silencieux mais puissant de la grandeur du royaume de
                         Maurétanie, il a survécu aux pillages, aux canonnades navales et aux affres du temps. Reconnu
                         pour sa valeur universelle, il figure sur la liste du patrimoine mondial de l'UNESCO depuis 1982
                         et, tout récemment en avril 2025, sur la liste indicative des "Mausolées Royaux".</p>
                 </div>
                 <aside>
                     <div class="info-card reveal-up delay-2">
-                        <div class="info-card-title">Fiche du lieu</div>
+                        <div class="info-card-title" data-i18n="funeraire.fiche.title">Fiche du lieu</div>
                         <div class="info-item">
-                            <div class="info-label">Nom officiel</div>
-                            <div class="info-value">Tombeau de la Chrétienne<br><span
-                                    style="font-size:0.85em; color:var(--ink-muted);">Kbor er Roumia</span></div>
+                            <div class="info-label" data-i18n="funeraire.fiche.officialNameLabel">Nom officiel</div>
+                            <div class="info-value"><span data-i18n="funeraire.fiche.officialNameValue">Tombeau de la Chrétienne</span><br><span style="font-size:0.85em; color:var(--ink-muted);" data-i18n="funeraire.fiche.officialNameSub">Kbor er Roumia</span></div>
                         </div>
                         <div class="info-item">
-                            <div class="info-label">Type</div>
-                            <div class="info-value">Monument funéraire royal</div>
+                            <div class="info-label" data-i18n="funeraire.fiche.typeLabel">Type</div>
+                            <div class="info-value" data-i18n="funeraire.fiche.typeValue">Monument funéraire royal</div>
                         </div>
                         <div class="info-item">
-                            <div class="info-label">Datation</div>
-                            <div class="info-value">Iᵉʳ siècle av. J.-C.</div>
+                            <div class="info-label" data-i18n="funeraire.fiche.dateLabel">Datation</div>
+                            <div class="info-value" data-i18n="funeraire.fiche.dateValue">Iᵉʳ siècle av. J.-C.</div>
                         </div>
                         <div class="info-item">
-                            <div class="info-label">Localisation</div>
-                            <div class="info-value">Sidi Rached, Tipaza</div>
+                            <div class="info-label" data-i18n="funeraire.fiche.locLabel">Localisation</div>
+                            <div class="info-value" data-i18n="funeraire.fiche.locValue">Sidi Rached, Tipaza</div>
                         </div>
                         <div class="info-item">
-                            <div class="info-label">Altitude</div>
-                            <div class="info-value">261m</div>
+                            <div class="info-label" data-i18n="funeraire.fiche.altLabel">Altitude</div>
+                            <div class="info-value" data-i18n="funeraire.fiche.altValue">261m</div>
                         </div>
                         <div class="info-item">
-                            <div class="info-label">Dimensions</div>
-                            <div class="info-value">Ø 60,9m · Haut. 32,4m</div>
+                            <div class="info-label" data-i18n="funeraire.fiche.dimLabel">Dimensions</div>
+                            <div class="info-value" data-i18n="funeraire.fiche.dimValue">Ø 60,9m · Haut. 32,4m</div>
                         </div>
                         <div class="info-item">
-                            <div class="info-label">Statut</div>
+                            <div class="info-label" data-i18n="funeraire.fiche.statusLabel">Statut</div>
                             <div class="info-value">Classé UNESCO (1982)<br><span
                                     style="font-size:0.85em; color:var(--ink-muted);">Liste indicative (2025)</span>
                             </div>
@@ -680,97 +679,82 @@
     <!-- SECTION 3 · APERÇU HISTORIQUE -->
     <section id="histoire" class="lieu-section background-white">
         <div class="container">
-            <p class="section-label reveal-up">Aperçu Historique</p>
-            <h2 class="lieu-heading reveal-up delay-1" style="max-width: 700px; margin-bottom: 48px;">Le repère des
-                siècles<br><em>chronique d'un monument immortel</em></h2>
+            <p class="section-label reveal-up" data-i18n="funeraire.histoire.label">Aperçu Historique</p>
+            <h2 class="lieu-heading reveal-up delay-1" style="max-width: 700px; margin-bottom: 48px;" data-i18n="[html]funeraire.histoire.title">Le repère des<br>siècles <em>chronique d'un monument immortel</em></h2>
 
-            <p class="lieu-text reveal-up delay-2" style="max-width: 800px; margin-bottom: 40px;">La datation exacte du
-                mausolée demeure incertaine. L'hypothèse la plus communément admise, soutenue notamment par l'historien
-                Stéphane Gsell, l'attribue au règne de Juba II (25 av. J.-C. à 23 apr. J.-C.) ou de son fils Ptolémée.
-                La première mention du monument nous vient du géographe antique Pomponius Mela vers l'an 40, qui le
-                décrit poétiquement comme <em>« monumentum commune regiae gentis »</em> (le monument commun de la
-                famille royale).</p>
+            <p class="lieu-text reveal-up delay-2" style="max-width: 800px; margin-bottom: 40px;" data-i18n="[html]funeraire.histoire.p1">La datation exacte du mausolée demeure incertaine. L'hypothèse la plus communément admise, soutenue notamment par l'historien Stéphane Gsell, l'attribue au règne de Juba II (25 av. J.-C. à 23 apr. J.-C.) ou de son fils Ptolémée. La première mention du monument nous vient du géographe antique Pomponius Mela vers l'an 40, qui le décrit poétiquement comme <em>« monumentum commune regiae gentis »</em> (le monument commun de la famille royale).</p>
 
             <ul class="timeline v2-compact-timeline" id="v2-timeline">
                 <li class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <div class="timeline-period">Antiquité</div>
-                        <div class="timeline-event">Pillage des origines</div>
-                        <div class="timeline-detail">Violation précoce et disparition du mobilier funéraire, peu de
-                            temps après sa dernière utilisation.</div>
+                        <div class="timeline-period" data-i18n="funeraire.histoire.t1.period">Antiquité</div>
+                        <div class="timeline-event" data-i18n="funeraire.histoire.t1.event">Pillage des origines</div>
+                        <div class="timeline-detail" data-i18n="funeraire.histoire.t1.detail">Violation précoce et disparition du mobilier funéraire, peu de temps après sa dernière utilisation.</div>
                     </div>
                 </li>
                 <li class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <div class="timeline-period">Iᵉʳ siècle av. J.-C.</div>
-                        <div class="timeline-event">Construction probable</div>
-                        <div class="timeline-detail">Édification commanditée par Juba II, roi de Maurétanie.</div>
+                        <div class="timeline-period" data-i18n="funeraire.histoire.t2.period">Iᵉʳ siècle av. J.-C.</div>
+                        <div class="timeline-event" data-i18n="funeraire.histoire.t2.event">Construction probable</div>
+                        <div class="timeline-detail" data-i18n="funeraire.histoire.t2.detail">Édification commanditée par Juba II, roi de Maurétanie.</div>
                     </div>
                 </li>
                 <li class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <div class="timeline-period">Iᵉʳ siècle apr. J.-C.</div>
-                        <div class="timeline-event">Première mention écrite</div>
-                        <div class="timeline-detail">Le géographe Pomponius Mela en fait état dans ses écrits (env. 40
-                            apr. J.-C.).</div>
+                        <div class="timeline-period" data-i18n="funeraire.histoire.t3.period">Iᵉʳ siècle apr. J.-C.</div>
+                        <div class="timeline-event" data-i18n="funeraire.histoire.t3.event">Première mention écrite</div>
+                        <div class="timeline-detail" data-i18n="funeraire.histoire.t3.detail">Le géographe Pomponius Mela en fait état dans ses écrits (env. 40 apr. J.-C.).</div>
                     </div>
                 </li>
                 <li class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <div class="timeline-period">1555</div>
-                        <div class="timeline-event">L'assaut de Salah Raïs</div>
-                        <div class="timeline-detail">Tentative de destruction pour extraire le trésor, repoussée par une
-                            <a href="#legendes">nuée de guêpes</a>.
-                        </div>
+                        <div class="timeline-period" data-i18n="funeraire.histoire.t4.period">1555</div>
+                        <div class="timeline-event" data-i18n="funeraire.histoire.t4.event">L'assaut de Salah Raïs</div>
+                        <div class="timeline-detail" data-i18n="[html]funeraire.histoire.t4.detail">Tentative de destruction pour extraire le trésor, repoussée par une <a href="#legendes">nuée de guêpes</a>.</div>
                     </div>
                 </li>
                 <li class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <div class="timeline-period">Fin XVIIIᵉ siècle</div>
-                        <div class="timeline-event">Canons de Baba Mahommed</div>
-                        <div class="timeline-detail">Nouvelle percée à l'artillerie, échouant face à la robustesse des
-                            maçonneries.</div>
+                        <div class="timeline-period" data-i18n="funeraire.histoire.t5.period">Fin XVIIIᵉ siècle</div>
+                        <div class="timeline-event" data-i18n="funeraire.histoire.t5.event">Canons de Baba Mahommed</div>
+                        <div class="timeline-detail" data-i18n="funeraire.histoire.t5.detail">Nouvelle percée à l'artillerie, échouant face à la robustesse des maçonneries.</div>
                     </div>
                 </li>
                 <li class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <div class="timeline-period">Période coloniale</div>
-                        <div class="timeline-event">Cible militaire</div>
-                        <div class="timeline-detail">Le monument sert de cible d'entraînement pour les canons de la
-                            marine française.</div>
+                        <div class="timeline-period" data-i18n="funeraire.histoire.t6.period">Période coloniale</div>
+                        <div class="timeline-event" data-i18n="funeraire.histoire.t6.event">Cible militaire</div>
+                        <div class="timeline-detail" data-i18n="funeraire.histoire.t6.detail">Le monument sert de cible d'entraînement pour les canons de la marine française.</div>
                     </div>
                 </li>
                 <li class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <div class="timeline-period">1865</div>
-                        <div class="timeline-event">La grande fouille</div>
-                        <div class="timeline-detail">Berbrugger et Mac Carthy découvrent l'entrée secrète et
-                            l'architecture intérieure.</div>
+                        <div class="timeline-period" data-i18n="funeraire.histoire.t7.period">1865</div>
+                        <div class="timeline-event" data-i18n="funeraire.histoire.t7.event">La grande fouille</div>
+                        <div class="timeline-detail" data-i18n="funeraire.histoire.t7.detail">Berbrugger et Mac Carthy découvrent l'entrée secrète et l'architecture intérieure.</div>
                     </div>
                 </li>
                 <li class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <div class="timeline-period">1982</div>
-                        <div class="timeline-event">Héritage mondial</div>
-                        <div class="timeline-detail">Classement officiel au Patrimoine Mondial de l'Humanité par
-                            l'UNESCO.</div>
+                        <div class="timeline-period" data-i18n="funeraire.histoire.t8.period">1982</div>
+                        <div class="timeline-event" data-i18n="funeraire.histoire.t8.event">Héritage mondial</div>
+                        <div class="timeline-detail" data-i18n="funeraire.histoire.t8.detail">Classement officiel au Patrimoine Mondial de l'Humanité par l'UNESCO.</div>
                     </div>
                 </li>
                 <li class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <div class="timeline-period">Avril 2025</div>
-                        <div class="timeline-event">Héritage réaffirmé</div>
-                        <div class="timeline-detail">Inscription sur la liste indicative mondiale des "Mausolées
-                            Royaux".</div>
+                        <div class="timeline-period" data-i18n="funeraire.histoire.t9.period">Avril 2025</div>
+                        <div class="timeline-event" data-i18n="funeraire.histoire.t9.event">Héritage réaffirmé</div>
+                        <div class="timeline-detail" data-i18n="funeraire.histoire.t9.detail">Inscription sur la liste indicative mondiale des "Mausolées Royaux".</div>
                     </div>
                 </li>
             </ul>
@@ -782,11 +766,9 @@
     <section id="legendes" class="lieu-section v2-legendes-section">
         <div class="container-wide">
             <div style="text-align: center; margin-bottom: 64px;">
-                <p class="section-label reveal-up" style="justify-content:center; color: var(--gold-light);">Mémoire
-                    vivante</p>
-                <h2 class="lieu-heading reveal-up delay-1" style="color: var(--ivory);">Aux frontières du Mythe</h2>
-                <p class="lieu-text reveal-up delay-2"
-                    style="color: rgba(249, 246, 239, 0.7); max-width: 640px; margin: 0 auto;">L'hermétisme de cette
+                <p class="section-label reveal-up" style="justify-content:center; color: var(--gold-light);" data-i18n="funeraire.legendes.label">Mémoire vivante</p>
+                <h2 class="lieu-heading reveal-up delay-1" style="color: var(--ivory);" data-i18n="funeraire.legendes.title">Aux frontières du Mythe</h2>
+                <p class="lieu-text reveal-up delay-2" style="color: rgba(249, 246, 239, 0.7); max-width: 640px; margin: 0 auto;" data-i18n="funeraire.legendes.p">L'hermétisme de cette
                     architecture impénétrable a nourri pendant des siècles l'imaginaire populaire. Entre trésors
                     inaccessibles et sortilèges puissants, la mémoire orale a façonné l'aura du lieu.</p>
             </div>
@@ -795,40 +777,39 @@
                 <!-- Carte 1 -->
                 <div class="v2-legende-card reveal-up delay-1">
                     <div class="v2-legende-icon">✧</div>
-                    <h3 class="v2-legende-title">Le trésor volant</h3>
-                    <p class="v2-legende-text">Un Algérien prisonnier en Europe fut libéré par son maître magicien à
+                    <h3 class="v2-legende-title" data-i18n="funeraire.legendes.c1.title">Le trésor volant</h3>
+                    <p class="v2-legende-text" data-i18n="funeraire.legendes.c1.text">Un Algérien prisonnier en Europe fut libéré par son maître magicien à
                         l'unique condition de brûler un talisman au sommet du tombeau lors de son retour. À peine le
                         papier consumé, la montagne de pierre s'entrouvrit. Une immense quantité d'or vola en direction
                         de l'Espagne. D'un geste désespéré pour en retenir une partie, l'ancien prisonnier projeta son
                         burnous : le charme se brisa. Le tombeau se referma lourdement sur la faille, lui laissant les
-                        seules richesses piégées sous son vêtement d'or qui suffirent à le faire roi parmi les riches
-                        d'Alger.</p>
-                    <div class="v2-legende-quote">« L'or qui défie le temps, l'or qui traverse les mers. »</div>
+                        seules richesses piégées sous son vêtement d'or qui suffirent à le faire roi parmi les riches d'Alger.</p>
+                    <div class="v2-legende-quote" data-i18n="funeraire.legendes.c1.quote">« L'or qui défie le temps, l'or qui traverse les mers. »</div>
                 </div>
 
                 <!-- Carte 2 -->
                 <div class="v2-legende-card reveal-up delay-2">
                     <div class="v2-legende-icon">♃</div>
-                    <h3 class="v2-legende-title">La vache et le berger</h3>
-                    <p class="v2-legende-text">Au crépuscule, un pâtre intrigué s'aperçut que sa plus belle vache
+                    <h3 class="v2-legende-title" data-i18n="funeraire.legendes.c2.title">La vache et le berger</h3>
+                    <p class="v2-legende-text" data-i18n="funeraire.legendes.c2.text">Au crépuscule, un pâtre intrigué s'aperçut que sa plus belle vache
                         s'échappait mystérieusement. Il la suivit discrètement dans la nuit et découvrit qu'elle
                         pénétrait dans le mausolée royal par une fine ouverture dissimulée dans la roche. S'accrochant
                         fermement à sa queue, il parvint à s'y glisser. Là, au cœur des ténèbres, s'offrirent à lui des
                         amoncellements de pièces étincelantes. Il s'en empara, tant qu'il put en porter, ressortant
                         juste à temps avant l'aube, devenu l'homme le plus riche de sa lignée.</p>
-                    <div class="v2-legende-quote">« La porte secrète qui ne s'ouvre qu'aux bêtes à cornes. »</div>
+                    <div class="v2-legende-quote" data-i18n="funeraire.legendes.c2.quote">« La porte secrète qui ne s'ouvre qu'aux bêtes à cornes. »</div>
                 </div>
 
                 <!-- Carte 3 -->
                 <div class="v2-legende-card reveal-up delay-3">
                     <div class="v2-legende-icon">☩</div>
-                    <h3 class="v2-legende-title">Chrétienne ou Romaine ?</h3>
-                    <p class="v2-legende-text">L'appellation "Tombeau de la Chrétienne" serait le fruit d'une pure
+                    <h3 class="v2-legende-title" data-i18n="funeraire.legendes.c3.title">Chrétienne ou Romaine ?</h3>
+                    <p class="v2-legende-text" data-i18n="funeraire.legendes.c3.text">L'appellation "Tombeau de la Chrétienne" serait le fruit d'une pure
                         traduction erronée. En arabe, "Kbor er Roumia" signifie "Le tombeau de la Romaine". Le terme Rûm
                         englobait les byzantins, romains puis chrétiens. Les Français ont opté pour la "Chrétienne".
                         D'aucuns avançaient aussi que le nom tenait à la forme spécifique des moulures croisées taillées
                         sur les fausses portes, évoquant une croix latine trompeuse.</p>
-                    <div class="v2-legende-quote">« Une erreur ancrée dans le marbre et les esprits. »</div>
+                    <div class="v2-legende-quote" data-i18n="funeraire.legendes.c3.quote">« Une erreur ancrée dans le marbre et les esprits. »</div>
                 </div>
             </div>
         </div>
@@ -838,33 +819,29 @@
     <!-- SECTION 5 · ARCHITECTURE -->
     <section id="architecture" class="lieu-section background-white">
         <div class="container">
-            <p class="section-label reveal-up">Ingénierie & Structure</p>
-            <h2 class="lieu-heading reveal-up delay-1">Un titan de pierre<br><em>scellé face au vent</em></h2>
+            <p class="section-label reveal-up" data-i18n="funeraire.architecture.label">Ingénierie & Structure</p>
+            <h2 class="lieu-heading reveal-up delay-1" data-i18n="[html]funeraire.architecture.title">Un titan de pierre<br><em>scellé face au vent</em></h2>
 
             <div class="v2-architecture-split">
                 <!-- GAUCHE : EXTÉRIEUR -->
                 <div class="v2-arch-column reveal-up delay-2">
                     <div class="v2-arch-block">
-                        <h3 class="v2-arch-block-title">L'Extérieur de l'Édifice</h3>
-                        <p class="lieu-text">Monumental et cyclopéen, ce tumulus de pierre compte près de 80 000 mètres
+                        <h3 class="v2-arch-block-title" data-i18n="funeraire.architecture.extTitle">L'Extérieur de l'Édifice</h3>
+                        <p class="lieu-text" data-i18n="funeraire.architecture.extP1">Monumental et cyclopéen, ce tumulus de pierre compte près de 80 000 mètres
                             cubes de matériaux. Avec un diamètre faramineux de 60,9 mètres, il s'élevait à plus de 40
                             mètres à l'origine (contre 32,4 mètres conservés aujourd'hui). L'édifice repose sur une
                             composition ternaire stricte.</p>
 
                         <ul class="v2-arch-list">
-                            <li><strong>Le soubassement carré :</strong> mesurant 63,4 mètres de côté, base ancrant le
-                                mausolée dans sa plateforme naturelle.</li>
-                            <li><strong>Le corps cylindrique :</strong> doté d'une circonférence de 185,5 mètres. Il est
-                                habillé d'une chemise architecturale animée par 60 colonnes engagées aux chapiteaux
-                                (désormais disparus) soutenant une imposante corniche.</li>
-                            <li><strong>Le cône à gradins :</strong> la toiture étagée formée initialement d'exactement
-                                33 assises circulaires concentriques se rétrécissant vers le sommet.</li>
+                            <li data-i18n="[html]funeraire.architecture.extL1"><strong>Le soubassement carré :</strong> mesurant 63,4 mètres de côté, base ancrant le mausolée dans sa plateforme naturelle.</li>
+                            <li data-i18n="[html]funeraire.architecture.extL2"><strong>Le corps cylindrique :</strong> doté d'une circonférence de 185,5 mètres. Il est habillé d'une chemise architecturale animée par 60 colonnes engagées aux chapiteaux (désormais disparus) soutenant une imposante corniche.</li>
+                            <li data-i18n="[html]funeraire.architecture.extL3"><strong>Le cône à gradins :</strong> la toiture étagée formée initialement d'exactement 33 assises circulaires concentriques se rétrécissant vers le sommet.</li>
                         </ul>
 
                         <img loading="lazy" src="/images/gallery_images/tombeau_de_chretienne/2.webp"
                             alt="Façade extérieure du Tombeau de la Chrétienne"
                             style="width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:var(--radius); margin-bottom: 24px;">
-                        <p class="lieu-text">Aux quatre points cardinaux se dressent des fausses portes de 6,9 mètres de
+                        <p class="lieu-text" data-i18n="funeraire.architecture.extP2">Aux quatre points cardinaux se dressent des fausses portes de 6,9 mètres de
                             hauteur. L'encadrement en forme de croix de ces portes aveugles a largement contribué au
                             mythe de la tombe "Chrétienne". Ces éléments factices étaient destinés à empêcher les
                             violations, un lourd trompe-l'œil minéral.</p>
@@ -874,8 +851,8 @@
                 <!-- DROITE : INTÉRIEUR -->
                 <div class="v2-arch-column reveal-up delay-3">
                     <div class="v2-arch-block">
-                        <h3 class="v2-arch-block-title">Le Labyrinthe Intérieur</h3>
-                        <p class="lieu-text">Ce n'est qu'en 1865, sous Napoléon III, qu'Adrien Berbrugger sondé
+                        <h3 class="v2-arch-block-title" data-i18n="funeraire.architecture.intTitle">Le Labyrinthe Intérieur</h3>
+                        <p class="lieu-text" data-i18n="funeraire.architecture.intP1">Ce n'est qu'en 1865, sous Napoléon III, qu'Adrien Berbrugger sondé
                             l'emplacement de l'entrée véritable : dissimulée sur le flanc du soubassement droit sous la
                             fausse porte orientale. L'accès, large d'à peine 1,1 mètre et fermé par une dalle de grès
                             retrouvée brisée, plongeait dans les ténèbres.</p>
@@ -891,28 +868,27 @@
                         <div class="v2-arch-accordion" style="margin: 24px 0;">
                             <div class="v2-accordion-item">
                                 <button class="v2-accordion-trigger">
-                                    <span>Le vestibule des Lions</span>
+                                    <span data-i18n="funeraire.architecture.acc1Title">Le vestibule des Lions</span>
                                     <span class="v2-accordion-chevron">›</span>
                                 </button>
                                 <div class="v2-accordion-content">
-                                    <p>À l'entrée supérieure du couloir oblique, on découvre les bas-reliefs sculptés
-                                        d'une lionne et d'un lion. Un puissant symbole monarchique (associé à Juba II).
-                                    </p>
+                                    <p data-i18n="funeraire.architecture.acc1Text">À l'entrée supérieure du couloir oblique, on découvre les bas-reliefs sculptés
+                                        d'une lionne et d'un lion. Un puissant symbole monarchique (associé à Juba II).</p>
                                 </div>
                             </div>
                             <div class="v2-accordion-item">
                                 <button class="v2-accordion-trigger">
-                                    <span>La galerie circulaire</span>
+                                    <span data-i18n="funeraire.architecture.acc2Title">La galerie circulaire</span>
                                     <span class="v2-accordion-chevron">›</span>
                                 </button>
                                 <div class="v2-accordion-content">
-                                    <p>Long couloir d'environ 2,5 m de haut faisant prudemment le tour du monument
+                                    <p data-i18n="funeraire.architecture.acc2Text">Long couloir d'environ 2,5 m de haut faisant prudemment le tour du monument
                                         interne, dans l'ombre rassurante des épaisses maçonneries.</p>
                                 </div>
                             </div>
                             <div class="v2-accordion-item">
                                 <button class="v2-accordion-trigger">
-                                    <span>La chambre centrale inexplorée</span>
+                                    <span data-i18n="funeraire.architecture.acc3Title">La chambre centrale inexplorée</span>
                                     <span class="v2-accordion-chevron">›</span>
                                 </button>
                                 <div class="v2-accordion-content">
@@ -937,19 +913,19 @@
         <div class="container">
             <div class="lieu-content-grid">
                 <div>
-                    <p class="section-label reveal-up">Influences</p>
-                    <h2 class="lieu-heading reveal-up delay-1">L'Ancêtre de Numidie<br><em>le métissage d'un Empire</em>
+                    <p class="section-label reveal-up" data-i18n="funeraire.genese.label">Influences</p>
+                    <h2 class="lieu-heading reveal-up delay-1" data-i18n="[html]funeraire.genese.title">L'Ancêtre de Numidie<br><em>le métissage d'un Empire</em>
                     </h2>
-                    <p class="lieu-text reveal-up delay-2">Le Tombeau de la Chrétienne ne naît pas de nulle part. Il
+                    <p class="lieu-text reveal-up delay-2" data-i18n="funeraire.genese.p1">Le Tombeau de la Chrétienne ne naît pas de nulle part. Il
                         s'inscrit au bout d'une longue tradition archaïque d'inhumation protohistorique sous tumulus (ou
                         bazina). Mais sa grande force fut d'hybrider cette structure indigène berbère avec les
                         innovations d'un monde hellénistique en pleine expansion.</p>
-                    <p class="lieu-text reveal-up delay-2">On retrouve un écho fort des traits hellénistiques à l'image
+                    <p class="lieu-text reveal-up delay-2" data-i18n="funeraire.genese.p2">On retrouve un écho fort des traits hellénistiques à l'image
                         du célèbre Mausolée d'Auguste érigé à Rome. Toutefois, les historiens affirment que c’est
                         précisément l'intégration de colonnes pseudo-grecques (ordre ionique) d’inspiration
                         hellénistique sur un puissant bâti d’architecture tumulaire circulaire pré-romaine qui lui
                         confère son aspect magistral.</p>
-                    <p class="lieu-text reveal-up delay-3">L'historien Stéphane Gsell y décrit l'édifice comme <em>« une
+                    <p class="lieu-text reveal-up delay-3" data-i18n="[html]funeraire.genese.p3">L'historien Stéphane Gsell y décrit l'édifice comme <em>« une
                             construction de type indigène, couverte d'une chemise grecque »</em>. Un métissage dont on
                         soupçonne aussi la présence lointaine de Cléopâtre Séléné II, par certains symboles (notamment
                         les fauves sculptés), mêlant une spiritualité parfois venue des rives du Nil à une roche taillée
@@ -957,8 +933,8 @@
                 </div>
                 <aside>
                     <div class="v2-encart-famille reveal-up delay-3">
-                        <div class="v2-encart-title">Dans la même lignée</div>
-                        <p class="v2-encart-text">Le style et le plan du tombeau sont intimement liés au
+                        <div class="v2-encart-title" data-i18n="funeraire.genese.encartTitle">Dans la même lignée</div>
+                        <p class="v2-encart-text" data-i18n="[html]funeraire.genese.encartText">Le style et le plan du tombeau sont intimement liés au
                             <strong>Medracen</strong> de Batna. Érigé sur les terres d'Aurès bien plus tôt par la
                             première grande dynastie numide de Syphax et Massinissa, le Medracen est le père
                             architectural et l'inspirateur d'une longue tradition des grandiformes bazinas royales
@@ -975,7 +951,7 @@
     <!-- SECTION 7 · GALERIE -->
     <section id="galerie" class="gallery-section">
         <div class="container-wide">
-            <p class="section-label reveal-up">Galerie · Tipaza Archives</p>
+            <p class="section-label reveal-up" data-i18n="funeraire.galerie.label">Galerie · Tipaza Archives</p>
             <div class="gallery-grid-museum reveal-up delay-1" style="margin-top: var(--inner-padding);">
                 <div class="gallery-museum-item" style="cursor:pointer;">
                     <div class="gallery-museum-inner"
@@ -1010,14 +986,14 @@
     <!-- SECTION 8 · NARRATION AUDIO -->
     <section id="audio" class="lieu-section audio-section" style="background:var(--ivory-dark);">
         <div class="container">
-            <p class="section-label green reveal-up">Héritage sonore</p>
+            <p class="section-label green reveal-up" data-i18n="funeraire.audioSec.label">Héritage sonore</p>
             <div class="audio-player-wrap reveal-up delay-1" style="margin-top: var(--inner-padding);">
                 <button id="audio-toggle" aria-label="Écouter la narration audio">▶</button>
                 <div class="audio-info">
-                    <div class="audio-title">Narration guidée — Kbor er Roumia</div>
+                    <div class="audio-title" data-i18n="funeraire.audioSec.title">Narration guidée — Kbor er Roumia</div>
                     <div class="audio-label">
                         <span
-                            style="font-size:0.78rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-muted);">Écouter
+                            style="font-size:0.78rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-muted);" data-i18n="funeraire.audioSec.sub">Écouter
                             la narration</span>
                     </div>
                 </div>
@@ -1040,7 +1016,7 @@
 
                 <audio id="audio-element" src="../audio/tombeau-de-chretienne.mp3"></audio>
             </div>
-            <blockquote class="narration-quote reveal-up delay-2">
+            <blockquote class="narration-quote reveal-up delay-2" data-i18n="funeraire.audioSec.quote">
                 « Kbor er Roumia — Le tombeau de la Romaine. Ni trésor envolé, ni chrétienne oubliée. Juste une reine,
                 un roi, et la pierre qui résiste au temps. »
             </blockquote>
@@ -1051,17 +1027,17 @@
     <!-- SECTION 9 · EXPÉRIENCE 3D -->
     <section id="experience3d" class="experience-section" style="padding-bottom:0;">
         <div class="experience-cta-block">
-            <p class="section-label" style="justify-content:center;margin-bottom:32px;">L'Immersion</p>
-            <h2 class="experience-cta-title reveal">
+            <p class="section-label" style="justify-content:center;margin-bottom:32px;" data-i18n="funeraire.exp3d.label">L'Immersion</p>
+            <h2 class="experience-cta-title reveal" data-i18n="[html]funeraire.exp3d.title">
                 Traversez la<br><em>Pierre</em>
             </h2>
-            <p class="experience-cta-desc reveal reveal-delay-1">
+            <p class="experience-cta-desc reveal reveal-delay-1" data-i18n="funeraire.exp3d.desc">
                 Explorez gratuitement les vestiges monumentaux grâce à ce nuage de points immersif interactif. Nuage de
                 points · Scan laser · Exploration libre de l'architecture.
             </p>
             <div class="reveal reveal-delay-2"
                 style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:56px;">
-                <div id="experience-launcher-hero" role="button" aria-label="Lancer l'expérience 3D" tabindex="0">
+                <div id="experience-launcher-hero" role="button" aria-label="Lancer l'expérience 3D" tabindex="0" data-i18n="funeraire.exp3d.btn">
                     ⬡ Actionner le Scan 3D
                 </div>
             </div>
@@ -1070,8 +1046,8 @@
         <div class="viewer-wrapper">
             <div id="experience-launcher">
                 <div class="launcher-icon">⬡</div>
-                <span class="launcher-label">Cliquer pour lancer</span>
-                <p class="launcher-sub">Nuage de Points · Scan Laser · 360°</p>
+                <span class="launcher-label" data-i18n="funeraire.exp3d.hint">Cliquer pour lancer</span>
+                <p class="launcher-sub" data-i18n="funeraire.exp3d.sub">Nuage de Points · Scan Laser · 360°</p>
             </div>
             <div id="sketchfab-container">
                 <iframe title="Tombeau de la Chrétienne — Expérience 3D TRACA"

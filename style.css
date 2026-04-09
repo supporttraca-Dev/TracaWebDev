@@ -128,7 +128,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 200;
+  z-index: 1000;
   padding: 28px 56px;
   display: flex;
   align-items: center;
@@ -294,6 +294,9 @@ h4 {
 }
 
 #lang-toggle {
+    position: relative;
+    z-index: 1001;
+
   font-family: var(--font-sans);
   font-size: 0.75rem;
   font-weight: 500;
