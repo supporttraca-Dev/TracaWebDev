@@ -4340,3 +4340,137 @@ body.is-lieu-page nav:not(.scrolled) .nav-center a:hover {
 .founder-media:hover .founder-hover {
   transform: scale(1.04);
 }
+/* ============================================================
+   TRACA IMMERSION — Bouton Or Métallique
+   Système définitif : Header · Footer · Page Tombeau
+   Palette : Doré Traça — #C9963A → #E2B96A → #F4E4C1
+   ============================================================ */
+
+:root {
+  --gold-metal-start:  #A67820;
+  --gold-metal-mid:    #C9963A;
+  --gold-metal-high:   #E8C56A;
+  --gold-metal-shine:  #F6E8B8;
+  --gold-glow:         rgba(201, 150, 58, 0.55);
+  --gold-glow-intense: rgba(201, 150, 58, 0.85);
+}
+
+.btn-immersif {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold-metal-mid);
+  background: transparent;
+  padding: 8px 18px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--gold-metal-mid);
+  cursor: pointer;
+  text-decoration: none;
+  overflow: hidden;
+  transition: box-shadow 0.4s var(--ease-out), border-color 0.3s, background 0.3s;
+  box-shadow: 0 0 10px rgba(201, 150, 58, 0.18);
+}
+
+.btn-immersif::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(118deg, transparent 0%, rgba(246,232,184,0.10) 30%, rgba(246,232,184,0.22) 50%, rgba(246,232,184,0.10) 70%, transparent 100%);
+  pointer-events: none;
+  transition: background-position 0.5s ease;
+}
+
+.btn-immersif:hover {
+  background: linear-gradient(135deg, var(--gold-metal-start) 0%, var(--gold-metal-mid) 40%, var(--gold-metal-high) 100%);
+  border-color: var(--gold-metal-high);
+  color: var(--ink);
+  box-shadow: 0 0 18px var(--gold-glow), 0 0 40px rgba(201, 150, 58, 0.28), 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.btn-immersif:hover::before {
+  background: linear-gradient(118deg, transparent 0%, rgba(255,255,255,0.08) 25%, rgba(255,255,255,0.28) 50%, rgba(255,255,255,0.08) 75%, transparent 100%);
+}
+
+.btn-immersif svg {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+  stroke: currentColor;
+  fill: none;
+  transition: transform 0.35s var(--ease-out);
+}
+
+.btn-immersif:hover svg {
+  transform: rotate(15deg);
+}
+
+.nav-right .btn-immersif { margin-left: 8px; }
+.nav.scrolled .btn-immersif { border-color: var(--gold-metal-mid); }
+
+.btn-immersion-gold {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: linear-gradient(135deg, var(--gold-metal-start) 0%, var(--gold-metal-mid) 45%, var(--gold-metal-high) 100%);
+  padding: 16px 40px;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  text-decoration: none;
+  overflow: hidden;
+  box-shadow: 0 0 20px var(--gold-glow), 0 0 50px rgba(201, 150, 58, 0.22), 0 4px 16px rgba(0,0,0,0.2);
+  transition: box-shadow 0.4s var(--ease-out), transform 0.3s var(--ease-out);
+}
+
+.btn-immersion-gold::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(118deg, transparent 0%, rgba(255,255,255,0.08) 30%, rgba(255,255,255,0.30) 50%, rgba(255,255,255,0.08) 70%, transparent 100%);
+  pointer-events: none;
+  transition: transform 0.5s var(--ease-out);
+}
+
+.btn-immersion-gold:hover {
+  background: linear-gradient(135deg, var(--gold-metal-mid) 0%, var(--gold-metal-high) 45%, var(--gold-metal-shine) 100%);
+  box-shadow: 0 0 30px var(--gold-glow-intense), 0 0 70px rgba(201, 150, 58, 0.38), 0 0 120px rgba(201, 150, 58, 0.15), 0 6px 20px rgba(0,0,0,0.25);
+  transform: translateY(-2px);
+}
+
+.btn-immersion-gold:hover::before { transform: translateX(12px); }
+.btn-immersion-gold .arrow { display: inline-block; transition: transform 0.35s var(--ease-out); }
+.btn-immersion-gold:hover .arrow { transform: translateX(5px); }
+
+.footer-immersif-link { display: inline-flex; align-items: center; gap: 6px; font-size: 0.78rem; color: rgba(249, 246, 239, 0.5); text-decoration: none; letter-spacing: 0.06em; transition: color 0.35s, text-shadow 0.35s; }
+.footer-immersif-link:hover { color: var(--gold-light); text-shadow: 0 0 12px rgba(201, 150, 58, 0.5); }
+.footer-immersif-link svg { width: 12px; height: 12px; stroke: currentColor; fill: none; flex-shrink: 0; transition: transform 0.35s var(--ease-out), color 0.35s; }
+.footer-immersif-link:hover svg { transform: rotate(15deg); color: var(--gold-light); }
+.footer-immersif-sep { width: 1px; height: 12px; background: rgba(249, 246, 239, 0.12); display: inline-block; margin: 0 4px; vertical-align: middle; }
+
+.lieu-immersion-cta { background: var(--ink); color: var(--ivory); padding: var(--section-gap) 0; border-top: 1px solid rgba(201, 150, 58, 0.12); }
+.lieu-immersion-cta-inner { display: flex; align-items: center; justify-content: space-between; gap: 48px; flex-wrap: wrap; }
+.lieu-immersion-cta-label { font-size: 0.62rem; font-weight: 500; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; display: flex; align-items: center; gap: 12px; }
+.lieu-immersion-cta-label::before { content: ''; width: 24px; height: 1px; background: var(--gold); opacity: 0.5; }
+.lieu-immersion-cta-title { font-family: var(--font-serif); font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 300; line-height: 1.25; color: var(--ivory); margin-bottom: 8px; }
+.lieu-immersion-cta-title em { font-style: italic; color: var(--gold-light); }
+.lieu-immersion-cta-sub { font-size: 0.9rem; color: rgba(249, 246, 239, 0.5); line-height: 1.7; max-width: 480px; }
+.lieu-immersion-cta-btn { flex-shrink: 0; }
+
+@media (max-width: 768px) {
+  .lieu-immersion-cta-inner { flex-direction: column; align-items: flex-start; }
+  .btn-immersif { font-size: 0.6rem; padding: 7px 13px; letter-spacing: 0.14em; }
+}
+@media (max-width: 560px) { .btn-immersif { display: none; } }
